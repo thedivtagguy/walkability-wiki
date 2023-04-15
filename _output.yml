@@ -1,13 +1,23 @@
+bookdown::bs4_book:
+  theme:
+    primary: "#417B5A"
+  repo: https://github.com/thedivtagguy/walkability-wiki
+
 bookdown::gitbook:
   css: style.css
+
   config:
     toc:
+      collapse: section
       before: |
-        <li><a href="./">A Minimal Book Example</a></li>
-      after: |
-        <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
-    edit: https://github.com/rstudio/bookdown-demo/edit/master/%s
-    download: ["pdf", "epub"]
+        <li><a href="./">Mastering Shiny</a></li>
+    edit: https://github.com/thedivtagguy/walkability-wiki/edit/main/%s
+    download: []
+    sharing:
+      facebook: no
+      twitter: yes
+      github: yes
+      all: []
 bookdown::pdf_book:
   includes:
     in_header: preamble.tex
@@ -15,4 +25,3 @@ bookdown::pdf_book:
   citation_package: natbib
   keep_tex: yes
 bookdown::epub_book: default
-bookdown::bs4_book: default
