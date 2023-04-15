@@ -1,5 +1,5 @@
 --- 
-title: "Walkability Wiki: A Cookbook for Analyses"
+title: "Walkability For the Rest of Us"
 author: "Aman Bhargava"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
