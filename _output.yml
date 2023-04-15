@@ -3,6 +3,9 @@ bookdown::bs4_book:
     primary: "#417B5A"
   css: style.css
   repo: https://github.com/thedivtagguy/walkability-wiki
+  config:
+    toc:
+      collapse: section
 
 bookdown::gitbook:
   css: style.css
