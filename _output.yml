@@ -1,6 +1,7 @@
 bookdown::bs4_book:
   theme:
     primary: "#417B5A"
+  css: style.css
   repo: https://github.com/thedivtagguy/walkability-wiki
 
 bookdown::gitbook:
