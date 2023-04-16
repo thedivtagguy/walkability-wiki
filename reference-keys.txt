@@ -1,10 +1,10 @@
-fig:nice-fig
-tab:nice-tab
 intro
+motivation
 scope
 who-is-this-for
 how-to-read-this-book
 structure-of-the-book
+structure-of-this-book
 overview
 defining-walkability
 benefits-of-walkability-assessments
@@ -41,7 +41,6 @@ communicating-results
 tools
 checklist
 design-frameworks
-conclusion
 key-points
 additional-directions
 appendix
