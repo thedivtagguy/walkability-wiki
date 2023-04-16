@@ -17,7 +17,6 @@ pre code {
 /* Sidebar formating --------------------------------------------*/
 
 div.sidebar {
-  border-left: 7px solid #ccc;
   margin: 1em 0;
   padding-left: 1em;
 }
@@ -35,7 +34,77 @@ div.sidebar {
   margin-bottom: 0;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+body p {
+      font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Bree Serif', serif;
+}
+
+.chapter-nav .prev, .chapter-nav .next {
+padding: 0.5rem;
+border: none !important;
+border-radius: 0.2rem;
+box-shadow: none !important;
+}
+
+
+
+.header-section-number {
+color: #44344F !important;
+}
+
+
+
+/* CSS */
+.chapter-nav .prev, .chapter-nav .next {
+ background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  cursor: pointer;
+  font-family: arial,sans-serif;
+  font-size: 14px;
+  height: 36px;
+  line-height: 27px;
+  min-width: 54px;
+  padding: 5px 16px;
+  text-align: center;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: pre;
+}
 
 
 
 
+.chapter-nav .prev:hover,
+.chapter-nav .next:hover,
+.chapter-nav .prev:focus,
+.chapter-nav .next:focus {
+  border-color: #dadce0;
+  box-shadow: rgba(0, 0, 0, .1) 0 1px 1px;
+  color: #202124;
+}
+
+.chapter-nav .prev:focus,
+.chapter-nav .next:focus {
+  border-color: #4285f4;
+  outline: none;
+}
+
+.next > a > span:nth-child(1) {
+  display: none !important;
+}
+
+.prev > a > span:nth-child(1) {
+  display: none !important;
+}
+
+.section.level2 {
+  border-bottom: 2px black;
+}
