@@ -49,3 +49,4 @@ recommended-resources
 books
 websites
 software-tools
+references
