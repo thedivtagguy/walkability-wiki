@@ -1,24 +1,52 @@
-# (PART) Getting Started {-} 
+# (PART) Getting Started {.unnumbered}
+
 # Introduction {#intro}
 
 ## Motivation
 
 Walking in a city is an experience that most people take for granted. The ease of mobility on foot, especially in urban areas, has long been overshadowed by the convenience and speed provided by personal vehicles or public transportation systems. Until recently, I was also among those who overlooked and underappreciated its importance. Although I have been aware of the issues with poor infrastructure in cities in India, I never fully grasped the severity of the problem, nor did I connect the individual inconveniences I experienced to a larger systemic issue. Admittedly, this lack of awareness could be viewed as naive or shortsighted, but it is what it is.
 
-However, in 2021, my perspective changed when I stumbled upon an Instagram account called "bengawalk" run by **Pravar Chaudhary**. Through this account, Pravar documented his observations of the streets and people of Bangalore, highlighting a range of issues and interactions that occur on a daily basis. Whether it was a simple post about wayfinding, accompanied by a single hashtag or a video of person crossing a busy street despite being next to a footbridge, to a more complex analysis of traffic congestion and flyovers, the account provided me with a new lens through which to view the city and its challenges. 
+However, in 2021, my perspective changed when I stumbled upon an Instagram account called "bengawalk" run by **Pravar Chaudhary**. Through this account, Pravar documented his observations of the streets and people of Bangalore, highlighting a range of issues and interactions that occur on a daily basis. Whether it was a simple post about wayfinding, accompanied by a single hashtag or a video of person crossing a busy street despite being next to a footbridge, to a more complex analysis of traffic congestion and flyovers, the account provided me with a new lens through which to view the city and its challenges.
 
-As a designer and a person interested in using data to understand problems, this appealed to me as one of the most tangible, omnipresent topic that I had _never_ fully paid attention to. From there, I have read through countless documents on urban mobility, walkability, transport and streets; admittedly one of the best rabbit-holes I've fallen into. The data-storytelling enthusiast in me always wants to find ways to mould information into a spreadsheet I can import into R or a shapefile I can visualize in QGIS, which is what I did with this too.
+As a designer and a person interested in using data to understand problems, this appealed to me as one of the most tangible, omnipresent topic that I had *never* fully paid attention to. From there, I have read through countless documents on urban mobility, walkability, transport and streets; admittedly one of the best rabbit-holes I've fallen into. The data-storytelling enthusiast in me always wants to find ways to mould information into a spreadsheet I can import into R or a shapefile I can visualize in QGIS, which is what I did with this too.
 
 The more I've engaged with walkability and urban mobility, though, I've realized that quantitative data is often not enough to describe something as complex as streets and transport, or the people who use them. In my research on street usage and accessibiilty in Ejipura, Bangalore, several new insights came up through qualitative analyses that I would have completely missed if I was focusing on large numbers. I was also lucky enough to work with people more experienced than I was who brought with them different, unique ways to analyze urban environments.
 
-This book is a distillation of things I, and others, learnt along the way. 
+This book is a distillation of things I, and others, learnt along the way.
+
+:::warn
+You use a div tip by writing `:::` following by the name that you assigned to it in the CSS after the `div`.
+:::
 
 It is a crowd-sourced, community contributed repository of resuable methodologies anyone can use to explore walkability and accessibility for different contexts. Through qualitative analysis, community engagement, and data-driven approaches such as those discussed here, we can try to gain a deeper understanding of our streets and how they impact individuals from all walks of life.
 
 The methodologies presented in this book are just a starting point - there is still much work to be done!
 
-## Scope
-## Who is this for?
-## How to read this book
-## Structure of the book
+## What This Is & Isn't
 
+There are some things to keep in mind while using this book, so that you make the most of it.
+
+This cookbook **will**:
+
+1. Demonstrate how to combine methods for better understanding walkability.
+2. Present real-life case studies to illustrate how this information can be practically used.
+3. Provide resources for urban planning professionals, academics, and anyone interested in the field to conduct their own research.
+4. Provide a framework for assessing walkability and encourages readers to draw their own conclusions based on their research and analysis
+
+But we **won't**:
+
+1. Aim to provide an exhaustive list of measures or a comprehensive review of research.
+2. Claim to offer a one-size-fits-all solution for assessing walkability.
+3. Provide technical guidance on every aspect of GIS and data analysis, only practical techniques and code snippets.
+4. Aim to be prescriptive or offer definitive answers on what makes a city or street walkable
+
+
+:::note
+You use a div tip by writing `:::` following by the name that you assigned to it in the CSS after the `div`.
+:::
+
+## Who is this for?
+
+## How to read this book
+
+## Structure of the book

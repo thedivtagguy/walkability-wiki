@@ -50,25 +50,22 @@ outline_content <- function(href, img_src, heading, content) {
 ```
 This is the [website](http://walkability.wiki/) for *The Walkability Wiki*, a crowd-sourced cookbook of qualitative & quantitative methods for measuring pedestrian experience! Visit the [GitHub repository for this site](https://github.com/thedivtagguy/walkability-wiki).
 
-The content for this guide has been contributed by multiple people, the full list of which can be viewed here. If you are someone who studies urban development, or have engaged with studying walkability in any measure, we'd love to have you here too. 
+The content for this guide has been contributed by multiple people, the full list of which can be viewed here. If you are someone who studies urban development, or have engaged with studying walkability in any measure, we'd love to have you here too.
 
 Contribution guidelines are available here and can be submitted via pull requests to our main repository.
 
-
 ## Outline {.unnumbered}
-
 
 This book has been divided into the following categories to make it easier to get through:
 
-`r outline_content('google.com', 'static/scope.png', 'Getting Started', 'Overview of the book, including the motivations for writing it, the scope of what it covers, and an introduction to the various ideas surrounding walkability.')`
+`r outline_content('google.com', 'static/scope.png', 'Getting Started', 'This section provides an overview of the book, outlining its purpose, scope, and an introduction to the concepts of walkability.')`
 
-`r outline_content('google.com', 'static/quant.png', 'Quantitative Methods', 'Sourcing data for street and urban environment assessments, recipes for processing and analysing data, creating maps, running numbers.')`
+`r outline_content('google.com', 'static/quant.png', 'Quantitative Methods', 'This section includes guidance on sourcing data for street and urban environment assessments, recipes for processing and analyzing data, creating maps, and running numbers.')`
 
-`r outline_content('google.com', 'static/qual.png', 'Qualitative Methods', 'Tips for conducting interviews, designing street audits, ideas for how to frame questions to get good information, designing participatory activities.')`
+`r outline_content('google.com', 'static/qual.png', 'Qualitative Methods', 'This section offers tips for conducting interviews, designing street audits, framing questions to elicit valuable information, and creating participatory activities.')`
 
-`r outline_content('google.com', 'static/gap.png', 'Bridging the Gap', 'Combining two different methods to fill in gaps, deriving insights, ways of infering and presenting results for analysis.')`
+`r outline_content('google.com', 'static/gap.png', 'Bridging the Gap', 'This section explains how to combine qualitative and quantitative methods to fill in gaps, derive insights, and present results for analysis.')`
 
-`r outline_content('google.com', 'static/case.png', 'Case Studies', 'Real-life examples of street audits in various contexts and locations, tools they used and how they did their analysis.')`
-
+`r outline_content('google.com', 'static/case.png', 'Case Studies', 'This section features real-life examples of street audits in various contexts and locations, detailing the tools used and the analysis methods employed.')`
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" alt="Creative Commons License" style="border-width:0"/></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
