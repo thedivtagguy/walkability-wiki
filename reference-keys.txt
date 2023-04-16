@@ -49,3 +49,4 @@ books
 websites
 software-tools
 references
+contributors
