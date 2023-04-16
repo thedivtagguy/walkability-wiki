@@ -1,5 +1,7 @@
 # (PART) Case Studies {-} 
 # Interpreting and Presenting Results {#presentation}
+The title of this document is **`r rmarkdown::metadata$title`**
+
 
 ## Communicating Results
 
