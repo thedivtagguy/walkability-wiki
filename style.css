@@ -40,6 +40,10 @@ body p {
       font-family: 'Source Sans Pro', sans-serif;
 }
 
+body ul {
+
+}
+
 h1, h2, h3, h4, h5 {
   font-family: 'Bree Serif', serif;
 }
@@ -128,3 +132,54 @@ li.appendix span, li.part span { /* for TOC part names */
 .card-menu {
   padding: 0 10px;
 }
+
+#outline > a:hover {
+  text-decoration: none;
+}
+
+
+.card-menu:hover {
+  background: #e2e2e2;
+}
+
+
+/* -----------Sidebar div tips------------- */
+/* from r-pkgs.org*/
+
+  div.note {
+    padding: 1em;
+    margin: 1em 0;
+    padding-left: 100px;
+    background-size: 70px;
+    background-repeat: no-repeat;
+    background-position: 15px center;
+    color: #000000;
+    background-color: #F5F5F5;
+  border-right: solid 5px #6D5A72;
+  }
+
+    div.warn {
+    padding: 1em;
+    margin: 1em 0;
+    padding-left: 100px;
+    background-size: 70px;
+    background-repeat: no-repeat;
+    background-position: 15px center;
+    color: #ffffff;
+    background-color: #D9594C;
+  border-right: solid 5px #87271D;
+  }
+
+
+div.note {
+  background-image: url("../static/note.svg");
+}
+
+div.fyi {
+ background-image: url("../static/fyi.png");
+}
+
+div.warn {
+  background-image: url("../static/warn.svg");
+}
+

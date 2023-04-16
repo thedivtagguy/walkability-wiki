@@ -1,6 +1,6 @@
 intro
 motivation
-scope
+what-this-is-isnt
 who-is-this-for
 how-to-read-this-book
 structure-of-the-book
