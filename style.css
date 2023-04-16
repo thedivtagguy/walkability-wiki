@@ -108,3 +108,12 @@ color: #44344F !important;
 .section.level2 {
   border-bottom: 2px black;
 }
+
+
+.book-toc.list-unstyled li:not(.book-part):not(:first-child):not(:last-child) {
+  padding-left: 10px;
+}
+
+.book-toc.list-unstyled li.book-part:not(:first-child) {
+  font-weight: 600;
+}

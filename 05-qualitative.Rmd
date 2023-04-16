@@ -1,3 +1,4 @@
+# (PART) Qualitative Methods {-} 
 # Qualitative Assessments
 
 Some _significant_ applications are demonstrated in this chapter.

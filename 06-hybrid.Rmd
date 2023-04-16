@@ -1,4 +1,5 @@
-# Bridging the Gap: Hybrid Assessments {#hybrid-assessments}
+# (PART) Bridging the Gap {-} 
+# Hybrid Assessments {#hybrid-assessments}
 
 ## Combining Quantitative and Qualitative Methods
 
