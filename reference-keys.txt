@@ -1,10 +1,9 @@
 intro
 motivation
+scope
 what-this-is-isnt
 who-is-this-for
-how-to-read-this-book
-structure-of-the-book
-structure-of-this-book
+content-design
 overview
 defining-walkability
 benefits-of-walkability-assessments

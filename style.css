@@ -40,8 +40,8 @@ body p {
       font-family: 'Source Sans Pro', sans-serif;
 }
 
-body ul {
-
+body li {
+      font-family: 'Source Sans Pro', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
@@ -183,3 +183,7 @@ div.warn {
   background-image: url("../static/warn.svg");
 }
 
+
+.no-border {
+  border:none!important;
+}

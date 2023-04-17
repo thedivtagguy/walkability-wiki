@@ -24,6 +24,28 @@
     
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
   </style>
+<style type="text/css">
+    /* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+        }
+    .hanging div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }
+  </style>
 <link rel="stylesheet" href="style.css">
 </head>
 <body data-spy="scroll" data-target="#toc">
@@ -50,7 +72,7 @@
 <li><a class="" href="index.html">Welcome to The Walkability Wiki</a></li>
 <li class="book-part">Getting Started</li>
 <li><a class="active" href="intro.html"><span class="header-section-number">1</span> Introduction</a></li>
-<li><a class="" href="structure-of-this-book.html"><span class="header-section-number">2</span> Structure of This Book</a></li>
+<li><a class="" href="scope.html"><span class="header-section-number">2</span> Scope</a></li>
 <li><a class="" href="overview.html"><span class="header-section-number">3</span> Walkability Assessments: An Overview</a></li>
 <li class="book-part">Quantitative Methods</li>
 <li><a class="" href="quantitative-assessments.html"><span class="header-section-number">4</span> Quantitative Assessments</a></li>
@@ -85,64 +107,19 @@
 <p>As a designer and a person interested in using data to understand problems, this appealed to me as one of the most tangible, omnipresent topic that I had <em>never</em> fully paid attention to. From there, I have read through countless documents on urban mobility, walkability, transport and streets; admittedly one of the best rabbit-holes I’ve fallen into. The data-storytelling enthusiast in me always wants to find ways to mould information into a spreadsheet I can import into R or a shapefile I can visualize in QGIS, which is what I did with this too.</p>
 <p>The more I’ve engaged with walkability and urban mobility, though, I’ve realized that quantitative data is often not enough to describe something as complex as streets and transport, or the people who use them. In my research on street usage and accessibiilty in Ejipura, Bangalore, several new insights came up through qualitative analyses that I would have completely missed if I was focusing on large numbers. I was also lucky enough to work with people more experienced than I was who brought with them different, unique ways to analyze urban environments.</p>
 <p>This book is a distillation of things I, and others, learnt along the way.</p>
-<div class="warn">
-<p>You use a div tip by writing <code>:::</code> following by the name that you assigned to it in the CSS after the <code>div</code>.</p>
-</div>
 <p>It is a crowd-sourced, community contributed repository of resuable methodologies anyone can use to explore walkability and accessibility for different contexts. Through qualitative analysis, community engagement, and data-driven approaches such as those discussed here, we can try to gain a deeper understanding of our streets and how they impact individuals from all walks of life.</p>
 <p>The methodologies presented in this book are just a starting point - there is still much work to be done!</p>
-</div>
-<div id="what-this-is-isnt" class="section level2" number="1.2">
-<h2>
-<span class="header-section-number">1.2</span> What This Is &amp; Isn’t<a class="anchor" aria-label="anchor" href="#what-this-is-isnt"><i class="fas fa-link"></i></a>
-</h2>
-<p>There are some things to keep in mind while using this book, so that you make the most of it.</p>
-<p>This cookbook <strong>will</strong>:</p>
-<ol style="list-style-type: decimal">
-<li>Demonstrate how to combine methods for better understanding walkability.</li>
-<li>Present real-life case studies to illustrate how this information can be practically used.</li>
-<li>Provide resources for urban planning professionals, academics, and anyone interested in the field to conduct their own research.</li>
-<li>Provide a framework for assessing walkability and encourages readers to draw their own conclusions based on their research and analysis</li>
-</ol>
-<p>But we <strong>won’t</strong>:</p>
-<ol style="list-style-type: decimal">
-<li>Aim to provide an exhaustive list of measures or a comprehensive review of research.</li>
-<li>Claim to offer a one-size-fits-all solution for assessing walkability.</li>
-<li>Provide technical guidance on every aspect of GIS and data analysis, only practical techniques and code snippets.</li>
-<li>Aim to be prescriptive or offer definitive answers on what makes a city or street walkable</li>
-</ol>
-<div class="note">
-<p>You use a div tip by writing <code>:::</code> following by the name that you assigned to it in the CSS after the <code>div</code>.</p>
-</div>
-</div>
-<div id="who-is-this-for" class="section level2" number="1.3">
-<h2>
-<span class="header-section-number">1.3</span> Who is this for?<a class="anchor" aria-label="anchor" href="#who-is-this-for"><i class="fas fa-link"></i></a>
-</h2>
-</div>
-<div id="how-to-read-this-book" class="section level2" number="1.4">
-<h2>
-<span class="header-section-number">1.4</span> How to read this book<a class="anchor" aria-label="anchor" href="#how-to-read-this-book"><i class="fas fa-link"></i></a>
-</h2>
-</div>
-<div id="structure-of-the-book" class="section level2" number="1.5">
-<h2>
-<span class="header-section-number">1.5</span> Structure of the book<a class="anchor" aria-label="anchor" href="#structure-of-the-book"><i class="fas fa-link"></i></a>
-</h2>
 
 </div>
 </div>
   <div class="chapter-nav">
 <div class="prev"><a href="index.html">Welcome to The Walkability Wiki</a></div>
-<div class="next"><a href="structure-of-this-book.html"><span class="header-section-number">2</span> Structure of This Book</a></div>
+<div class="next"><a href="scope.html"><span class="header-section-number">2</span> Scope</a></div>
 </div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
     <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
       <ul class="nav navbar-nav">
 <li><a class="nav-link" href="#intro"><span class="header-section-number">1</span> Introduction</a></li>
 <li><a class="nav-link" href="#motivation"><span class="header-section-number">1.1</span> Motivation</a></li>
-<li><a class="nav-link" href="#what-this-is-isnt"><span class="header-section-number">1.2</span> What This Is &amp; Isn’t</a></li>
-<li><a class="nav-link" href="#who-is-this-for"><span class="header-section-number">1.3</span> Who is this for?</a></li>
-<li><a class="nav-link" href="#how-to-read-this-book"><span class="header-section-number">1.4</span> How to read this book</a></li>
-<li><a class="nav-link" href="#structure-of-the-book"><span class="header-section-number">1.5</span> Structure of the book</a></li>
 </ul>
 
       <div class="book-extra">
@@ -160,7 +137,7 @@
 <footer class="bg-primary text-light mt-5"><div class="container"><div class="row">
 
   <div class="col-12 col-md-6 mt-3">
-    <p>"<strong>The Walkability Wiki</strong>: Methods for Measuring Pedestrian Experience" was written by multiple contributors. It was last built on 2023-04-16.</p>
+    <p>"<strong>The Walkability Wiki</strong>: Methods for Measuring Pedestrian Experience" was written by multiple contributors. It was last built on 2023-04-17.</p>
   </div>
 
   <div class="col-12 col-md-6 mt-3">
