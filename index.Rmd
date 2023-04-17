@@ -27,7 +27,7 @@ knitr::write_bib(c(
 knitr::include_graphics(rep("static/cover.png"))
 
 outline_content <- function(href, img_src, heading, content) {
-  paste0('<a href="', href, '" target="_blank"><div class="card-menu" style="display:flex; width:100%;"><div class="side1"><p><img class="inline-image" style="width:200px; height:200px;" src="', img_src, '" style="display: block; margin: auto;"></p></div><div class="side2"><h4 id="', make.names(heading), '" class="hasAnchor">', heading, '</h4><p>', content, '</p></div></div></a>')
+  paste0('<a href="./', href, '.html" ><div class="card-menu" style="display:flex; width:100%;"><div class="side1"><p><img class="inline-image" style="width:200px; height:200px;" src="', img_src, '" style="display: block; margin: auto;"></p></div><div class="side2"><h4 id="', make.names(heading), '" class="hasAnchor">', heading, '</h4><p>', content, '</p></div></div></a>')
 }
 
 
@@ -58,14 +58,14 @@ Contribution guidelines are available here and can be submitted via pull request
 
 This book has been divided into the following categories to make it easier to get through:
 
-`r outline_content('google.com', 'static/scope.png', 'Getting Started', 'This section provides an overview of the book, outlining its purpose, scope, and an introduction to the concepts of walkability.')`
+`r outline_content('intro', 'static/scope.png', 'Getting Started', 'This section provides an overview of the book, outlining its purpose, scope, and an introduction to the concepts of walkability.')`
 
-`r outline_content('google.com', 'static/quant.png', 'Quantitative Methods', 'This section includes guidance on sourcing data for street and urban environment assessments, recipes for processing and analyzing data, creating maps, and running numbers.')`
+`r outline_content('quantitative-assessments', 'static/quant.png', 'Quantitative Methods', 'This section includes guidance on sourcing data for street and urban environment assessments, recipes for processing and analyzing data, creating maps, and running numbers.')`
 
-`r outline_content('google.com', 'static/qual.png', 'Qualitative Methods', 'This section offers tips for conducting interviews, designing street audits, framing questions to elicit valuable information, and creating participatory activities.')`
+`r outline_content('qualitative-assessments', 'static/qual.png', 'Qualitative Methods', 'This section offers tips for conducting interviews, designing street audits, framing questions to elicit valuable information, and creating participatory activities.')`
 
-`r outline_content('google.com', 'static/gap.png', 'Bridging the Gap', 'This section explains how to combine qualitative and quantitative methods to fill in gaps, derive insights, and present results for analysis.')`
+`r outline_content('hybrid-assessments', 'static/gap.png', 'Bridging the Gap', 'This section explains how to combine qualitative and quantitative methods to fill in gaps, derive insights, and present results for analysis.')`
 
-`r outline_content('google.com', 'static/case.png', 'Case Studies', 'This section features real-life examples of street audits in various contexts and locations, detailing the tools used and the analysis methods employed.')`
+`r outline_content('case-studies', 'static/case.png', 'Case Studies', 'This section features real-life examples of street audits in various contexts and locations, detailing the tools used and the analysis methods employed.')`
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" alt="Creative Commons License" style="border-width:0"/></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.

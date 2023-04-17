@@ -14,39 +14,8 @@ The more I've engaged with walkability and urban mobility, though, I've realized
 
 This book is a distillation of things I, and others, learnt along the way.
 
-:::warn
-You use a div tip by writing `:::` following by the name that you assigned to it in the CSS after the `div`.
-:::
-
 It is a crowd-sourced, community contributed repository of resuable methodologies anyone can use to explore walkability and accessibility for different contexts. Through qualitative analysis, community engagement, and data-driven approaches such as those discussed here, we can try to gain a deeper understanding of our streets and how they impact individuals from all walks of life.
 
 The methodologies presented in this book are just a starting point - there is still much work to be done!
 
-## What This Is & Isn't
 
-There are some things to keep in mind while using this book, so that you make the most of it.
-
-This cookbook **will**:
-
-1. Demonstrate how to combine methods for better understanding walkability.
-2. Present real-life case studies to illustrate how this information can be practically used.
-3. Provide resources for urban planning professionals, academics, and anyone interested in the field to conduct their own research.
-4. Provide a framework for assessing walkability and encourages readers to draw their own conclusions based on their research and analysis
-
-But we **won't**:
-
-1. Aim to provide an exhaustive list of measures or a comprehensive review of research.
-2. Claim to offer a one-size-fits-all solution for assessing walkability.
-3. Provide technical guidance on every aspect of GIS and data analysis, only practical techniques and code snippets.
-4. Aim to be prescriptive or offer definitive answers on what makes a city or street walkable
-
-
-:::note
-You use a div tip by writing `:::` following by the name that you assigned to it in the CSS after the `div`.
-:::
-
-## Who is this for?
-
-## How to read this book
-
-## Structure of the book
