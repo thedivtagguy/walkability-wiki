@@ -5,10 +5,12 @@ author: "multiple contributors"
 date: "`r Sys.Date()`"
 knit: "bookdown::render_book"
 site: bookdown::bookdown_site
-output: bookdown::bs4_book
-documentclass: book
-bibliography: [book.bib]
-biblio-style: apalike
+output: 
+  bookdown::bs4_book
+  bookdown::pdf_book
+documentclass: krantz
+bibliography: "C:/Users/ADMIN/Documents/bridging-the-gap.bib"
+biblio-style: authoryear
 link-citations: true
 links-as-notes: true
 colorlinks: true
@@ -52,7 +54,7 @@ This is the [website](http://walkability.wiki/) for *The Walkability Wiki*, a cr
 
 The content for this guide has been contributed by multiple people, the full list of which can be viewed here. If you are someone who studies urban development, or have engaged with studying walkability in any measure, we'd love to have you here too.
 
-Contribution guidelines are available here and can be submitted via pull requests to our main repository.
+Contribution guidelines are available here and can be submitted via pull requests to our main repository
 
 ## Outline {.unnumbered}
 

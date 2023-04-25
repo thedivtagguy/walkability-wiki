@@ -187,3 +187,13 @@ div.warn {
 .no-border {
   border:none!important;
 }
+
+.inline-figure:not(:has(> img.cover)) {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
+
+h1 > span.header-section-number {
+  display: none;
+}

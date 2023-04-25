@@ -1,32 +1,38 @@
-bookdown::bs4_book:
-  theme:
-    primary: "#417B5A"
-  css: style.css
-  repo: https://github.com/thedivtagguy/walkability-wiki
-  config:
-    toc:
-      collapse: section
-
-
-bookdown::gitbook:
-  css: style.css
-
-  config:
-    toc:
-      collapse: section
-      before: |
-        <li><a href="./">Mastering Shiny</a></li>
-    edit: https://github.com/thedivtagguy/walkability-wiki/edit/main/%s
-    download: []
-    sharing:
-      facebook: no
-      twitter: yes
-      github: yes
-      all: []
+# bookdown::bs4_book:
+#   theme:
+#     primary: "#417B5A"
+#   css: style.css
+#   repo: https://github.com/thedivtagguy/walkability-wiki
+#   config:
+#     toc:
+#       collapse: section
+#
+#
+# bookdown::gitbook:
+#   css: style.css
+#
+#   config:
+#     toc:
+#       collapse: section
+#       before: |
+#         <li><a href="./">Mastering Shiny</a></li>
+#     edit: https://github.com/thedivtagguy/walkability-wiki/edit/main/%s
+#     download: []
+#     sharing:
+#       facebook: no
+#       twitter: yes
+#       github: yes
+#       all: []
 bookdown::pdf_book:
   includes:
     in_header: preamble.tex
-  latex_engine: xelatex
-  citation_package: natbib
   keep_tex: yes
-bookdown::epub_book: default
+  dev: "cairo_pdf"
+  latex_engine: xelatex
+  citation_package: biblatex
+  template: null
+  pandoc_args: --top-level-division=chapter
+  toc_depth: 3
+  toc_unnumbered: no
+  toc_appendix: yes
+  quote_footer: ["\\VA{", "}{}"]
