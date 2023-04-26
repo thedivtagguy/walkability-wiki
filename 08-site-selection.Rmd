@@ -1,0 +1,24 @@
+# (PART) Quantitative Assessment Guides {-} 
+
+# Site Selection Stratgies
+
+## Defining your criteria
+
+## Secondary research
+
+### Census Data
+
+### Population Data
+
+### GIS sources
+
+### Exisiing audits
+
+## Space Syntax Analysis
+
+### Defining the measures
+
+### Using deptmapX
+
+### Deriving insights from SSA
+

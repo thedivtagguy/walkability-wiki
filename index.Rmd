@@ -1,10 +1,10 @@
 ---
 title: "The Walkability Wiki"
 subtitle: "Methods for Measuring Pedestrian Experience"
-author: "multiple contributors"
+author: "Aman Bhargava"
 date: "`r Sys.Date()`"
 knit: "bookdown::render_book"
-site: bookdown::bookdown_site
+site: bookdown::bookdown_site 
 output: 
   bookdown::bs4_book
   bookdown::pdf_book

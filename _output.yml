@@ -6,23 +6,8 @@
 #   config:
 #     toc:
 #       collapse: section
-#
-#
-# bookdown::gitbook:
-#   css: style.css
-#
-#   config:
-#     toc:
-#       collapse: section
-#       before: |
-#         <li><a href="./">Mastering Shiny</a></li>
-#     edit: https://github.com/thedivtagguy/walkability-wiki/edit/main/%s
-#     download: []
-#     sharing:
-#       facebook: no
-#       twitter: yes
-#       github: yes
-#       all: []
+
+
 bookdown::pdf_book:
   includes:
     in_header: preamble.tex
@@ -31,8 +16,9 @@ bookdown::pdf_book:
   latex_engine: xelatex
   citation_package: biblatex
   template: null
-  pandoc_args: --top-level-division=chapter
   toc_depth: 3
+  fig_width: 3
   toc_unnumbered: no
   toc_appendix: yes
   quote_footer: ["\\VA{", "}{}"]
+  pandoc_args: ["-V", "papersize=a4paper"]

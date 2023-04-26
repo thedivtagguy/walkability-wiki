@@ -68,6 +68,12 @@ Such characteristics should be **always** be considered alongside other variable
 
 ## Spatial
 
-The built environment, through the design of streets and connectivity between them, can also reflect the extent of segregation in an area [@vlachouSuccessionalSegregationGerani2015]. It is possible to map the spatial properties of your study area through spatial syntax analysis (SSA), a quantative method to understand the configuration of a built environment and reveal how it is used [@dettlaffSpaceSyntaxAnalysis]
+The built environment, through the design of streets and the connectivity between them, can also reflect the extent of segregation in an area [@vlachouSuccessionalSegregationGerani2015]. This isn't to say that the design is intentionally exclusionary, but the inherent properties of the space may contribute to the exclusion of certain groups. The environment can influence the politics that govern it. Therefore, to fully understand how specific groups may be excluded, we need to consider the background and social context surrounding it [@winnerArtifactsHavePolitics1980].
 
-![](images/AngularStepDistance.png){width="650"}
+It is possible to map the spatial properties of your study area through **spatial syntax analysis (SSA)**, a quantitative method to understand the configuration of a built environment and reveal how it is potentially used by pedestrians and motorists [@dettlaffSpaceSyntaxAnalysis]. The methodology is highly technical and includes many parameters we can analyse for our area, but we need to concern ourselves with only one metric; **angular step depth**.
+
+In simple terms, **angular step depth** measures how near or *accessible* areas within the street network are. Well-connected streets with high intersection density allow you to walk from one place to another in lesser time. While this may seem obvious, as the farther you go, the less accessible an area is, the benefit of this analysis is evident when we analyse an area like Ejipura:
+
+![](images/AngularStepDistance-01.png){width="600"}
+
+Here, because of the design of the network, the National Games Village is just as inaccessible for people living in the blue region as the southern tip of the ward, despite being adjacent to each other. The reduced accessibility, whether by design or not, makes the two areas spatially segregated. This understanding, layered with observations on the built environment (\@ref(social)) and through secondary research methods, can provide a valuable starting point for identifying general levels of segregation within an area.

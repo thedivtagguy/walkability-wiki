@@ -41,7 +41,7 @@ This book is a valuable resource for a wide range of professionals, academics, a
 
 This book isn't a dry, technical manual. It's full of real-life case studies and practical techniques that can be used to make cities more walkable. So whether you're a professional or just someone who loves taking a stroll, this book is for you.
 
-## Content Design
+## How to Read This Book
 
 ```{=html}
 <style>
