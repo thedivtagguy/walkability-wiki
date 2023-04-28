@@ -1,0 +1,713 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>The Walkability Wiki</title>
+
+    <meta name="author" content="Aman Bhargava" />
+  
+   <meta name="description" content="Quantitative &amp; qualitative methods for measuring pedestrian experience." />
+   <meta name="generator" content="placeholder" />
+  <meta property="og:title" content="The Walkability Wiki" />
+  <meta property="og:type" content="book" />
+  <meta property="og:url" content="<a href="https://www.walkability.wiki/" class="uri">https://www.walkability.wiki/</a>" />
+  <meta property="og:image" content="<a href="https://www.walkability.wiki/" class="uri">https://www.walkability.wiki/</a>/static/cover.png" />
+  <meta property="og:description" content="Quantitative &amp; qualitative methods for measuring pedestrian experience." />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="The Walkability Wiki" />
+  
+  <meta name="twitter:description" content="Quantitative &amp; qualitative methods for measuring pedestrian experience." />
+  <meta name="twitter:image" content="<a href="https://www.walkability.wiki/" class="uri">https://www.walkability.wiki/</a>/static/cover.png" />
+  <!-- JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script>
+    <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet" />
+    <script src="libs/bootstrap-4.6.0/bootstrap.bundle.min.js"></script>
+    <script src="libs/bs3compat-0.4.2/transition.js"></script>
+    <script src="libs/bs3compat-0.4.2/tabs.js"></script>
+    <script src="libs/bs3compat-0.4.2/bs3compat.js"></script>
+    <link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet" />
+    <script src="libs/bs4_book-1.0.0/bs4_book.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script>
+
+  <!-- CSS -->
+  <style type="text/css">
+    
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  </style>
+    <style type="text/css">
+    /* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+        }
+    .hanging div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }
+  </style>
+      <link rel="stylesheet" href="style.css" />
+  
+</head>
+
+<body data-spy="scroll" data-target="#toc">
+
+<div class="container-fluid">
+<!--bookdown:title:start-->
+<!--bookdown:title:end-->
+
+<!--bookdown:toc:start-->
+<div class="row">
+  <header class="col-sm-12 col-lg-3 sidebar sidebar-book">
+    <a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
+
+    <div class="d-flex align-items-start justify-content-between">
+      <h1>
+        <a href="index.html" title="Methods for Measuring Pedestrian Experience">The Walkability Wiki</a>:
+        <small class="text-muted">Methods for Measuring Pedestrian Experience</small>
+      </h1>
+      <button class="btn btn-outline-primary d-lg-none ml-2 mt-1" type="button" data-toggle="collapse" data-target="#main-nav" aria-expanded="true" aria-controls="main-nav"><i class="fas fa-bars"></i><span class="sr-only">Show table of contents</span></button>
+    </div>
+
+    <div id="main-nav" class="collapse-lg">
+      <form role="search">
+        <input id="search" class="form-control" type="search" placeholder="Search" aria-label="Search">
+      </form>
+
+      <nav aria-label="Table of contents">
+        <h2>Table of contents</h2>
+        <div id="book-toc"></div>
+
+        <div class="book-extra">
+          <p><a id="book-repo" href="#">View book source <i class="fab fa-github"></i></a></li></p>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="col-sm-12 col-md-9 col-lg-7" id="content">
+<!--bookdown:toc:end-->
+<!--bookdown:body:start-->
+<div id="welcome-to-the-walkability-wiki" class="section level1 unnumbered">
+<h1 class="unnumbered">Welcome to The Walkability Wiki</h1>
+<p><br></p>
+<p><img src="static/cover.png" alt="Book Cover" class="cover" width="350" height="460"/></p>
+<style>
+.inline-figure {
+    border: none !important;
+
+  overflow-x: visible !important;
+}
+</style>
+<p>This is <a href="https://walkability.wiki"><em>The Walkability Wiki</em></a>, a guidebook of qualitative &amp; quantitative methods for measuring pedestrian experience in Bangalore! Visit the <a href="https://github.com/thedivtagguy/walkability-wiki">GitHub repository for this site</a> if you would like to contribute as well.</p>
+<!-- \mybox{static/quant.png}{Shooting Stars}{Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.} -->
+<div id="outline" class="section level2 unnumbered">
+<h2 class="unnumbered">Outline</h2>
+<p>This book has been divided into the following categories to make it easier to get through:</p>
+<a href="./intro.html" >
+<div class="card-menu" style="display:flex; width:100%;">
+<div class="side1">
+<p>
+<img class="inline-image" style="width:200px; height:200px;" src="static/scope.png" style="display: block; margin: auto;">
+</p>
+</div>
+<div class="side2">
+<h4 id="Getting.Started" class="hasAnchor">
+Getting Started
+</h4>
+<p>
+This section provides an overview of the book, outlining its purpose, scope, and an introduction to the concepts of walkability.
+</p>
+</div>
+</div>
+<p></a></p>
+<a href="./quantitative-assessments.html" >
+<div class="card-menu" style="display:flex; width:100%;">
+<div class="side1">
+<p>
+<img class="inline-image" style="width:200px; height:200px;" src="static/quant.png" style="display: block; margin: auto;">
+</p>
+</div>
+<div class="side2">
+<h4 id="Quantitative.Methods" class="hasAnchor">
+Quantitative Methods
+</h4>
+<p>
+This section includes guidance on sourcing data for street and urban environment assessments, recipes for processing and analyzing data, creating maps, and running numbers.
+</p>
+</div>
+</div>
+<p></a></p>
+<a href="./qualitative-assessments.html" >
+<div class="card-menu" style="display:flex; width:100%;">
+<div class="side1">
+<p>
+<img class="inline-image" style="width:200px; height:200px;" src="static/qual.png" style="display: block; margin: auto;">
+</p>
+</div>
+<div class="side2">
+<h4 id="Qualitative.Methods" class="hasAnchor">
+Qualitative Methods
+</h4>
+<p>
+This section offers tips for conducting interviews, designing street audits, framing questions to elicit valuable information, and creating participatory activities.
+</p>
+</div>
+</div>
+<p></a></p>
+<a href="./hybrid-assessments.html" >
+<div class="card-menu" style="display:flex; width:100%;">
+<div class="side1">
+<p>
+<img class="inline-image" style="width:200px; height:200px;" src="static/gap.png" style="display: block; margin: auto;">
+</p>
+</div>
+<div class="side2">
+<h4 id="Bridging.the.Gap" class="hasAnchor">
+Bridging the Gap
+</h4>
+<p>
+This section explains how to combine qualitative and quantitative methods to fill in gaps, derive insights, and present results for analysis.
+</p>
+</div>
+</div>
+<p></a></p>
+<a href="./case-studies.html" >
+<div class="card-menu" style="display:flex; width:100%;">
+<div class="side1">
+<p>
+<img class="inline-image" style="width:200px; height:200px;" src="static/case.png" style="display: block; margin: auto;">
+</p>
+</div>
+<div class="side2">
+<h4 id="Case.Studies" class="hasAnchor">
+Case Studies
+</h4>
+<p>
+This section features real-life examples of street audits in various contexts and locations, detailing the tools used and the analysis methods employed.
+</p>
+</div>
+</div>
+<p></a></p>
+<p><a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" alt="Creative Commons License" style="border-width:0"/></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.</p>
+<!--chapter:end:index.Rmd-->
+</div>
+</div>
+<div id="part-getting-started" class="section level1 unnumbered">
+<h1 class="unnumbered">(PART) Getting Started</h1>
+</div>
+<div id="intro" class="section level1" number="1">
+<h1><span class="header-section-number">1</span> Introduction</h1>
+<p>Walking in a city is an experience that most people take for granted. The ease of mobility on foot, especially in urban areas, has long been overshadowed by the convenience and speed provided by personal vehicles or public transportation systems. Until recently, I was also among those who overlooked and underappreciated its importance. Although I have been aware of the issues with poor infrastructure in cities in India, I never fully grasped the severity of the problem, nor did I connect the individual inconveniences I experienced to a larger systemic issue. Admittedly, this lack of awareness could be viewed as naive or shortsighted, but it is what it is.</p>
+<p>However, in 2021, my perspective changed when I stumbled upon an Instagram account called “bengawalk” run by <strong>Pravar Chaudhary</strong>. Through this account, Pravar documented his observations of the streets and people of Bangalore, highlighting a range of issues and interactions that occur on a daily basis. Whether it was a simple post about wayfinding, accompanied by a single hashtag or a video of person crossing a busy street despite being next to a footbridge, to a more complex analysis of traffic congestion and flyovers, the account provided me with a new lens through which to view the city and its challenges.</p>
+<p>As a designer and a person interested in using data to understand problems, this appealed to me as one of the most tangible, omnipresent topic that I had <em>never</em> fully paid attention to. From there, I have read through countless documents on urban mobility, walkability, transport and streets; admittedly one of the best rabbit-holes I’ve fallen into. The data-storytelling enthusiast in me always wants to find ways to mould information into a spreadsheet I can import into R or a shapefile I can visualize in QGIS, which is what I did with this too.</p>
+<p>The more I’ve engaged with walkability and urban mobility, though, I’ve realized that quantitative data is often not enough to describe something as complex as streets and transport, or the people who use them. In my research on street usage and accessibiilty in Ejipura, Bangalore, several new insights came up through qualitative analyses that I would have completely missed if I was focusing on large numbers. I was also lucky enough to work with people more experienced than I was who brought with them different, unique ways to analyze urban environments.</p>
+<p>This book is a distillation of things I learnt along the way.</p>
+<p>Through qualitative analysis, community engagement, and data-driven approaches such as those discussed here, we can try to gain a deeper understanding of our streets and how they impact individuals from all walks of life.</p>
+<p>The methodologies presented in this book are just a starting point - there is still much work to be done!</p>
+<!--chapter:end:01-intro.Rmd-->
+</div>
+<div id="scope" class="section level1" number="2">
+<h1><span class="header-section-number">2</span> Scope</h1>
+<p>There are some things to keep in mind while using this book, so that you make the most of it.</p>
+<div id="what-to-expect" class="section level2" number="2.1">
+<h2><span class="header-section-number">2.1</span> What to expect</h2>
+<p>This cookbook <strong>will</strong>:</p>
+<ol style="list-style-type: decimal">
+<li>Demonstrate how to combine methods for better understanding walkability.</li>
+<li>Present real-life case studies to illustrate how this information can be practically used.</li>
+<li>Provide resources for urban planning professionals, academics, and anyone interested in the field to conduct their own research.</li>
+<li>Provide a framework for assessing walkability and encourages readers to draw their own conclusions based on their research and analysis</li>
+</ol>
+<p>But we <strong>won’t</strong>:</p>
+<ol style="list-style-type: decimal">
+<li>Aim to provide an exhaustive list of measures or a comprehensive review of research.</li>
+<li>Claim to offer a one-size-fits-all solution for assessing walkability.</li>
+<li>Provide technical guidance on every aspect of GIS and data analysis, only practical techniques and code snippets.</li>
+<li>Aim to be prescriptive or offer definitive answers on what makes a city or street walkable</li>
+</ol>
+</div>
+<div id="who-is-this-for" class="section level2 no-border" number="2.2">
+<h2 class="no-border"><span class="header-section-number">2.2</span> Who is this for?</h2>
+<style>
+.inline-figure {
+    border: none !important;
+
+  overflow-x: visible !important;
+}
+</style>
+<p><img src="static/people.png" class="people no-border" style="width:14cm;height:4.5cm" /></p>
+<p>This book is a valuable resource for a wide range of professionals, academics, and individuals interested in the field of urban planning, design, and development. Specifically, it may be of interest to:</p>
+<ol style="list-style-type: decimal">
+<li><p>For urban planners and designers, this book offers valuable insights on how to assess walkability in cities and neighborhoods.</p></li>
+<li><p>For community advocates, this book provides a framework for promoting walkable neighborhoods and understanding the factors that make them successful.</p></li>
+<li><p>If you’re a researcher, academic, or student in urban planning, public health, or related fields, this book is a great resource for gaining a comprehensive understanding of walkability and its impact on the people that use them.</p></li>
+</ol>
+<p>This book isn’t a dry, technical manual. It’s full of real-life case studies and practical techniques that can be used to make cities more walkable. So whether you’re a professional or just someone who loves taking a stroll, this book is for you.</p>
+</div>
+<div id="how-to-read-this-book" class="section level2" number="2.3">
+<h2><span class="header-section-number">2.3</span> How to Read This Book</h2>
+<!--chapter:end:02-structure.Rmd-->
+</div>
+</div>
+<div id="recommended-software-tools" class="section level1" number="3">
+<h1><span class="header-section-number">3</span> Recommended Software &amp; Tools</h1>
+<p><img src="static/cake-2.jpg" class="people no-border" style="margin:0 auto; display:block;;width:14cm" /></p>
+<p>I really like the idea of <strong>eat cake first</strong> \parencite{leonIntroductionRstudio4edu, cetinkaya-rundel2018}, which means at the heart of this book’s approach is the belief that it’s best to dive in and get started with the task at hand, even if that means adopting a “good enough” approach initially.</p>
+<p>There may be more complex or nuanced workflows available, and I’ll be sure to point those out as well. There might even be better ways to derive insights or understand results, but the methods discussed here are enough to get started with. My goal is to provide you with the quickest and most straightforward path to achieving your desired outcome.<br />
+<br />
+This also means <strong>no prior knowledge of GIS or programming</strong> is required to follow along. Wherever needed, I will link to appropriate guide material to reduce redundancy of writing it here again. What I <em>will</em> show is how to use those results in a real-life context. I will be using the following to collect data, perform analysis and visualize the results:</p>
+<ol style="list-style-type: decimal">
+<li><p><a href="https://openstreetmaps.org"><strong>OpenStreetMaps</strong></a> <strong>(OSM)</strong>: OSM is a crowdsourced mapping tool that is used to collect and update geographic data. It is a free and open-source mapping tool that provides map data and related services to users worldwide. You might compare this to Google Maps, but it is even better because we will be able to <em>pull</em> data from the OSM database and perform analyses</p></li>
+<li><p><a href="https://qgis.org/en/site/"><strong>QGIS</strong></a>: QGIS is a free and open-source geographic information system (GIS) software that is used for creating, editing, visualizing, and analyzing geospatial data. QGIS is a powerful tool that supports a wide range of vector, raster, and database formats.</p></li>
+<li><p><a href="https://figma.com"><strong>Figma</strong></a>: Figma is a cloud-based design tool that makes it a breeze to layout and create infographics. You could use Photoshop or Illustrator do the the same thing but I like it for the convenience. We’ll need a vector editing tool to handle SVG formats.</p></li>
+<li><p><strong>Python</strong>: Python is a popular language for geospatial data analysis and visualization due to its large ecosystem of libraries and tools. We’ll be using this rarely if we need to process some data for analysis.</p></li>
+<li><p><a href="https://posit.co/products/open-source/rstudio/"><strong>R</strong></a>: R is a programming language that is widely used for statistical analysis and data visualization. R has a large number of libraries and packages for geospatial analysis and visualization.</p></li>
+<li><p><a href="https://archtech.gr/varoudis/depthmapX/"><strong>DepthmapX</strong></a>: DepthmapX is a free and open-source software tool used for spatial network analysis. It was developed by researchers at the Bartlett School of Architecture, University College London. One of the key features of DepthmapX is its ability to perform space syntax analysis. Space syntax is a theory that links the spatial configuration of a built environment to the social, cultural, and economic activities that take place within it. DepthmapX provides a range of tools to analyze spatial configurations, such as isovist and visibility analysis, axial analysis, and integration analysis.</p></li>
+</ol>
+<p>Having these handy will help you go faster. Let us get started.</p>
+<!--chapter:end:03-recommended-softward.Rmd-->
+</div>
+<div id="part-overview-of-methods" class="section level1 unnumbered">
+<h1 class="unnumbered">(PART) Overview of Methods</h1>
+</div>
+<div id="walkability" class="section level1" number="4">
+<h1><span class="header-section-number">4</span> Walkability</h1>
+<div id="walkability-metrics" class="section level2" number="4.1">
+<h2><span class="header-section-number">4.1</span> Walkability Metrics</h2>
+<!--chapter:end:04-overview.Rmd-->
+</div>
+</div>
+<div id="types-of-analysis" class="section level1" number="5">
+<h1><span class="header-section-number">5</span> Types of Analysis</h1>
+<div id="qualitative-analysis" class="section level2" number="5.1">
+<h2><span class="header-section-number">5.1</span> Qualitative Analysis</h2>
+</div>
+<div id="quantitative-analysis" class="section level2" number="5.2">
+<h2><span class="header-section-number">5.2</span> Quantitative Analysis</h2>
+</div>
+<div id="introducing-additional-dimensions-to-walkability" class="section level2" number="5.3">
+<h2><span class="header-section-number">5.3</span> Introducing additional dimensions to walkability</h2>
+<!--chapter:end:05-types-of-analysis.Rmd-->
+<p>Combining qualitative and quantitative data is essential to understand issues as complex as mobility fully. However, analyzing both data types can be challenging, and integrating them into a cohesive analysis is often tricky. Here, hybrid assessments can help bridge the gap between qualitative and quantitative studies.</p>
+</div>
+<div id="why-bother" class="section level2" number="5.4">
+<h2><span class="header-section-number">5.4</span> Why bother</h2>
+<p>In the previous section, we explored various walkability measures, including an area’s built and natural environment and other essential aspects. While GIS techniques and macro data sources can provide a baseline understanding of the walkability of a site, they often miss out on the unique issues and experiences that residents face on a day-to-day basis.</p>
+<p>In early 2023, <a href="https://www.sensinglocal.in/">Sensing Local</a>, an organization that works on urban and environmental issues in Indian cities, commenced a series of walkability for 24 wards in Bangalore <span class="citation">(<a href="#ref-byiffathRaisingStreets2022">ByIffath 2022</a>)</span>. As of writing this, more than 139 km of footpaths have been audited in 10 wards has been completed. These audits, using collaborative tools and with the help of community volunteers, mapped various street features, such as footpath conditions, street litter, encroachment, and streetlight presence. Although these are important indicators of the neighbourhoods they visited, there may be other problems that these criteria missed.</p>
+<p>To better understand the region, another audit of Bangalore’s wards was conducted by ichangemycity in 2016 and produced data for all wards, including Ejipura<span class="citation">(<a href="#ref-ichangemycityEjipuraWard1482016">ichangemycity 2016</a>)</span>. This audit included a broader set of criteria, such as:</p>
+<ol style="list-style-type: decimal">
+<li><strong>Civic Facilities</strong>: Presence of parks, public toilets, bus stops, and waste collection centres.</li>
+<li><strong>Quality of life</strong>: Walkability of footpaths and conditions of significant crossings, streetlight presence, and other citizen grievances.</li>
+<li><strong>Budget allocation</strong>: Areas of budget allocations and overview of budgeted works.</li>
+</ol>
+<p>This more comprehensive approach not only provides an understanding of the accessibility of various amenities but also includes qualitative data on what the <strong>residents feel is an issue</strong>.</p>
+<p>As researchers, we often study areas that we aren’t familiar with. Therefore, standardized metrics, such as sidewalk measurements, street lighting, and footpath conditions, are crucial for providing a foundational understanding of the walkability of an area. However, relying solely on these metrics can limit our understanding of residents’ unique issues and experiences. Qualitative research can provide valuable insights into the lived experiences of individuals in the community. For example, an on-ground study conducted by community volunteers can reveal micro-scale insights that data analysis using GIS techniques and macro data sources may miss. Section @ref(interviews-ejipura) shows some unique insights that can be gathered from interviews.</p>
+</div>
+<div id="grassroots-approach" class="section level2" number="5.5">
+<h2><span class="header-section-number">5.5</span> Grassroots Approach</h2>
+<p>We can use a grassroots approach to designing audits to help fill these quantitative research gaps, often created based on standardized metrics.</p>
+<p>Grassroots, also known as bottom-top approaches, focus on collecting data from participants locally instead of entirely relying on higher-level data sources. The grassroots process is particularly relevant in fields such as community development, social justice, and public health, where understanding the experiences and needs of the local community is critical to developing effective interventions or policies and can similarly be applied to inform the assessment process, which can ultimately lead to more effective and inclusive solutions <span class="citation">(<a href="#ref-knapskogExploringWaysMeasuring2019a">Knapskog et al. 2019</a>)</span>.</p>
+</div>
+<div id="differences-in-approach" class="section level2" number="5.6">
+<h2><span class="header-section-number">5.6</span> Differences in Approach</h2>
+<p>In most of the walkability audits I have encountered, and others have studied, the qualitative features of streets fail to attract the necessary attention and aren’t investigated. <span class="citation">(<a href="#ref-aghaabbasiEvaluatingCapabilityWalkability2018">Aghaabbasi et al. 2018</a>)</span>. Most studies follow the framework shown in Figure @ref(fig:usual).</p>
+<div class="float">
+<img src="images/general-framework.png" style="width:12cm" alt="(#fig:usual) A typical walkability assessment" />
+<div class="figcaption">(#fig:usual) A typical walkability assessment</div>
+</div>
+<p>This isn’t bad in itself, and if the study aims to audit an environment with the <em>specific</em> intention of only assessing things like sidewalks and streets, that is okay. However, it may not capture the lived experiences of the people who use the space daily. Engaging with local residents and considering their perspectives is essential to gain a more holistic understanding of walkability.</p>
+<p>Based on my experience in Ejipura, taking a different approach helped. Instead of assessing standard walkability measures, I went to the site on multiple visits to see what I needed improvement. Since these observations are still detached from what the residents experienced daily, I conducted interviews and other participatory activities to try to answer the fundamental question I outlined above:</p>
+<blockquote>
+<p><em>What does walkability mean to the people who live there?</em></p>
+</blockquote>
+<p>This process differs from the flow I illustrated above and uses qualitative research to develop the indicators I must assess. Figure @ref(fig:proposed) outlines my process while studying Ejipura.</p>
+<div class="float">
+<img src="images/proposed.png" style="width:12cm" alt="(#fig:proposed) Allowing qualitative research to surface quantitative measures" />
+<div class="figcaption">(#fig:proposed) Allowing qualitative research to surface quantitative measures</div>
+</div>
+<p>This process involved qualitative research to develop indicators that emerged from local knowledge. Using site visits as an essential part of verifying results, I ensured that my insights were grounded in the community context. This approach allowed me to tailor my findings to the specific needs of Ejipura rather than attempting to impose Western models of development that may not be appropriate for Indian cities.</p>
+<p>One challenge of using qualitative research is that it can be perceived as unscalable. However, in the following sections, I will demonstrate how I used qualitative data to analyze the environment quantitatively based on the insights gained from interviews and observations. This method can help to bridge the gap between qualitative and quantitative approaches, providing a more comprehensive understanding of walkability in Indian cities. These methods will be demonstrated using Ejipura as the context but can be replicated easily for any other region. Let’s get into it!</p>
+<!--chapter:end:06-hybrid-assessments.Rmd-->
+</div>
+</div>
+<div id="part-quantitative-assessment-guides" class="section level1 unnumbered">
+<h1 class="unnumbered">(PART) Quantitative Assessment Guides</h1>
+<div id="secondary-research" class="section level2" number="5.7">
+<h2><span class="header-section-number">5.7</span> Secondary Research</h2>
+<p>Chances are, you already know where you’ll be conducting your walkability assessment. This could be your neighborhood, a section of an area you visit often, or even a place you’ve never been to. If you have already narrowed down such a region, @ref(space-syntax) shows you how to identify important and busy streets for your audit. @ref(secondary-research) shows you how to get information about your site’s population, which can help you understand the region’s demographics.</p>
+<div id="understanding-the-population" class="section level3" number="5.7.1">
+<h3><span class="header-section-number">5.7.1</span> Understanding the population</h3>
+<p>In @ref(levels-of-analysis), we discussed the importance of adding a socio-economic layer of context to our assessments. TLDR; understanding your demographic, income levels, and social makeup can help you show <em>who</em> is being excluded and design your solutions more inclusively. We can use a variety of data sources to view information about the population. I discuss some ways to use this data to identify segregation within areas in Section @ref(identify-segregation)</p>
+<div id="government-sources" class="section level4" number="5.7.1.1">
+<h4><span class="header-section-number">5.7.1.1</span> Government Sources</h4>
+<div id="census-data" class="section level5" number="5.7.1.1.1">
+<h5><span class="header-section-number">5.7.1.1.1</span> Census Data</h5>
+<p>The last general census in India was conducted in 2011. While outdated by almost all counts, this data remains the only comprehensive source of information at a country-wide level. The highest resolution (the level of detail) at which this data is available is at a city’s ward level. If you live in any of the large metro cities, this might already be available through <a href="https://opencity.in">OpenCity</a>. Some states and government bodies have also opened their GIS servers for access, a full list of which you can find <a href="https://opencity.in/explainer/how-to-access-government-gis-data-for-indian-cities-states/">here</a>. For smaller cities, the compiled population information by <span class="citation">(<a href="#ref-balkSpatialData20112020">Balk et al. 2020</a>)</span> for the entire country from a variety of sources can be <a href="https://sedac.ciesin.columbia.edu/data/set/india-spatial-india-census-2011/data-download#">downloaded</a> in the form of CSV and GeoTIFF files.</p>
+</div>
+<div id="global-human-settlement-layer" class="section level5" number="5.7.1.1.2">
+<h5><span class="header-section-number">5.7.1.1.2</span> Global Human Settlement Layer</h5>
+<p>The <a href="https://ghsl.jrc.ec.europa.eu/download.php?ds=pop">Global Human Settlement Layer (GHSL)</a> by the Joint Research Centre provides high-resolution population estimates for nearly every country. This can be downloaded for various years (in my experience, the 2015 dataset works well) and for your specific region of interest through the website’s interactive map.</p>
+<p>\tipbox{The GHSL dataset is commonly used for estimating the population, whereas other datasets might be hard to get. The data is provided in raster format, where each pixel represents the number of people at that point. You can easily visualize this in software like QGIS. An excellent project that makes it available to explore only is Tom Forth’s <a href="%5Bhttps://www.tomforth.co.uk/circlepopulations/">_‘Population Around A Point’_</a>.](<a href="https://www.tomforth.co.uk/circlepopulations/" class="uri">https://www.tomforth.co.uk/circlepopulations/</a>).)</p>
+<div class="float">
+<img src="images/Pasted%20image%2020230428220224.png" style="width:9cm" alt="Using GHSL, we can estimate the number of people living at or around any point" />
+<div class="figcaption">Using GHSL, we can estimate the number of people living at or around any point</div>
+</div>
+<p>}</p>
+</div>
+</div>
+</div>
+<div id="understanding-the-space" class="section level3" number="5.7.2">
+<h3><span class="header-section-number">5.7.2</span> Understanding the space</h3>
+<p>You have your region, and you know something about your population. Now how would you decide which streets to audit? Space Syntax Analysis (SSA) can help!</p>
+<p>Space syntax analysis is a method of analyzing and understanding the spatial configuration of built environments developed by University College London (UCL) researchers in the 1970s and 1980s.</p>
+<p>The basic premise of space syntax analysis is that how buildings and cities are configured spatially can significantly impact how people use and interact with those spaces. By analyzing the spatial relationships between different parts of a built environment, space syntax analysis can help reveal movement patterns, interaction, and social activity <span class="citation">(<a href="#ref-vannesIntroductionSpaceSyntax2021">van Nes and Yamu 2021</a>)</span>. This can be done using street networks from OpenStreetMap and DepthMapX, a software dedicated to such analysis.</p>
+<div id="components-of-space-syntax-analysis" class="section level4" number="5.7.2.1">
+<h4><span class="header-section-number">5.7.2.1</span> Components of Space Syntax Analysis</h4>
+<p>There are three measures that this method will provide you with. In extremely simple, intuitive terms, these are:</p>
+<ol style="list-style-type: decimal">
+<li><p><strong>Choice:</strong> Choice is a way to measure how likely a street or road segment is to be used by people traveling between different parts of a system. For example, imagine a city and all the different routes people could take to get from one place to another. Choice measures how often a particular street segment is used on the shortest path between any two locations in the system. A high choice value means that many people are likely to use that street segment, while a low choice value means fewer people are likely to use it. So, the choice measures how important a street segment is for connecting different system parts <span class="citation">(<a href="#ref-hillierSocialLogicSpace1984">Hillier and Hanson 1984</a>)</span>.</p></li>
+<li><p><strong>Integration</strong>: Integration is a way to measure how close or connected one place is to all the other places in a system. For example, think of a city and its different neighborhoods. Integration measures how easy it is to get from one area to another. The higher the integration, the more connected the neighborhoods are and the easier it is to move around <span class="citation">(<a href="#ref-hillierSocialLogicSpace1984">Hillier and Hanson 1984</a>)</span>.</p></li>
+</ol>
+<p>We can use these measures to extrapolate many insights from quantitative data in the form of street networks and build a model for understanding the space. The theory also proposes that the street network adapts and changes over time to intensify local connections, which leads to more efficient movement patterns and porous structures. Essentially, SSA describes how the layout of the street network shapes the development of urban centers and how the evolution of the street network over time influences the formation and location of centers within the urban settlement layout as a whole.</p>
+</div>
+<div id="using-depthmapx-for-ssa" class="section level4" number="5.7.2.2">
+<h4><span class="header-section-number">5.7.2.2</span> Using DepthmapX for SSA</h4>
+<p>So you’ve chosen your area to audit, but you want to maximize your resources and time and start by auditing the most important streets in the region. If you know the neighborhood, you already know what to do. If not, the <code>choice</code> measure can help you provide a starting point.</p>
+<p>First, get the following things ready before moving ahead:</p>
+<ol style="list-style-type: decimal">
+<li><strong>Download DepthmapX</strong>: You can find the relevant copy for your operating system <a href="https://archtech.gr/varoudis/depthmapX/">here</a></li>
+<li><strong>Download your region’s OSM street network</strong>: Trim the network to your region of interest so you can process the data faster.<br />
+</li>
+<li><strong>Fire up QGIS</strong>: We’ll use this to convert our street files into an appropriate format for use in <code>DepthMapX</code> and then bring it back here for polishing touches after analysis.</li>
+</ol>
+<p>Let’s get started!</p>
+<div id="step-1.-convert-your-street-network-into-.mif" class="section level5" number="5.7.2.2.1">
+<h5><span class="header-section-number">5.7.2.2.1</span> Step 1. Convert your street network into <code>.mif</code></h5>
+<p><code>.mif</code> stands for a MapInfo file, which is a type of digital file that contains information about a map. It is like a virtual version of a paper map that can be opened on a computer. It contains data about different features on the map, such as roads, buildings, and rivers; basically everything you’ll need about your street network to pull it into <code>DepthmapX</code>.</p>
+<p><img src="images/Pasted%20image%2020230428221917.png" style="width:10cm" /></p>
+<p>You can do this by right clicking on your street layer and going to <code>Export</code> &gt; <code>Save Features As</code> and selecting <code>.mif</code> from the export dialog box.</p>
+<div class="float">
+<img src="images/Pasted%20image%2020230428222041.png" style="width:10cm" alt="Export as a MapInfo file" />
+<div class="figcaption">Export as a MapInfo file</div>
+</div>
+</div>
+<div id="step-2.-prepare-it-in-depthmapx" class="section level5" number="5.7.2.2.2">
+<h5><span class="header-section-number">5.7.2.2.2</span> Step 2. Prepare it in DepthMapX</h5>
+<p>Open your copy of <code>DepthMapX</code> and create a new project by going to <code>File</code> &gt; <code>New</code>. We can now import our map by going to <code>Map</code> &gt; <code>Import</code>.</p>
+<p><img src="images/Pasted%20image%2020230428222344.png" style="width:10cm" /></p>
+<!--chapter:end:07-site-selection.Rmd-->
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="assessment-of-physical-environment" class="section level1" number="6">
+<h1><span class="header-section-number">6</span> Assessment of Physical Environment</h1>
+<div id="measuring-blocks-sizes" class="section level2" number="6.1">
+<h2><span class="header-section-number">6.1</span> Measuring Blocks Sizes</h2>
+</div>
+<div id="measuring-connectedness" class="section level2" number="6.2">
+<h2><span class="header-section-number">6.2</span> Measuring Connectedness</h2>
+</div>
+<div id="measuring-integration" class="section level2" number="6.3">
+<h2><span class="header-section-number">6.3</span> Measuring Integration</h2>
+</div>
+<div id="measuring-urban-structure" class="section level2" number="6.4">
+<h2><span class="header-section-number">6.4</span> Measuring Urban Structure</h2>
+<!--chapter:end:08-physical-environment.Rmd-->
+</div>
+</div>
+<div id="assessment-of-infrastructure" class="section level1" number="7">
+<h1><span class="header-section-number">7</span> Assessment of Infrastructure</h1>
+<div id="sourcing-data-from-openstreetmaps" class="section level2" number="7.1">
+<h2><span class="header-section-number">7.1</span> Sourcing data from OpenStreetMaps</h2>
+</div>
+<div id="visualizing-pedestrian-sheds" class="section level2" number="7.2">
+<h2><span class="header-section-number">7.2</span> Visualizing pedestrian sheds</h2>
+<!--chapter:end:09-infrastructure.Rmd-->
+</div>
+</div>
+<div id="assessment-of-comfort" class="section level1" number="8">
+<h1><span class="header-section-number">8</span> Assessment of Comfort</h1>
+<div id="mapping-green-cover" class="section level2" number="8.1">
+<h2><span class="header-section-number">8.1</span> Mapping Green Cover</h2>
+</div>
+<div id="mapping-heat-exposure" class="section level2" number="8.2">
+<h2><span class="header-section-number">8.2</span> Mapping Heat Exposure</h2>
+</div>
+<div id="mapping-artificial-shade" class="section level2" number="8.3">
+<h2><span class="header-section-number">8.3</span> Mapping Artificial Shade</h2>
+</div>
+<div id="mapping-flood-risk" class="section level2" number="8.4">
+<h2><span class="header-section-number">8.4</span> Mapping Flood Risk</h2>
+<!--chapter:end:10-comfort.Rmd-->
+</div>
+</div>
+<div id="part-qualitative-assessment-guides" class="section level1 unnumbered">
+<h1 class="unnumbered">(PART) Qualitative Assessment Guides</h1>
+</div>
+<div id="field-visits" class="section level1" number="9">
+<h1><span class="header-section-number">9</span> Field Visits</h1>
+<div id="things-to-keep-in-mind" class="section level2" number="9.1">
+<h2><span class="header-section-number">9.1</span> Things to keep in mind</h2>
+</div>
+<div id="suggested-tools" class="section level2" number="9.2">
+<h2><span class="header-section-number">9.2</span> Suggested tools</h2>
+</div>
+<div id="observation-notes" class="section level2" number="9.3">
+<h2><span class="header-section-number">9.3</span> Observation notes</h2>
+</div>
+<div id="participatory-activities" class="section level2" number="9.4">
+<h2><span class="header-section-number">9.4</span> Participatory Activities</h2>
+<div id="semi-structured-interviews" class="section level3" number="9.4.1">
+<h3><span class="header-section-number">9.4.1</span> Semi-structured interviews</h3>
+</div>
+<div id="mapping-acitvities" class="section level3" number="9.4.2">
+<h3><span class="header-section-number">9.4.2</span> Mapping acitvities</h3>
+<!--chapter:end:11-field-visits.rmd-->
+</div>
+</div>
+</div>
+<div id="street-audits" class="section level1" number="10">
+<h1><span class="header-section-number">10</span> Street Audits</h1>
+<div id="street-comfort-mapping" class="section level2" number="10.1">
+<h2><span class="header-section-number">10.1</span> Street comfort mapping</h2>
+</div>
+<div id="observations-on-built-environment" class="section level2" number="10.2">
+<h2><span class="header-section-number">10.2</span> Observations on built environment</h2>
+</div>
+<div id="tailoring-your-metrics" class="section level2" number="10.3">
+<h2><span class="header-section-number">10.3</span> Tailoring your metrics</h2>
+</div>
+<div id="google-street-view-audits" class="section level2" number="10.4">
+<h2><span class="header-section-number">10.4</span> Google Street View Audits</h2>
+<!--chapter:end:12-street-audits.Rmd-->
+</div>
+</div>
+<div id="deriving-insights" class="section level1" number="11">
+<h1><span class="header-section-number">11</span> Deriving Insights</h1>
+<!--chapter:end:13-deriving-insights-from-qualitative-data.Rmd-->
+</div>
+<div id="part-getting-started-1" class="section level1 unnumbered">
+<h1 class="unnumbered">(PART) Getting Started</h1>
+</div>
+<div id="visualizing-results-from-analysis" class="section level1" number="12">
+<h1><span class="header-section-number">12</span> Visualizing Results from Analysis</h1>
+<div id="showcasing-your-study-site" class="section level2" number="12.1">
+<h2><span class="header-section-number">12.1</span> Showcasing Your Study Site</h2>
+</div>
+<div id="interpreting-and-presenting-results" class="section level2" number="12.2">
+<h2><span class="header-section-number">12.2</span> Interpreting and Presenting Results</h2>
+</div>
+<div id="designing-in-qgis-a-crash-course" class="section level2" number="12.3">
+<h2><span class="header-section-number">12.3</span> Designing in QGIS: A Crash Course</h2>
+<!--chapter:end:14-visualizing-results.Rmd-->
+</div>
+</div>
+<div id="part-conclusion" class="section level1 unnumbered">
+<h1 class="unnumbered">(PART) Conclusion</h1>
+</div>
+<div id="finishing-up" class="section level1" number="13">
+<h1><span class="header-section-number">13</span> Finishing up</h1>
+<div id="key-takeaways" class="section level2" number="13.1">
+<h2><span class="header-section-number">13.1</span> Key takeaways</h2>
+</div>
+<div id="way-forward" class="section level2" number="13.2">
+<h2><span class="header-section-number">13.2</span> Way forward</h2>
+<!--chapter:end:15-conclusion.Rmd-->
+</div>
+</div>
+<div id="part-appendix" class="section level1 unnumbered">
+<h1 class="unnumbered">(PART) Appendix</h1>
+</div>
+<div id="interviews" class="section level1" number="14">
+<h1><span class="header-section-number">14</span> Interviews</h1>
+<!--chapter:end:16-appendix-a-interviews.Rmd-->
+</div>
+<div id="assessment-of-segregation" class="section level1" number="15">
+<h1><span class="header-section-number">15</span> Assessment of Segregation</h1>
+<div id="why-it-matters" class="section level2" number="15.1">
+<h2><span class="header-section-number">15.1</span> Why it matters</h2>
+<p>Walkability is strongly correlated to health, and many studies have found that populations in more walkable areas are less likely to be obese <span class="citation">(<a href="#ref-riggsInclusivelyWalkableExploring2016">Riggs 2016</a>)</span> and perform better on many other health indicators as well <span class="citation">(<a href="#ref-suCommunityDeprivationWalkability2017">Su et al. 2017</a>)</span>. Built environments and the design of neighbourhoods can influence residential behaviours and health consequences, according to accumulating research, with data indicating that these communities not only have lower rates of obesity and overweight people but greater active physical activity engagement as well.</p>
+<p>When auditing any environment for walkability, therefore, it can be helpful to understand the following:</p>
+<ol style="list-style-type: decimal">
+<li><strong>Who</strong> are the more vulnerable or advantaged populations?</li>
+<li><strong>Where</strong> are they located?</li>
+<li><strong>What</strong> factors about their built environment and streets make them more vulnerable?</li>
+</ol>
+<p>Answering these questions will help identify <strong>how</strong> we can improve an area to ensure an equitable allocation of resources.</p>
+</div>
+<div id="identify-segregation" class="section level2" number="15.2">
+<h2><span class="header-section-number">15.2</span> Ways of Identifying Segregation</h2>
+<p>Segregation can occur at various resolutions. The first obvious way to get an overview at a city level is through ward or constituency-level data, which is often easily available. For example, in the case of Bangalore, we can use 2011 census data to find where there are higher percentages of people belonging to scheduled caste/scheduled tribe (SC/ST):</p>
+<div class="float">
+<img src="images/sc-st-01.png" style="width:13cm" alt="Concentration of SC/ST Population in Bangalore’s Wards" />
+<div class="figcaption">Concentration of SC/ST Population in Bangalore’s Wards</div>
+</div>
+</div>
+<div id="social" class="section level2" number="15.3">
+<h2><span class="header-section-number">15.3</span> Social</h2>
+<div id="the-obvious" class="section level3" number="15.3.1">
+<h3><span class="header-section-number">15.3.1</span> The Obvious</h3>
+<p>Caste is still the most significant factor in urban residential segregation in India, significantly higher than the level of socioeconomic segregation <span class="citation">(<a href="#ref-vithayathilSpacesDiscriminationResidential2012">Vithayathil and Singh 2012</a>)</span> and</p>
+<div class="float">
+<img src="images/census-01.png" style="width:13cm" alt="Example of insights from census data" />
+<div class="figcaption">Example of insights from census data</div>
+</div>
+</div>
+<div id="the-less-obvious" class="section level3" number="15.3.2">
+<h3><span class="header-section-number">15.3.2</span> The Less Obvious</h3>
+<p>Aside from the obvious stratification based on caste, what other ways can your study area be divided? Even in a seemingly homogenous area, various factors can influence <em>who lives where</em>. For example, the area could be divided between:</p>
+<ol style="list-style-type: decimal">
+<li><p><strong>Native residents</strong> and <strong>migrants</strong>.</p></li>
+<li><p><strong>Working population</strong> by <strong>type of work</strong>, such as those working in the service industry vs those working in the informal sector.</p></li>
+<li><p><strong>Language</strong>: Based on the language spoken by the residents, such as those who speak the local language versus those who speak a different language.</p></li>
+<li><p><strong>Housing tenure:</strong> Segregating an area by housing tenure, such as those who rent vs those who own their homes, could reveal disparities in wealth and access to affordable housing.</p></li>
+</ol>
+<p>In Ejipura, we were able to identify some micro-neighbourhoods this way. For example, it is a home to many people from the north-east region. We identified the region where the this population was concentrated by observing the kind of shops and restaurants in some areas:</p>
+<div class="float">
+<img src="images/Pasted%20image%2020230424181635-02.png" style="width:13cm" alt="North-eastern shops in Ejipura" />
+<div class="figcaption">North-eastern shops in Ejipura</div>
+</div>
+<p>Similarly, paying guest accomodations and apartments that are generally for short-term rental for students and working class people are concentrated in another area:</p>
+<div class="float">
+<img src="images/Pasted%20image%2020230424182347-01.png" style="width:13cm" alt="PGs in Ejipura" />
+<div class="figcaption">PGs in Ejipura</div>
+</div>
+</div>
+</div>
+<div id="economic" class="section level2" number="15.4">
+<h2><span class="header-section-number">15.4</span> Economic</h2>
+<p>Unfortunately, there is no comprehensive source of data that helps us spatially visualize economic segregation. Even the general census does not include questions on consumption levels or economic condition of households.</p>
+<p>However, you can construct a broad map of income levels based on visual observation of streets and buildings as well. For example, in Ejipura, we used observational and anecdotal evidence to divide the area into three income groups. This was based on the type of housing, condition of streets, and interviews with residents.</p>
+<div class="float">
+<img src="images/income-01.png" style="width:13cm" alt="Identifying income levels through visual observation" />
+<div class="figcaption">Identifying income levels through visual observation</div>
+</div>
+<p>These are subjective observations by their very nature but some of the things you can look for, in addition to the above, are:</p>
+<ol style="list-style-type: decimal">
+<li><p><strong>Housing type and condition:</strong> Look at the type and condition of housing in a given area. Low-income areas may have more rental housing and consist of smaller units. Mid-income regions may have a mix of rental and owner-occupied housing, while high-income areas may have larger, more expensive homes in better condition.</p></li>
+<li><p><strong>Transportation options:</strong> Look at the transportation options available in a given area. Low-income areas may have limited access to public transportation and poorer pedestrian infrastructure. In contrast, high-income regions may have more options for alternative transportation and better-maintained roads and sidewalks.</p></li>
+<li><p><strong>Public spaces and amenities:</strong> Look at the quality and availability of public spaces and amenities in a given area. Low-income areas may have fewer parks and open spaces, while high-income regions may have more resources and better-maintained public spaces.</p></li>
+</ol>
+<p>Such characteristics should be <strong>always</strong> be considered alongside other variables from census data and income surveys if available, since they are not always reliable markers of income levels. If you’re able to get your hands on enumerator block level census data, which is the smallest unit of census data available, it can help inform these decisions better. Unfortunately, the process of getting access to this data is complicated and very restrictive (as shown <a href="https://library.iimb.ac.in/CEBdataset">on the website for IIM Bangalore</a>).</p>
+</div>
+<div id="spatial" class="section level2" number="15.5">
+<h2><span class="header-section-number">15.5</span> Spatial</h2>
+<p>The built environment, through the design of streets and the connectivity between them, can also reflect the extent of segregation in an area <span class="citation">(<a href="#ref-vlachouSuccessionalSegregationGerani2015">Vlachou and Vaughan 2015</a>)</span>. This isn’t to say that the design is intentionally exclusionary, but the inherent properties of the space may contribute to the exclusion of certain groups. The environment can influence the politics that govern it. Therefore, to fully understand how specific groups may be excluded, we need to consider the background and social context surrounding it <span class="citation">(<a href="#ref-winnerArtifactsHavePolitics1980">Winner 1980</a>)</span>.</p>
+<p>It is possible to map the spatial properties of your study area through <strong>spatial syntax analysis (SSA)</strong>, a quantitative method to understand the configuration of a built environment and reveal how it is potentially used by pedestrians and motorists <span class="citation">(<a href="#ref-dettlaffSpaceSyntaxAnalysis">Dettlaff, n.d.</a>)</span>. The methodology is highly technical and includes many parameters we can analyse for our area, but we need to concern ourselves with only one metric; <strong>angular step depth</strong>.</p>
+<p>In simple terms, <strong>angular step depth</strong> measures how near or <em>accessible</em> areas within the street network are. Well-connected streets with high intersection density allow you to walk from one place to another in lesser time. While this may seem obvious, as the farther you go, the less accessible an area is, the benefit of this analysis is evident when we analyse an area like Ejipura:</p>
+<div class="float">
+<img src="images/AngularStepDistance-02.png" style="width:13cm" alt="Angular step depth map starting from inner Ejipura" />
+<div class="figcaption">Angular step depth map starting from inner Ejipura</div>
+</div>
+<p>Here, because of the design of the network, the National Games Village is just as inaccessible for people living in the blue region as the southern tip of the ward, despite being adjacent to each other. The reduced accessibility, whether by design or not, makes the two areas spatially segregated. This understanding, layered with observations on the built environment @ref(social) and through secondary research methods, can provide a valuable starting point for identifying general levels of segregation within an area.</p>
+<!--chapter:end:17-appendix-access.rmd-->
+</div>
+</div>
+<div id="cognitive-mapping" class="section level1" number="16">
+<h1><span class="header-section-number">16</span> Cognitive Mapping</h1>
+<!--chapter:end:18-appendix-b-cognitive.Rmd-->
+</div>
+<div id="data-sources" class="section level1" number="17">
+<h1><span class="header-section-number">17</span> Data Sources</h1>
+<!--chapter:end:19-appendix-data-sources.Rmd-->
+<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-aghaabbasiEvaluatingCapabilityWalkability2018" class="csl-entry">
+Aghaabbasi, Mahdi, Mehdi Moeinaddini, Muhammad Zaly Shah, Zohreh Asadi-Shekari, and Mehdi Arjomand Kermani. 2018. <span>“Evaluating the Capability of Walkability Audit Tools for Assessing Sidewalks.”</span> <em>Sustainable Cities and Society</em> 37 (February): 475–84. <a href="https://doi.org/10.1016/j.scs.2017.12.001">https://doi.org/10.1016/j.scs.2017.12.001</a>.
+</div>
+<div id="ref-balkSpatialData20112020" class="csl-entry">
+Balk, D., M. R. Montgomery, H. Engin, E. Major, and B. Jones. 2020. <span>“Spatial <span>Data</span> from the 2011 <span>India Census</span>.”</span> <span>Palisades, NY: NASA Socioeconomic Data and Applications Center (SEDAC)</span>. <a href="https://doi.org/10.7927/GYA1-WP91">https://doi.org/10.7927/GYA1-WP91</a>.
+</div>
+<div id="ref-byiffathRaisingStreets2022" class="csl-entry">
+ByIffath, Fathima. 2022. <span>“Raising the Streets.”</span> <em>Bangalore Mirror</em>. https://bangaloremirror.indiatimes.com/bangalore/civic/raising-the-streets/articleshow/95968163.cms.
+</div>
+<div id="ref-dettlaffSpaceSyntaxAnalysis" class="csl-entry">
+Dettlaff, W. n.d. <span>“Space Syntax Analysis Methodology of Understanding the Space.”</span>
+</div>
+<div id="ref-hillierSocialLogicSpace1984" class="csl-entry">
+Hillier, Bill, and Julienne Hanson. 1984. <em>The <span>Social Logic</span> of <span>Space</span></em>. <span>Cambridge</span>: <span>Cambridge University Press</span>. <a href="https://doi.org/10.1017/CBO9780511597237">https://doi.org/10.1017/CBO9780511597237</a>.
+</div>
+<div id="ref-ichangemycityEjipuraWard1482016" class="csl-entry">
+ichangemycity. 2016. <span>“Ejipura <span>Ward</span> 148 <span>Audit</span>.”</span> <span>ichangemycity</span>.
+</div>
+<div id="ref-knapskogExploringWaysMeasuring2019a" class="csl-entry">
+Knapskog, Marianne, Oddrun Helen Hagen, Aud Tennøy, and Maja Karoline Rynning. 2019. <span>“Exploring Ways of Measuring Walkability.”</span> <em>Transportation Research Procedia</em>, Urban <span>Mobility</span> <span>Shaping</span> the <span>Future Together</span> mobil.<span>TUM</span> 2018 <span>International Scientific Conference</span> on <span>Mobility</span> and <span>Transport Conference Proceedings</span>, 41 (January): 264–82. <a href="https://doi.org/10.1016/j.trpro.2019.09.047">https://doi.org/10.1016/j.trpro.2019.09.047</a>.
+</div>
+<div id="ref-riggsInclusivelyWalkableExploring2016" class="csl-entry">
+Riggs, William. 2016. <span>“Inclusively Walkable: Exploring the Equity of Walkable Housing in the <span>San Francisco Bay Area</span>.”</span> <em>Local Environment</em> 21 (5): 527–54. <a href="https://doi.org/10.1080/13549839.2014.982080">https://doi.org/10.1080/13549839.2014.982080</a>.
+</div>
+<div id="ref-suCommunityDeprivationWalkability2017" class="csl-entry">
+Su, Shiliang, Jianhua Pi, Huan Xie, Zhongliang Cai, and Min Weng. 2017. <span>“Community Deprivation, Walkability, and Public Health: <span>Highlighting</span> the Social Inequalities in Land Use Planning for Health Promotion.”</span> <em>Land Use Policy</em> 67 (September): 315–26. <a href="https://doi.org/10.1016/j.landusepol.2017.06.005">https://doi.org/10.1016/j.landusepol.2017.06.005</a>.
+</div>
+<div id="ref-vannesIntroductionSpaceSyntax2021" class="csl-entry">
+van Nes, Akkelies, and Claudia Yamu. 2021. <em>Introduction to <span>Space Syntax</span> in <span>Urban Studies</span></em>. <span>Cham</span>: <span>Springer International Publishing</span>. <a href="https://doi.org/10.1007/978-3-030-59140-3">https://doi.org/10.1007/978-3-030-59140-3</a>.
+</div>
+<div id="ref-vithayathilSpacesDiscriminationResidential2012" class="csl-entry">
+Vithayathil, Trina, and Gayatri Singh. 2012. <span>“Spaces of <span>Discrimination</span>: <span>Residential Segregation</span> in <span>Indian Cities</span>.”</span> <em>Economic and Political Weekly</em> 47 (37): 60–66. <a href="https://www.jstor.org/stable/41720139">https://www.jstor.org/stable/41720139</a>.
+</div>
+<div id="ref-vlachouSuccessionalSegregationGerani2015" class="csl-entry">
+Vlachou, Athina, and Laura Vaughan. 2015. <span>“Successional Segregation in <span>Gerani</span>, <span>Athens</span>. <span>Unpacking</span> the Spatial Structure of an Immigrant Quarter.”</span> In.
+</div>
+<div id="ref-winnerArtifactsHavePolitics1980" class="csl-entry">
+Winner, Langdon. 1980. <span>“Do <span>Artifacts Have Politics</span>?”</span> <em>Daedalus</em> 109 (1): 121–36. <a href="https://www.jstor.org/stable/20024652">https://www.jstor.org/stable/20024652</a>.
+</div>
+</div>
+</div>
+<!--bookdown:body:end-->
+  </main>
+
+  <div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
+    <nav id="toc" data-toggle="toc" aria-label="On this page">
+      <h2>On this page</h2>
+      <div id="book-on-this-page"></div>
+
+      <div class="book-extra">
+        <ul class="list-unstyled">
+          <li><a id="book-source" href="#">View source <i class="fab fa-github"></i></a></li>
+          <li><a id="book-edit" href="#">Edit this page <i class="fab fa-github"></i></a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+</div>
+</div> <!-- .container -->
+
+<footer class="bg-primary text-light mt-5">
+  <div class="container"><div class="row">
+
+  <div class="col-12 col-md-6 mt-3">
+    <p>"<strong>The Walkability Wiki</strong>: Methods for Measuring Pedestrian Experience" was written by Aman Bhargava. It was last built on 2023-04-28.</p>
+  </div>
+
+  <div class="col-12 col-md-6 mt-3">
+    <p>This book was built by the <a class="text-light" href="https://bookdown.org">bookdown</a> R package.</p>
+  </div>
+
+</div></div>
+</footer>
+
+
+</body>
+
+</html>

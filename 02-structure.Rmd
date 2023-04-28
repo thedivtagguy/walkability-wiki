@@ -2,7 +2,7 @@
 
 There are some things to keep in mind while using this book, so that you make the most of it.
 
-## What This Is & Isn't
+## What to expect
 
 This cookbook **will**:
 
@@ -29,7 +29,7 @@ But we **won't**:
 }
 </style>
 ```
-![](static/people.png){.people .no-border width="640" height="200"}
+![](static/people.png){.people .no-border width="14cm" height="4.5cm"}
 
 This book is a valuable resource for a wide range of professionals, academics, and individuals interested in the field of urban planning, design, and development. Specifically, it may be of interest to:
 
@@ -43,17 +43,3 @@ This book isn't a dry, technical manual. It's full of real-life case studies and
 
 ## How to Read This Book
 
-```{=html}
-<style>
-.inline-figure {
-    border: none !important;
-
-  overflow-x: visible !important;
-}
-</style>
-```
-![](static/cake-2.jpg){.people .no-border style="margin:0 auto; display:block;"}
-
-I really like the idea of **eat cake first** [@leon; @cetinkaya-rundel2018], which means at the heart of this book's approach is the belief that it's best to dive in and get started with the task at hand, even if that means adopting a "good enough" approach initially.
-
-There may be more complex or nuanced workflows available, and we'll be sure to point those out as well. Our goal is to provide you with the quickest and most straightforward path to achieving your desired outcome. So, go ahead and eat the cake first, but know that we'll also provide options for those who want to explore more advanced approaches.

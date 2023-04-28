@@ -1,0 +1,75 @@
+\contentsline {part}{I\hspace {1em}Getting Started}{6}{part.1}%
+\contentsline {section}{\numberline {{1}.1}Introduction}{7}{section.0.1}%
+\contentsline {section}{\numberline {{1}.2}Scope}{7}{section.0.2}%
+\contentsline {subsection}{\numberline {{1}.2.1}What to expect}{7}{subsection.0.2.1}%
+\contentsline {subsection}{\numberline {{1}.2.2}Who is this for?}{8}{subsection.0.2.2}%
+\contentsline {subsection}{\numberline {{1}.2.3}How to Read This Book}{9}{subsection.0.2.3}%
+\contentsline {section}{\numberline {{1}.3}Recommended Software \& Tools}{9}{section.0.3}%
+\contentsline {part}{II\hspace {1em}Overview of Methods}{11}{part.2}%
+\contentsline {section}{\numberline {{2}.4}Walkability}{12}{section.0.4}%
+\contentsline {subsection}{\numberline {{2}.4.1}Walkability Metrics}{12}{subsection.0.4.1}%
+\contentsline {section}{\numberline {{2}.5}Types of Analysis}{12}{section.0.5}%
+\contentsline {subsection}{\numberline {{2}.5.1}Qualitative Analysis}{12}{subsection.0.5.1}%
+\contentsline {subsection}{\numberline {{2}.5.2}Quantitative Analysis}{12}{subsection.0.5.2}%
+\contentsline {subsection}{\numberline {{2}.5.3}Introducing additional dimensions to walkability}{12}{subsection.0.5.3}%
+\contentsline {subsection}{\numberline {{2}.5.4}Why bother}{12}{subsection.0.5.4}%
+\contentsline {subsection}{\numberline {{2}.5.5}Grassroots Approach}{13}{subsection.0.5.5}%
+\contentsline {subsection}{\numberline {{2}.5.6}Differences in Approach}{13}{subsection.0.5.6}%
+\contentsline {part}{III\hspace {1em}Quantitative Assessment Guides}{16}{part.3}%
+\contentsline {subsection}{\numberline {{3}.5.7}Secondary Research}{17}{subsection.0.5.7}%
+\contentsline {subsubsection}{\numberline {{3}.5.7.1}Understanding the population}{17}{subsubsection.0.5.7.1}%
+\contentsline {paragraph}{Census Data}{17}{section*.5}%
+\contentsline {paragraph}{Global Human Settlement Layer}{17}{section*.6}%
+\contentsline {subsubsection}{\numberline {{3}.5.7.2}Understanding the space}{17}{subsubsection.0.5.7.2}%
+\contentsline {subsubsection}{\numberline {{3}.5.7.3}Components of Space Syntax Analysis}{18}{subsubsection.0.5.7.3}%
+\contentsline {subsubsection}{\numberline {{3}.5.7.4}Using DepthmapX for SSA}{18}{subsubsection.0.5.7.4}%
+\contentsline {subparagraph}{Step 1. Convert your street network into \texttt {.mif}}{19}{section*.7}%
+\contentsline {subparagraph}{Step 2. Prepare it in DepthMapX}{19}{section*.9}%
+\contentsline {section}{\numberline {{3}.6}Assessment of Physical Environment}{20}{section.0.6}%
+\contentsline {subsection}{\numberline {{3}.6.1}Measuring Blocks Sizes}{20}{subsection.0.6.1}%
+\contentsline {subsection}{\numberline {{3}.6.2}Measuring Connectedness}{20}{subsection.0.6.2}%
+\contentsline {subsection}{\numberline {{3}.6.3}Measuring Integration}{20}{subsection.0.6.3}%
+\contentsline {subsection}{\numberline {{3}.6.4}Measuring Urban Structure}{20}{subsection.0.6.4}%
+\contentsline {section}{\numberline {{3}.7}Assessment of Infrastructure}{20}{section.0.7}%
+\contentsline {subsection}{\numberline {{3}.7.1}Sourcing data from OpenStreetMaps}{20}{subsection.0.7.1}%
+\contentsline {subsection}{\numberline {{3}.7.2}Visualizing pedestrian sheds}{20}{subsection.0.7.2}%
+\contentsline {section}{\numberline {{3}.8}Assessment of Comfort}{20}{section.0.8}%
+\contentsline {subsection}{\numberline {{3}.8.1}Mapping Green Cover}{20}{subsection.0.8.1}%
+\contentsline {subsection}{\numberline {{3}.8.2}Mapping Heat Exposure}{20}{subsection.0.8.2}%
+\contentsline {subsection}{\numberline {{3}.8.3}Mapping Artificial Shade}{20}{subsection.0.8.3}%
+\contentsline {subsection}{\numberline {{3}.8.4}Mapping Flood Risk}{20}{subsection.0.8.4}%
+\contentsline {part}{IV\hspace {1em}Qualitative Assessment Guides}{21}{part.4}%
+\contentsline {section}{\numberline {{4}.9}Field Visits}{22}{section.0.9}%
+\contentsline {subsection}{\numberline {{4}.9.1}Things to keep in mind}{22}{subsection.0.9.1}%
+\contentsline {subsection}{\numberline {{4}.9.2}Suggested tools}{22}{subsection.0.9.2}%
+\contentsline {subsection}{\numberline {{4}.9.3}Observation notes}{22}{subsection.0.9.3}%
+\contentsline {subsection}{\numberline {{4}.9.4}Participatory Activities}{22}{subsection.0.9.4}%
+\contentsline {subsubsection}{\numberline {{4}.9.4.1}Semi-structured interviews}{22}{subsubsection.0.9.4.1}%
+\contentsline {subsubsection}{\numberline {{4}.9.4.2}Mapping acitvities}{22}{subsubsection.0.9.4.2}%
+\contentsline {section}{\numberline {{4}.10}Street Audits}{22}{section.0.10}%
+\contentsline {subsection}{\numberline {{4}.10.1}Street comfort mapping}{22}{subsection.0.10.1}%
+\contentsline {subsection}{\numberline {{4}.10.2}Observations on built environment}{22}{subsection.0.10.2}%
+\contentsline {subsection}{\numberline {{4}.10.3}Tailoring your metrics}{22}{subsection.0.10.3}%
+\contentsline {subsection}{\numberline {{4}.10.4}Google Street View Audits}{22}{subsection.0.10.4}%
+\contentsline {section}{\numberline {{4}.11}Deriving Insights}{22}{section.0.11}%
+\contentsline {part}{V\hspace {1em}Getting Started}{23}{part.5}%
+\contentsline {section}{\numberline {{5}.12}Visualizing Results from Analysis}{24}{section.0.12}%
+\contentsline {subsection}{\numberline {{5}.12.1}Showcasing Your Study Site}{24}{subsection.0.12.1}%
+\contentsline {subsection}{\numberline {{5}.12.2}Interpreting and Presenting Results}{24}{subsection.0.12.2}%
+\contentsline {subsection}{\numberline {{5}.12.3}Designing in QGIS: A Crash Course}{24}{subsection.0.12.3}%
+\contentsline {part}{VI\hspace {1em}Conclusion}{25}{part.6}%
+\contentsline {section}{\numberline {{6}.13}Finishing up}{26}{section.0.13}%
+\contentsline {subsection}{\numberline {{6}.13.1}Key takeaways}{26}{subsection.0.13.1}%
+\contentsline {subsection}{\numberline {{6}.13.2}Way forward}{26}{subsection.0.13.2}%
+\contentsline {part}{VII\hspace {1em}Appendix}{27}{part.7}%
+\contentsline {section}{\numberline {{7}.14}Interviews}{28}{section.0.14}%
+\contentsline {section}{\numberline {{7}.15}Assessment of Segregation}{28}{section.0.15}%
+\contentsline {subsection}{\numberline {{7}.15.1}Why it matters}{28}{subsection.0.15.1}%
+\contentsline {subsection}{\numberline {{7}.15.2}Ways of Identifying Segregation}{28}{subsection.0.15.2}%
+\contentsline {subsection}{\numberline {{7}.15.3}Social}{28}{subsection.0.15.3}%
+\contentsline {subsubsection}{\numberline {{7}.15.3.1}The Obvious}{28}{subsubsection.0.15.3.1}%
+\contentsline {subsubsection}{\numberline {{7}.15.3.2}The Less Obvious}{28}{subsubsection.0.15.3.2}%
+\contentsline {subsection}{\numberline {{7}.15.4}Economic}{29}{subsection.0.15.4}%
+\contentsline {subsection}{\numberline {{7}.15.5}Spatial}{33}{subsection.0.15.5}%
+\contentsline {section}{\numberline {{7}.16}Cognitive Mapping}{33}{section.0.16}%
+\contentsline {section}{\numberline {{7}.17}Data Sources}{33}{section.0.17}%

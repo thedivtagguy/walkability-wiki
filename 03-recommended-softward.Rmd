@@ -1,1 +1,23 @@
 # Recommended Software & Tools
+
+![](static/cake-2.jpg){.people .no-border style="margin:0 auto; display:block;" width="14cm"}
+
+I really like the idea of **eat cake first** \\parencite{leonIntroductionRstudio4edu, cetinkaya-rundel2018}, which means at the heart of this book's approach is the belief that it's best to dive in and get started with the task at hand, even if that means adopting a "good enough" approach initially.
+
+There may be more complex or nuanced workflows available, and I'll be sure to point those out as well. There might even be better ways to derive insights or understand results, but the methods discussed here are enough to get started with. My goal is to provide you with the quickest and most straightforward path to achieving your desired outcome. \
+\
+This also means **no prior knowledge of GIS or programming** is required to follow along. Wherever needed, I will link to appropriate guide material to reduce redundancy of writing it here again. What I *will* show is how to use those results in a real-life context. I will be using the following to collect data, perform analysis and visualize the results:
+
+1.  [**OpenStreetMaps**](https://openstreetmaps.org) **(OSM)**: OSM is a crowdsourced mapping tool that is used to collect and update geographic data. It is a free and open-source mapping tool that provides map data and related services to users worldwide. You might compare this to Google Maps, but it is even better because we will be able to *pull* data from the OSM database and perform analyses
+
+2.  [**QGIS**](https://qgis.org/en/site/): QGIS is a free and open-source geographic information system (GIS) software that is used for creating, editing, visualizing, and analyzing geospatial data. QGIS is a powerful tool that supports a wide range of vector, raster, and database formats.
+
+3.  [**Figma**](https://figma.com): Figma is a cloud-based design tool that makes it a breeze to layout and create infographics. You could use Photoshop or Illustrator do the the same thing but I like it for the convenience. We'll need a vector editing tool to handle SVG formats.
+
+4.  **Python**: Python is a popular language for geospatial data analysis and visualization due to its large ecosystem of libraries and tools. We'll be using this rarely if we need to process some data for analysis.
+
+5.  [**R**](https://posit.co/products/open-source/rstudio/): R is a programming language that is widely used for statistical analysis and data visualization. R has a large number of libraries and packages for geospatial analysis and visualization.
+
+6.  [**DepthmapX**](https://archtech.gr/varoudis/depthmapX/): DepthmapX is a free and open-source software tool used for spatial network analysis. It was developed by researchers at the Bartlett School of Architecture, University College London. One of the key features of DepthmapX is its ability to perform space syntax analysis. Space syntax is a theory that links the spatial configuration of a built environment to the social, cultural, and economic activities that take place within it. DepthmapX provides a range of tools to analyze spatial configurations, such as isovist and visibility analysis, axial analysis, and integration analysis.
+
+Having these handy will help you go faster. Let us get started.

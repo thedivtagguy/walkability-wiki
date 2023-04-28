@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>C Assessment of Access | The Walkability Wiki</title>
+<meta name="author" content="Aman Bhargava">
+<meta name="description" content="Quantitative &amp; qualitative methods for measuring pedestrian experience.">
+<meta name="generator" content="bookdown 0.33.3 with bs4_book()">
+<meta property="og:title" content="C Assessment of Access | The Walkability Wiki">
+<meta property="og:type" content="book">
+<meta property="og:url" content="https://www.walkability.wiki/assessment-of-access.html">
+<meta property="og:image" content="https://www.walkability.wiki/static/cover.png">
+<meta property="og:description" content="Quantitative &amp; qualitative methods for measuring pedestrian experience.">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="C Assessment of Access | The Walkability Wiki">
+<meta name="twitter:description" content="Quantitative &amp; qualitative methods for measuring pedestrian experience.">
+<meta name="twitter:image" content="https://www.walkability.wiki/static/cover.png">
+<!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
+<script src="libs/bootstrap-4.6.0/bootstrap.bundle.min.js"></script><script src="libs/bs3compat-0.4.2/transition.js"></script><script src="libs/bs3compat-0.4.2/tabs.js"></script><script src="libs/bs3compat-0.4.2/bs3compat.js"></script><link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
+<script src="libs/bs4_book-1.0.0/bs4_book.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script><!-- CSS --><style type="text/css">
+    
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  </style>
+<style type="text/css">
+    /* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+        }
+    .hanging div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }
+  </style>
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-spy="scroll" data-target="#toc">
+
+<div class="container-fluid">
+<div class="row">
+  <header class="col-sm-12 col-lg-3 sidebar sidebar-book"><a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
+
+    <div class="d-flex align-items-start justify-content-between">
+      <h1>
+        <a href="index.html" title="Methods for Measuring Pedestrian Experience">The Walkability Wiki</a>:
+        <small class="text-muted">Methods for Measuring Pedestrian Experience</small>
+      </h1>
+      <button class="btn btn-outline-primary d-lg-none ml-2 mt-1" type="button" data-toggle="collapse" data-target="#main-nav" aria-expanded="true" aria-controls="main-nav"><i class="fas fa-bars"></i><span class="sr-only">Show table of contents</span></button>
+    </div>
+
+    <div id="main-nav" class="collapse-lg">
+      <form role="search">
+        <input id="search" class="form-control" type="search" placeholder="Search" aria-label="Search">
+</form>
+
+      <nav aria-label="Table of contents"><h2>Table of contents</h2>
+        <ul class="book-toc list-unstyled">
+<li><a class="" href="index.html">Welcome to The Walkability Wiki</a></li>
+<li class="book-part">Getting Started</li>
+<li><a class="" href="intro.html"><span class="header-section-number">1</span> Introduction</a></li>
+<li><a class="" href="scope.html"><span class="header-section-number">2</span> Scope</a></li>
+<li><a class="" href="recommended-software-tools.html"><span class="header-section-number">3</span> Recommended Software &amp; Tools</a></li>
+<li class="book-part">Overview of Methods</li>
+<li><a class="" href="walkability.html"><span class="header-section-number">4</span> Walkability</a></li>
+<li><a class="" href="types-of-analysis.html"><span class="header-section-number">5</span> Types of Analysis</a></li>
+<li class="book-part">Case Studies</li>
+<li><a class="" href="presentation.html"><span class="header-section-number">6</span> Interpreting and Presenting Results</a></li>
+<li class="book-part">Quantitative Assessment Guides</li>
+<li><a class="" href="site-selection-stratgies.html"><span class="header-section-number">7</span> Site Selection Stratgies</a></li>
+<li><a class="" href="assessment-of-physical-environment.html"><span class="header-section-number">8</span> Assessment of Physical Environment</a></li>
+<li><a class="" href="assessment-of-infrastructure.html"><span class="header-section-number">9</span> Assessment of Infrastructure</a></li>
+<li><a class="" href="assessment-of-comfort.html"><span class="header-section-number">10</span> Assessment of Comfort</a></li>
+<li class="book-part">Qualitative Assessment Guides</li>
+<li><a class="" href="field-visits.html"><span class="header-section-number">11</span> Field Visits</a></li>
+<li><a class="" href="street-audits.html"><span class="header-section-number">12</span> Street Audits</a></li>
+<li><a class="" href="deriving-insights.html"><span class="header-section-number">13</span> Deriving Insights</a></li>
+<li class="book-part">Visualizing Results</li>
+<li><a class="" href="visualizing-results-from-analysis.html"><span class="header-section-number">15</span> Visualizing Results from Analysis</a></li>
+<li class="book-part">Conclusion</li>
+<li><a class="" href="finishing-up.html"><span class="header-section-number">16</span> Finishing up</a></li>
+<li class="book-part">Appendix</li>
+<li><a class="" href="appendix-a-interviews.html"><span class="header-section-number">A</span> Appendix A: Interviews</a></li>
+<li><a class="" href="cognitive-mapping.html"><span class="header-section-number">B</span> Cognitive Mapping</a></li>
+<li><a class="active" href="assessment-of-access.html"><span class="header-section-number">C</span> Assessment of Access</a></li>
+<li><a class="" href="data-sources.html"><span class="header-section-number">D</span> Data Sources</a></li>
+</ul>
+
+        <div class="book-extra">
+          <p><a id="book-repo" href="https://github.com/thedivtagguy/walkability-wiki">View book source <i class="fab fa-github"></i></a></p>
+        </div>
+      </nav>
+</div>
+  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><div id="assessment-of-access" class="section level1" number="19">
+<h1>
+<span class="header-section-number">C</span> Assessment of Access<a class="anchor" aria-label="anchor" href="#assessment-of-access"><i class="fas fa-link"></i></a>
+</h1>
+
+</div>
+  <div class="chapter-nav">
+<div class="prev"><a href="cognitive-mapping.html"><span class="header-section-number">B</span> Cognitive Mapping</a></div>
+<div class="next"><a href="data-sources.html"><span class="header-section-number">D</span> Data Sources</a></div>
+</div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
+    <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
+      <ul class="nav navbar-nav"><li><a class="nav-link" href="#assessment-of-access"><span class="header-section-number">C</span> Assessment of Access</a></li></ul>
+
+      <div class="book-extra">
+        <ul class="list-unstyled">
+<li><a id="book-source" href="https://github.com/thedivtagguy/walkability-wiki/blob/master/19-appendix-access.rmd">View source <i class="fab fa-github"></i></a></li>
+          <li><a id="book-edit" href="https://github.com/thedivtagguy/walkability-wiki/edit/master/19-appendix-access.rmd">Edit this page <i class="fab fa-github"></i></a></li>
+        </ul>
+</div>
+    </nav>
+</div>
+
+</div>
+</div> <!-- .container -->
+
+<footer class="bg-primary text-light mt-5"><div class="container"><div class="row">
+
+  <div class="col-12 col-md-6 mt-3">
+    <p>"<strong>The Walkability Wiki</strong>: Methods for Measuring Pedestrian Experience" was written by Aman Bhargava. It was last built on 2023-04-26.</p>
+  </div>
+
+  <div class="col-12 col-md-6 mt-3">
+    <p>This book was built by the <a class="text-light" href="https://bookdown.org">bookdown</a> R package.</p>
+  </div>
+
+</div></div>
+</footer>
+</body>
+</html>

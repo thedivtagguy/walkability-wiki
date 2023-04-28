@@ -1,9 +1,0 @@
-# (PART) Visualizing Results
-
-# Visualizing Results from Analysis
-
-## Showcasing Your Study Site
-
-## Interpreting and Presenting Results
-
-## Designing in QGIS: A Crash Course

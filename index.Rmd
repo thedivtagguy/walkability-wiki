@@ -8,7 +8,7 @@ site: bookdown::bookdown_site
 output: 
   bookdown::bs4_book
   bookdown::pdf_book
-documentclass: krantz
+documentclass: latex/krantz
 bibliography: "C:/Users/ADMIN/Documents/bridging-the-gap.bib"
 biblio-style: authoryear
 link-citations: true
@@ -31,8 +31,20 @@ knitr::include_graphics(rep("static/cover.png"))
 outline_content <- function(href, img_src, heading, content) {
   paste0('<a href="./', href, '.html" ><div class="card-menu" style="display:flex; width:100%;"><div class="side1"><p><img class="inline-image" style="width:200px; height:200px;" src="', img_src, '" style="display: block; margin: auto;"></p></div><div class="side2"><h4 id="', make.names(heading), '" class="hasAnchor">', heading, '</h4><p>', content, '</p></div></div></a>')
 }
+knitr::opts_chunk$set(fig.align = "center")
 
-
+box_args <- function(
+  vrulecolor = 'white',
+  hrule = c('\\abLongLine', '\\abShortLine', ''),
+  title = '', vrulewidth = '0pt',
+  icon = 'Bomb', iconcolor = 'black'
+) {
+  hrule <- match.arg(hrule)
+  sprintf(
+    '[%s][%s][\\textbf{%s}]{%s}{\\fa%s}{%s}',
+    vrulecolor, hrule, title, vrulewidth, icon, iconcolor
+  )
+}
 ```
 
 # Welcome to The Walkability Wiki {.unnumbered}
@@ -50,11 +62,9 @@ outline_content <- function(href, img_src, heading, content) {
 }
 </style>
 ```
-This is the [website](http://walkability.wiki/) for *The Walkability Wiki*, a crowd-sourced cookbook of qualitative & quantitative methods for measuring pedestrian experience! Visit the [GitHub repository for this site](https://github.com/thedivtagguy/walkability-wiki).
+This is [*The Walkability Wiki*](https://walkability.wiki), a guidebook of qualitative & quantitative methods for measuring pedestrian experience in Bangalore! Visit the [GitHub repository for this site](https://github.com/thedivtagguy/walkability-wiki) if you would like to contribute as well.
 
-The content for this guide has been contributed by multiple people, the full list of which can be viewed here. If you are someone who studies urban development, or have engaged with studying walkability in any measure, we'd love to have you here too.
-
-Contribution guidelines are available here and can be submitted via pull requests to our main repository
+<!-- \mybox{static/quant.png}{Shooting Stars}{Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.} -->
 
 ## Outline {.unnumbered}
 

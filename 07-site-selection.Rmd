@@ -1,0 +1,73 @@
+# (PART) Quantitative Assessment Guides {.unnumbered}
+
+## Secondary Research
+
+Chances are, you already know where you'll be conducting your walkability assessment. This could be your neighborhood, a section of an area you visit often, or even a place you've never been to. If you have already narrowed down such a region, \@ref(space-syntax) shows you how to identify important and busy streets for your audit. \@ref(secondary-research) shows you how to get information about your site's population, which can help you understand the region's demographics.
+
+### Understanding the population
+
+In \@ref(levels-of-analysis), we discussed the importance of adding a socio-economic layer of context to our assessments. TLDR; understanding your demographic, income levels, and social makeup can help you show *who* is being excluded and design your solutions more inclusively. We can use a variety of data sources to view information about the population. I discuss some ways to use this data to identify segregation within areas in Section \@ref(identify-segregation)
+
+
+#### Census Data   {-}
+
+The last general census in India was conducted in 2011. While outdated by almost all counts, this data remains the only comprehensive source of information at a country-wide level. The highest resolution (the level of detail) at which this data is available is at a city's ward level. If you live in any of the large metro cities, this might already be available through [OpenCity](https://opencity.in). Some states and government bodies have also opened their GIS servers for access, a full list of which you can find [here](https://opencity.in/explainer/how-to-access-government-gis-data-for-indian-cities-states/). For smaller cities, the compiled population information by [@balkSpatialData20112020] for the entire country from a variety of sources can be [downloaded](https://sedac.ciesin.columbia.edu/data/set/india-spatial-india-census-2011/data-download#) in the form of CSV and GeoTIFF files.
+
+#### Global Human Settlement Layer {-}
+
+The [Global Human Settlement Layer (GHSL)](https://ghsl.jrc.ec.europa.eu/download.php?ds=pop) by the Joint Research Centre provides high-resolution population estimates for nearly every country. This can be downloaded for various years (in my experience, the 2015 dataset works well) and for your specific region of interest through the website's interactive map.
+
+\tipbox{The GHSL dataset is commonly used for estimating the population, whereas other datasets might be hard to get. The data is provided in raster format, where each pixel represents the number of people at that point. You can easily visualize this in software like QGIS. An excellent project that makes it available to explore only is Tom Forth's [\_'Population Around A Point'\_]([https://www.tomforth.co.uk/circlepopulations/).](https://www.tomforth.co.uk/circlepopulations/).)
+
+![Using GHSL, we can estimate the number of people living at or around any point](images/Pasted%20image%2020230428220224.png){width="9cm"}
+
+}
+
+### Understanding the space
+
+You have your region, and you know something about your population. Now how would you decide which streets to audit? Space Syntax Analysis (SSA) can help!
+
+Space syntax analysis is a method of analyzing and understanding the spatial configuration of built environments developed by University College London (UCL) researchers in the 1970s and 1980s.
+
+The basic premise of space syntax analysis is that how buildings and cities are configured spatially can significantly impact how people use and interact with those spaces. By analyzing the spatial relationships between different parts of a built environment, space syntax analysis can help reveal movement patterns, interaction, and social activity [@vannesIntroductionSpaceSyntax2021]. This can be done using street networks from OpenStreetMap and DepthMapX, a software dedicated to such analysis.
+
+### Components of Space Syntax Analysis
+
+There are three measures that this method will provide you with. In extremely simple, intuitive terms, these are:
+
+1.  **Choice:** Choice is a way to measure how likely a street or road segment is to be used by people traveling between different parts of a system. For example, imagine a city and all the different routes people could take to get from one place to another. Choice measures how often a particular street segment is used on the shortest path between any two locations in the system. A high choice value means that many people are likely to use that street segment, while a low choice value means fewer people are likely to use it. So, the choice measures how important a street segment is for connecting different system parts [@hillierSocialLogicSpace1984].
+
+2.  **Integration**: Integration is a way to measure how close or connected one place is to all the other places in a system. For example, think of a city and its different neighborhoods. Integration measures how easy it is to get from one area to another. The higher the integration, the more connected the neighborhoods are and the easier it is to move around [@hillierSocialLogicSpace1984].
+
+We can use these measures to extrapolate many insights from quantitative data in the form of street networks and build a model for understanding the space. The theory also proposes that the street network adapts and changes over time to intensify local connections, which leads to more efficient movement patterns and porous structures. Essentially, SSA describes how the layout of the street network shapes the development of urban centers and how the evolution of the street network over time influences the formation and location of centers within the urban settlement layout as a whole.
+
+### Using DepthmapX for SSA 
+
+So you've chosen your area to audit, but you want to maximize your resources and time and start by auditing the most important streets in the region. If you know the neighborhood, you already know what to do. If not, the `choice` measure can help you provide a starting point.
+
+First, get the following things ready before moving ahead:
+
+1.  **Download DepthmapX**: You can find the relevant copy for your operating system [here](https://archtech.gr/varoudis/depthmapX/)
+2.  **Download your region's OSM street network**: Trim the network to your region of interest so you can process the data faster. \
+    \tipbox{
+    Appendix @ref(osm-basics) explains how to extract street networks, and Appendix @ref(data) provides some packaged and external data sources for you to download OSM data. 
+    }
+3.  **Fire up QGIS**: We'll use this to convert our street files into an appropriate format for use in `DepthMapX` and then bring it back here for polishing touches after analysis.
+
+Let's get started!
+
+##### Step 1. Convert your street network into `.mif` {-}
+
+`.mif` stands for a MapInfo file, which is a type of digital file that contains information about a map. It is like a virtual version of a paper map that can be opened on a computer. It contains data about different features on the map, such as roads, buildings, and rivers; basically everything you'll need about your street network to pull it into `DepthmapX`.
+
+![](images/Pasted%20image%2020230428221917.png){width="10cm"}
+
+You can do this by right clicking on your street layer and going to `Export` \> `Save Features As` and selecting `.mif` from the export dialog box.
+
+![Export as a MapInfo file](images/Pasted%20image%2020230428222041.png){width="10cm"}
+ 
+##### Step 2. Prepare it in DepthMapX {-}
+
+Open your copy of `DepthMapX` and create a new project by going to `File` \> `New`. We can now import our map by going to `Map` \> `Import`.
+
+![](images/Pasted%20image%2020230428222344.png){width="10cm"}
