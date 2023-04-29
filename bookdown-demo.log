@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.4) (preloaded format=xelatex 2023.4.24)  28 APR 2023 22:37
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.4) (preloaded format=xelatex 2023.4.24)  29 APR 2023 15:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2171,8 +2171,16 @@ Package biblatex Info: Automatic encoding selection.
 \openout5 = `bookdown-demo.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'bookdown-demo.bbl' not found.
-No file bookdown-demo.bbl.
+Package biblatex Info: ... file 'bookdown-demo.bbl' found.
+(bookdown-demo.bbl
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                ref
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+)
 Package biblatex Info: Reference section=0 on input line 203.
 Package biblatex Info: Reference segment=0 on input line 203.
 LaTeX Font Info:    Font shape `TU/Alegreya(0)/m/it' will be
@@ -2472,33 +2480,6 @@ Underfull \hbox (badness 10000) detected at line 349
 [10] [11
 
 ]
-
-LaTeX Warning: Citation 'byiffathRaisingStreets2022' on page 12 undefined on in
-put line 382.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 382--383
-[]\TU/Alegreya(0)/m/n/10 In early 2023, Sensing Local[][][][][], an organizatio
-n that works on urban and environmen-
- []
-
-
-Underfull \hbox (badness 4048) in paragraph at lines 382--383
-\TU/Alegreya(0)/m/n/10 tal issues in Indian cities, commenced a series of walka
-bility for 24 wards in Bangalore
- []
-
-
-Underfull \hbox (badness 2111) in paragraph at lines 382--383
-\TU/Alegreya(0)/m/n/10 ([]). As of writing this, more than 139 km of footpaths 
-have been
- []
-
-
-LaTeX Warning: Citation 'ichangemycityEjipuraWard1482016' on page 12 undefined 
-on input line 384.
-
-
 Underfull \hbox (badness 10000) detected at line 390
  [][]
  []
@@ -2533,26 +2514,6 @@ LaTeX Warning: Reference `interviews-ejipura' on page 12 undefined on input lin
 e 399.
 
 [12]
-
-LaTeX Warning: Citation 'knapskogExploringWaysMeasuring2019a' on page 13 undefi
-ned on input line 406.
-
-
-LaTeX Warning: Citation 'aghaabbasiEvaluatingCapabilityWalkability2018' on page
- 13 undefined on input line 411.
-
-
-Underfull \hbox (badness 2809) in paragraph at lines 411--412
-\TU/Alegreya(0)/m/n/10 In most of the walkability audits I have encountered, an
-d others have studied, the quali-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 411--412
-\TU/Alegreya(0)/m/n/10 tative features of streets fail to attract the necessary
- attention and aren’t investigated.
- []
-
 File: images/general-framework.png Graphic file (type bmp)
 <images/general-framework.png>
 [13]
@@ -2566,123 +2527,64 @@ File: images/proposed.png Graphic file (type bmp)
 
 ]
 
-LaTeX Warning: Reference `space-syntax' on page 17 undefined on input line 445.
+LaTeX Warning: Citation 'ref' on page 17 undefined on input line 448.
 
 
-
-LaTeX Warning: Reference `levels-of-analysis' on page 17 undefined on input lin
-e 450.
+LaTeX Warning: Citation 'ref' on page 17 undefined on input line 448.
 
 
-LaTeX Warning: Citation 'balkSpatialData20112020' on page 17 undefined on input
- line 456.
+LaTeX Warning: Citation 'ref' on page 17 undefined on input line 453.
+
+
+LaTeX Warning: Citation 'ref' on page 17 undefined on input line 453.
 
 LaTeX Font Info:    Font shape `TU/Alegreya(0)/m/n' will be
-(Font)              scaled to size 24.88pt on input line 468.
+(Font)              scaled to size 24.88pt on input line 472.
 
 (C:\Users\ADMIN\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-TU-empty.c
 fg
 File: mt-TU-empty.cfg 2021/06/22 v1.1 microtype config. file: fonts with nonsta
 ndard glyph set (RS)
-)
-Underfull \hbox (badness 3895) in paragraph at lines 468--468
-[]|\TU/Alegreya(0)/m/n/10 The GHSL dataset is commonly used for estimating the 
-population, whereas
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 468--468
-\TU/Alegreya(0)/m/n/10 other datasets might be hard to get. The data is provide
-d in raster for-
- []
-
-
-Underfull \hbox (badness 6094) in paragraph at lines 468--468
-\TU/Alegreya(0)/m/n/10 mat, where each pixel represents the number of people at
- that point. You
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 468--468
-\TU/Alegreya(0)/m/n/10 can easily visualize this in software like QGIS. An exce
-llent project that
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 468--468
-\TU/Alegreya(0)/m/n/10 makes it available to explore only is Tom Forth’s [_’Pop
-ulation Around A
- []
-
-
-Overfull \hbox (99.39806pt too wide) in paragraph at lines 468--468
-\TU/Alegreya(0)/m/n/10 Point’_]([https://www.tomforth.co.uk/circlepopulations/)
-.](https://www.tomforth.co.uk/circlepopulations/).) 
- []
-
-
-Underfull \hbox (badness 1681) in paragraph at lines 468--468
-[]\TU/Alegreya(0)/m/n/10 ![Using GHSL, we can estimate the number of people liv
-ing at or around any
- []
-
-
-LaTeX Warning: Citation 'vannesIntroductionSpaceSyntax2021' on page 17 undefine
-d on input line 477.
-
-[17]
-Underfull \hbox (badness 10000) detected at line 487
+) [17]
+Underfull \hbox (badness 10000) detected at line 491
  [][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 487
+Underfull \hbox (badness 10000) detected at line 491
 [][][]
  []
 
 
-LaTeX Warning: Citation 'hillierSocialLogicSpace1984' on page 18 undefined on i
-nput line 487.
-
-
-Underfull \hbox (badness 10000) detected at line 489
+Underfull \hbox (badness 10000) detected at line 493
  [][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 489
+Underfull \hbox (badness 10000) detected at line 493
 [][][]
  []
-
-
-LaTeX Warning: Citation 'hillierSocialLogicSpace1984' on page 18 undefined on i
-nput line 489.
 
 LaTeX Font Info:    Font shape `TU/SourceCodePro(0)/m/n' will be
-(Font)              scaled to size 6.99997pt on input line 497.
+(Font)              scaled to size 6.99997pt on input line 501.
 
-Underfull \hbox (badness 10000) detected at line 505
+Underfull \hbox (badness 10000) detected at line 508
  [][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 505
+Underfull \hbox (badness 10000) detected at line 508
 [][][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 507
+Underfull \hbox (badness 10000) detected at line 510
  [][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 507
+Underfull \hbox (badness 10000) detected at line 510
 [][][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 507--510
-
  []
 
 
@@ -2710,191 +2612,275 @@ File: images/Pasted image 20230428222041.png Graphic file (type bmp)
 <images/Pasted image 20230428222041.png>
 File: images/Pasted image 20230428222344.png Graphic file (type bmp)
 <images/Pasted image 20230428222344.png>
-[19] [20] [21
+[19]
+File: images/Pasted image 20230428231820.png Graphic file (type bmp)
+<images/Pasted image 20230428231820.png>
+File: images/Pasted image 20230428233739.png Graphic file (type bmp)
+<images/Pasted image 20230428233739.png>
+[20]
+Underfull \hbox (badness 10000) detected at line 550
+ [][]
+ []
 
-] [22] [23
 
-] [24] [25
+Underfull \hbox (badness 10000) detected at line 550
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 552
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 552
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 556
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 556
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 560
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 560
+[][][]
+ []
+
+File: images/Pasted image 20230428234734.png Graphic file (type bmp)
+<images/Pasted image 20230428234734.png>
+[21]
+
+LaTeX Warning: Citation 'ref' on page 22 undefined on input line 571.
+
+
+Underfull \hbox (badness 10000) detected at line 576
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 576
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 578
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 578
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 580
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 580
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 582
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 582
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 584
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 584
+[][][]
+ []
+
+File: images/Pasted image 20230428235446.png Graphic file (type bmp)
+<images/Pasted image 20230428235446.png>
+
+LaTeX Warning: Citation 'ref' on page 22 undefined on input line 597.
+
+[22]
+File: images/Pasted image 20230428235911.png Graphic file (type bmp)
+<images/Pasted image 20230428235911.png>
+
+LaTeX Warning: Citation 'ref' on page 23 undefined on input line 614.
+
+[23] [24] [25
 
 ] [26] [27
 
+] [28] [29
+
+] [30] [31
+
 ]
-
-LaTeX Warning: Citation 'riggsInclusivelyWalkableExploring2016' on page 28 unde
-fined on input line 661.
-
-
-LaTeX Warning: Citation 'suCommunityDeprivationWalkability2017' on page 28 unde
-fined on input line 661.
-
-
-Underfull \hbox (badness 10000) detected at line 669
+Underfull \hbox (badness 10000) detected at line 746
  [][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 669
+Underfull \hbox (badness 10000) detected at line 746
 [][][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 671
+Underfull \hbox (badness 10000) detected at line 748
  [][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 671
+Underfull \hbox (badness 10000) detected at line 748
 [][][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 673
+Underfull \hbox (badness 10000) detected at line 750
  [][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 673
+Underfull \hbox (badness 10000) detected at line 750
 [][][]
  []
 
 File: images/sc-st-01.png Graphic file (type bmp)
 <images/sc-st-01.png>
-
-LaTeX Warning: Citation 'vithayathilSpacesDiscriminationResidential2012' on pag
-e 28 undefined on input line 695.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 695--696
-\TU/Alegreya(0)/m/n/10 Caste is still the most significant factor in urban resi
-dential segregation
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 695--696
-\TU/Alegreya(0)/m/n/10 in India, significantly higher than the level of socioec
-onomic segregation
- []
-
 File: images/census-01.png Graphic file (type bmp)
 <images/census-01.png>
 
-Underfull \hbox (badness 10000) detected at line 711
+Underfull \hbox (badness 10000) detected at line 788
  [][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 711
+Underfull \hbox (badness 10000) detected at line 788
 [][][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 713
+Underfull \hbox (badness 10000) detected at line 790
  [][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 713
+Underfull \hbox (badness 10000) detected at line 790
 [][][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 715
+Underfull \hbox (badness 10000) detected at line 792
  [][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 715
+Underfull \hbox (badness 10000) detected at line 792
 [][][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 717
+Underfull \hbox (badness 10000) detected at line 794
  [][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 717
+Underfull \hbox (badness 10000) detected at line 794
 [][][]
  []
 
-[28]
+[32]
 File: images/Pasted image 20230424181635-02.png Graphic file (type bmp)
 <images/Pasted image 20230424181635-02.png>
 File: images/Pasted image 20230424182347-01.png Graphic file (type bmp)
 <images/Pasted image 20230424182347-01.png>
 File: images/income-01.png Graphic file (type bmp)
 <images/income-01.png>
-[29]
-Underfull \hbox (badness 10000) detected at line 754
+[33]
+Underfull \hbox (badness 10000) detected at line 831
  [][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 754
+Underfull \hbox (badness 10000) detected at line 831
 [][][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 756
+Underfull \hbox (badness 10000) detected at line 833
  [][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 756
+Underfull \hbox (badness 10000) detected at line 833
 [][][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 758
+Underfull \hbox (badness 10000) detected at line 835
  [][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 758
+Underfull \hbox (badness 10000) detected at line 835
 [][][]
  []
 
-[30] [31] [32]
-
-LaTeX Warning: Citation 'vlachouSuccessionalSegregationGerani2015' on page 33 u
-ndefined on input line 766.
-
-
-LaTeX Warning: Citation 'winnerArtifactsHavePolitics1980' on page 33 undefined 
-on input line 766.
-
-
-LaTeX Warning: Citation 'dettlaffSpaceSyntaxAnalysis' on page 33 undefined on i
-nput line 768.
-
+[34] [35] [36]
 File: images/AngularStepDistance-02.png Graphic file (type bmp)
 <images/AngularStepDistance-02.png>
+[37] [38]
+Underfull \hbox (badness 10000) detected at line 864
+[]
+ []
 
-LaTeX Warning: Empty bibliography on input line 786.
 
-[33] [34] (bookdown-demo.aux)
+Package hyperref Warning: bookmark level for unknown fm defaults to 0.
+
+LaTeX Font Info:    Font shape `TU/Alegreya(0)/m/sc' will be
+(Font)              scaled to size 10.0pt on input line 863.
+
+Overfull \hbox (39.93326pt too wide) in paragraph at lines 864--864
+[][]\TU/Alegreya(0)/m/n/10 ByIffath, Fathima (2022). \TU/Alegreya(0)/m/it/10 Ra
+ising the Streets\TU/Alegreya(0)/m/n/10 . https://bangaloremirror.indiatimes.co
+m/bangalore/civic/raising-
+ []
+
+[39
+
+
+] (bookdown-demo.aux)
 
 LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                bookdown-demo
-(biblatex)                and rerun LaTeX afterwards.
 
 Package logreq Info: Writing requests to 'bookdown-demo.run.xml'.
 \openout1 = `bookdown-demo.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 43132 strings out of 411463
- 845630 string characters out of 5818007
- 1878428 words of memory out of 5000000
- 62708 multiletter control sequences out of 15000+600000
- 518185 words of font info for 130 fonts, out of 8000000 for 9000
+ 43308 strings out of 411463
+ 851768 string characters out of 5818007
+ 1890271 words of memory out of 5000000
+ 62875 multiletter control sequences out of 15000+600000
+ 518193 words of font info for 131 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 114i,10n,118p,1012b,5381s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 114i,10n,118p,2883b,5671s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on bookdown-demo.pdf (34 pages).
+Output written on bookdown-demo.pdf (39 pages).

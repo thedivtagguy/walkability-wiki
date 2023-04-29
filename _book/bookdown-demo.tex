@@ -198,7 +198,7 @@
 \makeatother
 \subtitle{Methods for Measuring Pedestrian Experience}
 \author{Aman Bhargava}
-\date{2023-04-28}
+\date{2023-04-29}
 
 \begin{document}
 \maketitle
@@ -436,22 +436,24 @@ This process involved qualitative research to develop indicators that emerged fr
 
 One challenge of using qualitative research is that it can be perceived as unscalable. However, in the following sections, I will demonstrate how I used qualitative data to analyze the environment quantitatively based on the insights gained from interviews and observations. This method can help to bridge the gap between qualitative and quantitative approaches, providing a more comprehensive understanding of walkability in Indian cities. These methods will be demonstrated using Ejipura as the context but can be replicated easily for any other region. Let's get into it!
 
-\hypertarget{part-quantitative-assessment-guides}{%
-\part{Quantitative Assessment Guides}\label{part-quantitative-assessment-guides}}
+\hypertarget{part-quantative-assessment-guides}{%
+\part{Quantative Assessment Guides}\label{part-quantative-assessment-guides}}
+
+\hypertarget{site-assessment}{%
+\section{Site Assessment}\label{site-assessment}}
 
 \hypertarget{secondary-research}{%
 \subsection{Secondary Research}\label{secondary-research}}
 
-Chances are, you already know where you'll be conducting your walkability assessment. This could be your neighborhood, a section of an area you visit often, or even a place you've never been to. If you have already narrowed down such a region, \ref{space-syntax} shows you how to identify important and busy streets for your audit. \ref{secondary-research} shows you how to get information about your site's population, which can help you understand the region's demographics.
+Chances are, you already know where you'll be conducting your walkability assessment. This could be your neighborhood, a section of an area you visit often, or even a place you've never been to. If you have already narrowed down such a region, \textcite{ref}(space-syntax) shows you how to identify important and busy streets for your audit. \textcite{ref}(secondary-research) shows you how to get information about your site's population, which can help you understand the region's demographics.
 
 \hypertarget{understanding-the-population}{%
 \subsubsection{Understanding the population}\label{understanding-the-population}}
 
-In \ref{levels-of-analysis}, we discussed the importance of adding a socio-economic layer of context to our assessments. TLDR; understanding your demographic, income levels, and social makeup can help you show \emph{who} is being excluded and design your solutions more inclusively. We can use a variety of data sources to view information about the population. I discuss some ways to use this data to identify segregation within areas in Section \ref{identify-segregation}
+In \textcite{ref}(levels-of-analysis), we discussed the importance of adding a socio-economic layer of context to our assessments. TLDR; understanding your demographic, income levels, and social makeup can help you show \emph{who} is being excluded and design your solutions more inclusively. We can use a variety of data sources to view information about the population. I discuss some ways to use this data to identify segregation within areas in Section \textcite{ref}(identify-segregation)
 
-\hypertarget{government-sources}{%
-\paragraph*{Government Sources}\label{government-sources}}
-\addcontentsline{toc}{paragraph}{Government Sources}
+\hypertarget{getting-population-data}{%
+\paragraph{Getting Population Data}\label{getting-population-data}}
 
 \hypertarget{census-data}{%
 \subparagraph*{Census Data}\label{census-data}}
@@ -465,15 +467,9 @@ The last general census in India was conducted in 2011. While outdated by almost
 
 The \href{https://ghsl.jrc.ec.europa.eu/download.php?ds=pop}{Global Human Settlement Layer (GHSL)} by the Joint Research Centre provides high-resolution population estimates for nearly every country. This can be downloaded for various years (in my experience, the 2015 dataset works well) and for your specific region of interest through the website's interactive map.
 
-\textbackslash tipbox\{The GHSL dataset is commonly used for estimating the population, whereas other datasets might be hard to get. The data is provided in raster format, where each pixel represents the number of people at that point. You can easily visualize this in software like QGIS. An excellent project that makes it available to explore only is Tom Forth's \href{\%5Bhttps://www.tomforth.co.uk/circlepopulations/}{\_`Population Around A Point'\_}.{]}(\url{https://www.tomforth.co.uk/circlepopulations/}).)
+\tipbox{The GHSL dataset is commonly used for estimating the population, whereas other datasets might be hard to get. The data is provided in raster format, where each pixel represents the number of people at that point. You can easily visualize this in software like QGIS. An excellent project that makes it available to explore only is Tom Forth's [Population around a point](https://www.tomforth.co.uk/circlepopulations/).
 
-\begin{figure}
-\centering
-\includegraphics[width=9cm,height=\textheight]{images/Pasted image 20230428220224.png}
-\caption{Using GHSL, we can estimate the number of people living at or around any point}
-\end{figure}
-
-\}
+![](images/Pasted image 20230428220224.png) }
 
 \hypertarget{understanding-the-space}{%
 \subsubsection{Understanding the space}\label{understanding-the-space}}
@@ -508,14 +504,10 @@ First, get the following things ready before moving ahead:
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
-\tightlist
 \item
-  \textbf{Download DepthmapX}: You can find the relevant copy for your operating system \href{https://archtech.gr/varoudis/depthmapX/}{here}
+  \textbf{Download DepthmapX}: You can find the relevant copy for your operating system \href{https://archtech.gr/varoudis/depthmapX/}{here}.
 \item
-  \textbf{Download your region's OSM street network}: Trim the network to your region of interest so you can process the data faster.\\
-  \tipbox{
-  Appendix \ref{osm-basics} explains how to extract street networks, and Appendix \ref{data} provides some packaged and external data sources for you to download OSM data. 
-  }
+  \textbf{Download your region's OSM street network}: Trim the network to your region of interest so you can process the data faster. \tipbox{ Appendix \ref{osm-basics} explains how to extract street networks, and Appendix \ref{data} provides some packaged and external data sources for you to download OSM data. }
 \item
   \textbf{Fire up QGIS}: We'll use this to convert our street files into an appropriate format for use in \texttt{DepthMapX} and then bring it back here for polishing touches after analysis.
 \end{enumerate}
@@ -523,28 +515,105 @@ First, get the following things ready before moving ahead:
 Let's get started!
 
 \hypertarget{step-1.-convert-your-street-network-into-.mif}{%
-\subparagraph*{\texorpdfstring{Step 1. Convert your street network into \texttt{.mif}}{Step 1. Convert your street network into .mif}}\label{step-1.-convert-your-street-network-into-.mif}}
-\addcontentsline{toc}{subparagraph}{Step 1. Convert your street network into \texttt{.mif}}
+\paragraph*{\texorpdfstring{Step 1. Convert your street network into \texttt{.mif}}{Step 1. Convert your street network into .mif}}\label{step-1.-convert-your-street-network-into-.mif}}
+\addcontentsline{toc}{paragraph}{Step 1. Convert your street network into \texttt{.mif}}
 
 \texttt{.mif} stands for a MapInfo file, which is a type of digital file that contains information about a map. It is like a virtual version of a paper map that can be opened on a computer. It contains data about different features on the map, such as roads, buildings, and rivers; basically everything you'll need about your street network to pull it into \texttt{DepthmapX}.
 
-\includegraphics[width=10cm,height=\textheight]{images/Pasted image 20230428221917.png}
+\includegraphics{images/Pasted image 20230428221917.png}
 
 You can do this by right clicking on your street layer and going to \texttt{Export} \textgreater{} \texttt{Save\ Features\ As} and selecting \texttt{.mif} from the export dialog box.
 
-\begin{figure}
-\centering
-\includegraphics[width=10cm,height=\textheight]{images/Pasted image 20230428222041.png}
-\caption{Export as a MapInfo file}
-\end{figure}
+\includegraphics{images/Pasted image 20230428222041.png}
 
 \hypertarget{step-2.-prepare-it-in-depthmapx}{%
-\subparagraph*{Step 2. Prepare it in DepthMapX}\label{step-2.-prepare-it-in-depthmapx}}
-\addcontentsline{toc}{subparagraph}{Step 2. Prepare it in DepthMapX}
+\paragraph*{Step 2. Prepare it in DepthMapX}\label{step-2.-prepare-it-in-depthmapx}}
+\addcontentsline{toc}{paragraph}{Step 2. Prepare it in DepthMapX}
 
 Open your copy of \texttt{DepthMapX} and create a new project by going to \texttt{File} \textgreater{} \texttt{New}. We can now import our map by going to \texttt{Map} \textgreater{} \texttt{Import}.
 
-\includegraphics[width=10cm,height=\textheight]{images/Pasted image 20230428222344.png}
+\includegraphics{images/Pasted image 20230428222344.png}
+
+What you should now see is a map with all streets with different colors. Each part of a street that is a different color is a \textbf{segment}. Right now, \texttt{DepthMapX} does not know how much each segment measures. To do that, go to \texttt{Tools} \textgreater{} \texttt{Convert\ Active\ Map} and choose \texttt{Segment\ Map} from the dialog that opens.
+
+\includegraphics[width=12cm,height=\textheight]{images/Pasted image 20230428231820.png}
+
+Once you click \texttt{OK}, your map should process and be done fairly quickly.
+
+\includegraphics[width=12cm,height=\textheight]{images/Pasted image 20230428233739.png}
+
+In your \texttt{Attributes\ List} pane on the left-hand side, you can click on various layers and watch the map update in colors. Here's what is important for you:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  \textbf{Ref Number} is a unique ID for each segment.
+\item
+  \textbf{Angular Connectivity} is a way of measuring the degree of connectivity between different segments of a street network. It is calculated by adding up the cumulative turn angles from a root segment to all other segments in the network. Essentially, it measures the overall angle of turns that must be made when traveling from the root segment to other segments, which can indicate how direct or indirect the route is.
+
+  For example, if you have a network of streets and you want to travel from point A to point B, segment angular connectivity would measure the total angle of turns you would need to make along the way. A high segment angular connectivity would mean that there are many turns along the way, while a low segment angular connectivity would indicate a more direct route. This metric can be useful in analyzing the accessibility and ease of movement within a street network.
+\item
+  \textbf{Connectivity} is a measure of how many other spaces are directly connected to a given space in a system.
+
+  For example, in a street network, connectivity measures the number of streets that intersect with a particular street or node, which can affect how easily people can move between different areas of the city. Higher connectivity generally means that there are more direct routes between spaces, which can make movement more efficient and promote social interaction.
+\item
+  \textbf{Segment Length}, as the name implies, color codes the parts of the street network that have similar lengths.
+\end{enumerate}
+
+\hypertarget{step-3.-run-segment-analysis}{%
+\paragraph*{Step 3. Run Segment Analysis}\label{step-3.-run-segment-analysis}}
+\addcontentsline{toc}{paragraph}{Step 3. Run Segment Analysis}
+
+We need to find out which roads are the most important, or the busiest, in this region. Go to \texttt{Tools} \textgreater{} \texttt{Segment} \textgreater{} \texttt{Run\ Angular\ Segment\ Analysis}.
+
+\includegraphics[width=12cm,height=\textheight]{images/Pasted image 20230428234734.png}
+
+This should bring up a dialog box that looks something like Figure \textcite{ref}(fig:segment-analysis). For best results, here are the recommended settings and what they mean:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  \textbf{Tulip Bins} refers to how accurate (hence slower) or less accurate (faster) the analysis should be. Any value around 500 is good enough.
+\item
+  \textbf{Include choice} should be ticked because that is the measure we are interested in.
+\item
+  \textbf{Radius Type} should be \textbf{metric} because we're measuring values in meters.
+\item
+  \textbf{Radii} refers to the distances or areas surrounding a central point, also known as a root space. This is how much area can be covered with ease for different types of mobility. Generally, it is \textbf{400m} for pedestrians, \textbf{800m} for cyclists and we'll keep the rest \textbf{n} because this is all we're interested in at the moment.
+\item
+  \textbf{Weighted measures} should be ticked, and set to \texttt{Segment\ Length} because we want that metric to be used to measure all these values.
+\end{enumerate}
+
+Once you've done this, run and wait!
+
+\begin{figure}
+\centering
+\includegraphics[width=10cm,height=\textheight]{images/Pasted image 20230428235446.png}
+\caption{\label{fig:segment-analysis}}
+\end{figure}
+
+If all goes well, your \texttt{Attributes\ List} pane should be filled with new layers. Play around with them, what do you understand?
+
+The layer we're interested in should be named \texttt{T1024\ Choice} (or whatever number you set for tulip bins). Once you click on it, most of the colors should disappear and you should have a few streets being highlighted, as shown in Map \textcite{ref}(fig:choice-map).
+
+\begin{figure}
+\centering
+\includegraphics{images/Pasted image 20230428235911.png}
+\caption{\label{fig:choice-map}}
+\end{figure}
+
+These are roads that SSA hypothesizes are the busiest, most important roads in the network! There are also layers like \texttt{T1024\ Choice\ R100.00\ metric}, which will show you how the \texttt{Choice} measure varies with the kind of distance we set it too but since our network is rather small, these layers are pretty much the same.
+
+\hypertarget{insights-from-analysis}{%
+\subsubsection{Insights from analysis}\label{insights-from-analysis}}
+
+SSA is a powerful tool to evaluate the spatial configuration of urban environments and identify potentially important streets within the network. However, it should only be used as a starting point to uncover these potentially important streets, rather than a final decision-making tool.
+
+In order to validate the results of SSA, it is important to conduct site visits or compare the analysis with other relevant information, such as land use maps. This is because there may be other factors that influence the importance of a street beyond its spatial configuration, such as its location in relation to commercial or residential areas, the presence of important landmarks or institutions, or social and cultural factors.
+
+For example, in the case of Map \textcite{ref}(fig:choice-map), the streets highlighted in red were identified as potentially important according to SSA. However, it was only after comparing this analysis with a land use map that it was clear that these streets were significant due to their concentration of commercial buildings and shops. In this case, the importance of the streets was related to their function within the urban environment, rather than just their spatial configuration.
+
+Therefore, while SSA is a valuable tool for urban analysis and planning, it should always be used in conjunction with other forms of data and on-site investigation to fully understand the context and significance of potentially important streets.
 
 \hypertarget{assessment-of-physical-environment}{%
 \section{Assessment of Physical Environment}\label{assessment-of-physical-environment}}
