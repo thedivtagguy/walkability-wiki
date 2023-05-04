@@ -18,7 +18,7 @@ Segregation can occur at various resolutions. The first obvious way to get an ov
 
 ![Concentration of SC/ST Population in Bangalore's Wards](images/sc-st-01.png){width="13cm"}
 
-## Social
+### Social
 
 ### The Obvious
 
@@ -46,7 +46,7 @@ Similarly, paying guest accomodations and apartments that are generally for shor
 
 ![PGs in Ejipura](images/Pasted%20image%2020230424182347-01.png){width="13cm"}
 
-## Economic
+### Economic
 
 Unfortunately, there is no comprehensive source of data that helps us spatially visualize economic segregation. Even the general census does not include questions on consumption levels or economic condition of households.
 
@@ -64,7 +64,7 @@ These are subjective observations by their very nature but some of the things yo
 
 Such characteristics should be **always** be considered alongside other variables from census data and income surveys if available, since they are not always reliable markers of income levels. If you're able to get your hands on enumerator block level census data, which is the smallest unit of census data available, it can help inform these decisions better. Unfortunately, the process of getting access to this data is complicated and very restrictive (as shown [on the website for IIM Bangalore](https://library.iimb.ac.in/CEBdataset)).
 
-## Spatial
+### Spatial
 
 The built environment, through the design of streets and the connectivity between them, can also reflect the extent of segregation in an area [@vlachouSuccessionalSegregationGerani2015]. This isn't to say that the design is intentionally exclusionary, but the inherent properties of the space may contribute to the exclusion of certain groups. The environment can influence the politics that govern it. Therefore, to fully understand how specific groups may be excluded, we need to consider the background and social context surrounding it [@winnerArtifactsHavePolitics1980].
 

@@ -277,7 +277,7 @@
 %
 %
 \if@krantza
-\textheight = 45pc
+\textheight = 65pc
   %\advance\textheight by \topskip
 \addtolength\textheight{3pt}
   \textwidth 28pc
@@ -289,10 +289,10 @@
   \vtrimtop1.068in
   \vtrimbot1.068in
   \hoffset-7pt
-  \voffset5pt
+  \voffset1pt
 \let\normaltextheight\textheight
 \else\if@krantzb
-  \textheight = 51pc
+  \textheight = 91pc
 %  \advance\textheight by \topskip
   \textwidth 33pc
   \topmargin0in
@@ -302,7 +302,7 @@
   \vtrimtop.8607in
   \vtrimbot1.027in
   \hoffset-.1in
-  \voffset-.15in%.04in
+  \voffset-.05in%.04in
 \let\normaltextheight\textheight
 \else
 %%%Uncomment to get 6x9 trim
@@ -323,7 +323,7 @@
 \textheight = 55pc
   %\advance\textheight by \topskip
 \addtolength\textheight{3pt}
-  \textwidth 33pc
+  \textwidth 36pc
 \addtolength\textwidth{.5pt}
   \topmargin0in
   \oddsidemargin1.1875in
@@ -331,8 +331,8 @@
   \htrim.7365in
   \vtrimtop1.068in
   \vtrimbot1.068in
-  \hoffset-55pt
-  \voffset-17pt
+  \hoffset-75pt
+  \voffset-7pt
 \let\normaltextheight\textheight
 
   \fi
@@ -1015,9 +1015,9 @@
 \newenvironment{figure*}
                {\@dblfloat{figure}}
                {\end@dblfloat}
-\newcounter{table}[chapter]
+\newcounter{table}[section]
 \renewcommand \thetable
-     {\ifnum \c@chapter>\z@ \thechapter.\fi \@arabic\c@table}
+     {\ifnum \c@section>\z@ \thesection.\fi \@arabic\c@table}
 \def\fps@table{tbp}
 \def\ftype@table{2}
 \def\ext@table{lot}
@@ -1628,11 +1628,11 @@
 \newdimen\max@tablewidth
 \newcommand\automaticrules{\@tablerulestrue}
 \newcommand\noautomaticrules{\@tablerulesfalse}
-\def\thetable{%
-\thechapter.%
+\def\thepart{%
+\thesection.%
 \@arabic\c@table}
 \def\thesubtable{%
-\thechapter.%
+\thepart.%
 \@arabic\c@table\alph{subtable}}
 \def\resettableletter{\setcounter{subtable}{0}}
 \def\@Tabletitle{}

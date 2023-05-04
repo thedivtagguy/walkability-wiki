@@ -16,3 +16,7 @@ AutoAppendNewline: Yes
 StripTrailingWhitespace: Yes
 
 BuildType: Website
+
+PythonType: system
+PythonVersion: 3.11.3
+PythonPath: C:/Users/ADMIN/AppData/Local/Programs/Python/Python311/python.exe

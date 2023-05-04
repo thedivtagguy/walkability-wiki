@@ -1,12 +1,6 @@
 # Recommended Software & Tools
 
-![](static/cake-2.jpg){.people .no-border style="margin:0 auto; display:block;" width="14cm"}
-
-I really like the idea of **eat cake first** \\parencite{leonIntroductionRstudio4edu, cetinkaya-rundel2018}, which means at the heart of this book's approach is the belief that it's best to dive in and get started with the task at hand, even if that means adopting a "good enough" approach initially.
-
-There may be more complex or nuanced workflows available, and I'll be sure to point those out as well. There might even be better ways to derive insights or understand results, but the methods discussed here are enough to get started with. My goal is to provide you with the quickest and most straightforward path to achieving your desired outcome. \
-\
-This also means **no prior knowledge of GIS or programming** is required to follow along. Wherever needed, I will link to appropriate guide material to reduce redundancy of writing it here again. What I *will* show is how to use those results in a real-life context. I will be using the following to collect data, perform analysis and visualize the results:
+I will be using the following to collect data, perform analysis and visualize the results:
 
 1.  [**OpenStreetMaps**](https://openstreetmaps.org) **(OSM)**: OSM is a crowdsourced mapping tool that is used to collect and update geographic data. It is a free and open-source mapping tool that provides map data and related services to users worldwide. You might compare this to Google Maps, but it is even better because we will be able to *pull* data from the OSM database and perform analyses
 

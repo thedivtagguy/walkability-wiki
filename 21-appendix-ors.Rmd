@@ -1,0 +1,26 @@
+# Setting up OpenRouteService {#ors-setup}
+
+OpenRouteService (ORS) is a powerful plugin that enables various types of analysis, including isochrones and routing. By following these instructions, you can set up ORS in QGIS. Let's get to it!
+
+### Step 1: Login and Token Generation {.unnumbered}
+
+If you haven't done so already, create an account on [openrouteservice.org](https://openrouteservice.org/dev/#/home) and login. Once you're logged in, select `Standard` for token type and enter a name for your token.
+
+![Token Generation](images/Pasted%20image%2020230307002027.png){width="14cm" height="2cm"}
+
+### Step 2: Downloading the ORS Plugin {.unnumbered}
+
+1.  Go to the "Plugins" menu.
+2.  Select "Manage and Install Plugins" from the dropdown list.
+3.  In the Plugins dialog box, search for "ORS Tools" using the search bar on the right-hand side.
+4.  When you find "ORS Tools", select it and click the "Install Plugin" button.
+5.  QGIS will download and install the plugin for you. Once it's finished, close the Plugin dialog box.
+6.  You should now see a new toolbar called "ORS Tools" in your QGIS interface.
+
+### Step 3: Authenticating the Plugin {.unnumbered}
+
+1.  Click on the "Settings" button on the ORS Tools toolbar.
+2.  In the ORS Tools Settings dialog box, click on the "Authentication" tab.
+3.  Enter your API key in the "API Key" field and add `https://api.openrouteservice.org` for Base URL.
+
+![Authenticating the Plugin](images/Pasted%20image%2020230307002537.png){width="8cm"}

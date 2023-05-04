@@ -1,17 +1,23 @@
 # Scope
 
-There are some things to keep in mind while using this book, so that you make the most of it.
+![](static/cake-2.jpg){.people .no-border style="margin:0 auto; display:block;" width="8cm"}
+
+I really like the idea of **eat cake first** [@cetinkaya-rundelLetThemEat2018], which means at the heart of this book's approach is the belief that it's best to dive in and get started with the task at hand, even if that means adopting a "good enough" approach initially.
+
+There may be more complex or nuanced workflows available, and I'll be sure to point those out as well. There might even be better ways to derive insights or understand results, but the methods discussed here are enough to get started with. My goal is to provide you with the quickest and most straightforward path to achieving your desired outcome.\
+\
+This also means **no prior knowledge of GIS or programming** is required to follow along. Wherever needed, I will link to appropriate guide material to reduce redundancy of writing it here again. What I *will* show is how to use those results in a real-life context. There are some things to keep in mind while using this book, so that you make the most of it.
 
 ## What to expect
 
-This cookbook **will**:
+This guidebook **will**:
 
 1.  Demonstrate how to combine methods for better understanding walkability.
 2.  Present real-life case studies to illustrate how this information can be practically used.
 3.  Provide resources for urban planning professionals, academics, and anyone interested in the field to conduct their own research.
 4.  Provide a framework for assessing walkability and encourages readers to draw their own conclusions based on their research and analysis
 
-But we **won't**:
+But it **won't**:
 
 1.  Aim to provide an exhaustive list of measures or a comprehensive review of research.
 2.  Claim to offer a one-size-fits-all solution for assessing walkability.
@@ -31,15 +37,14 @@ But we **won't**:
 ```
 ![](static/people.png){.people .no-border width="14cm" height="4.5cm"}
 
-This book is a valuable resource for a wide range of professionals, academics, and individuals interested in the field of urban planning, design, and development. Specifically, it may be of interest to:
+Little-to-no prior knowledge is required for following the methods discussed in this book. You might be a:
 
-1.  For urban planners and designers, this book offers valuable insights on how to assess walkability in cities and neighborhoods.
+1.  Urban planner or designer, for whom this book offers insights on how to assess walkability in Indian cities and neighborhoods.
 
-2.  For community advocates, this book provides a framework for promoting walkable neighborhoods and understanding the factors that make them successful.
+2.  Community advocate, for whom this book provides a framework for promoting walkable neighborhoods and understanding the factors that make them successful.
 
-3.  If you're a researcher, academic, or student in urban planning, public health, or related fields, this book is a great resource for gaining a comprehensive understanding of walkability and its impact on the people that use them.
+3.  A researcher, academic, or student in urban planning, public health, or related fields, for whom this book is a great resource for gaining a comprehensive understanding of walkability and its impact on the people that use them.
 
-This book isn't a dry, technical manual. It's full of real-life case studies and practical techniques that can be used to make cities more walkable. So whether you're a professional or just someone who loves taking a stroll, this book is for you.
+This book isn't a dry, technical manual. It's full of real-life case studies and practical techniques that can be used to make cities more walkable. Whether you're a professional or just someone who loves taking a stroll, this book is for you.
 
 ## How to Read This Book
-

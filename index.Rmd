@@ -1,6 +1,6 @@
 ---
 title: "The Walkability Wiki"
-subtitle: "Methods for Measuring Pedestrian Experience"
+subtitle: "Methods for Measuring Walkability in Indian Cities"
 author: "Aman Bhargava"
 date: "`r Sys.Date()`"
 knit: "bookdown::render_book"
@@ -9,7 +9,7 @@ output:
   bookdown::bs4_book
   bookdown::pdf_book
 documentclass: latex/krantz
-bibliography: "C:/Users/ADMIN/Documents/bridging-the-gap.bib"
+bibliography: "bridging-the-gap.bib"
 biblio-style: authoryear
 link-citations: true
 links-as-notes: true
@@ -22,16 +22,20 @@ description: "Quantitative & qualitative methods for measuring pedestrian experi
 
 ```{r include=FALSE}
 # automatically create a bib database for R packages
+
 knitr::write_bib(c(
   .packages(), 'bookdown', 'knitr', 'rmarkdown', 'rmallet'
 ), 'packages.bib')
 
+knitr::opts_chunk$set(echo=FALSE)
 knitr::include_graphics(rep("static/cover.png"))
 
 outline_content <- function(href, img_src, heading, content) {
   paste0('<a href="./', href, '.html" ><div class="card-menu" style="display:flex; width:100%;"><div class="side1"><p><img class="inline-image" style="width:200px; height:200px;" src="', img_src, '" style="display: block; margin: auto;"></p></div><div class="side2"><h4 id="', make.names(heading), '" class="hasAnchor">', heading, '</h4><p>', content, '</p></div></div></a>')
 }
 knitr::opts_chunk$set(fig.align = "center")
+library(tidyverse)
+
 
 box_args <- function(
   vrulecolor = 'white',
@@ -47,37 +51,28 @@ box_args <- function(
 }
 ```
 
-# Welcome to The Walkability Wiki {.unnumbered}
+```{r echo = F}
+# When R encounters an error
+options(error = function(){
+  #Run your code here
+  }
+ )
 
-<br>
-
-<img src="static/cover.png" alt="Book Cover" class="cover" width="350" height="460"/>
-
-```{=html}
-<style>
-.inline-figure {
-    border: none !important;
-
-  overflow-x: visible !important;
-}
-</style>
+# When R exits the knitr session    
+.Last <- function() {
+ system('CMD /C "ECHO The R process has finished running && PAUSE"',
+   invisible=FALSE, wait=FALSE)
+  }
 ```
-This is [*The Walkability Wiki*](https://walkability.wiki), a guidebook of qualitative & quantitative methods for measuring pedestrian experience in Bangalore! Visit the [GitHub repository for this site](https://github.com/thedivtagguy/walkability-wiki) if you would like to contribute as well.
 
-<!-- \mybox{static/quant.png}{Shooting Stars}{Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.} -->
 
-## Outline {.unnumbered}
+```{r setup, include=FALSE}
+options(
+  htmltools.dir.version = FALSE, formatR.indent = 2, width = 55, digits = 4
+)
 
-This book has been divided into the following categories to make it easier to get through:
-
-`r outline_content('intro', 'static/scope.png', 'Getting Started', 'This section provides an overview of the book, outlining its purpose, scope, and an introduction to the concepts of walkability.')`
-
-`r outline_content('quantitative-assessments', 'static/quant.png', 'Quantitative Methods', 'This section includes guidance on sourcing data for street and urban environment assessments, recipes for processing and analyzing data, creating maps, and running numbers.')`
-
-`r outline_content('qualitative-assessments', 'static/qual.png', 'Qualitative Methods', 'This section offers tips for conducting interviews, designing street audits, framing questions to elicit valuable information, and creating participatory activities.')`
-
-`r outline_content('hybrid-assessments', 'static/gap.png', 'Bridging the Gap', 'This section explains how to combine qualitative and quantitative methods to fill in gaps, derive insights, and present results for analysis.')`
-
-`r outline_content('case-studies', 'static/case.png', 'Case Studies', 'This section features real-life examples of street audits in various contexts and locations, detailing the tools used and the analysis methods employed.')`
-
-<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" alt="Creative Commons License" style="border-width:0"/></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
+# install the packages needed by this book; you fill out c(), e.g. c('ggplot2', 'dplyr')
+lapply(c('xfun', 'tidyverse'), function(pkg) {
+  if (system.file(package = pkg) == '') install.packages(pkg)
+})
+```

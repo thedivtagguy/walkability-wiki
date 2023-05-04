@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.4) (preloaded format=xelatex 2023.4.24)  29 APR 2023 15:11
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.4) (preloaded format=xelatex 2023.4.24)  4 MAY 2023 18:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -929,61 +929,76 @@ Package microtype Info: Loading configuration file microtype.cfg.
 File: microtype.cfg 2023/03/13 v3.1a microtype main configuration file (RS)
 )) (C:\Users\ADMIN\AppData\Local\Programs\MiKTeX\tex/latex/parskip\parskip.sty
 Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
+) (C:\Users\ADMIN\AppData\Local\Programs\MiKTeX\tex/latex/fancyvrb\fancyvrb.sty
+Package: fancyvrb 2023/01/19 4.5a verbatim text (tvz,hv)
+\FV@CodeLineNo=\count326
+\FV@InFile=\read3
+\FV@TabBox=\box100
+\c@FancyVerbLine=\count327
+\FV@StepNumber=\count328
+\FV@OutFile=\write4
+) (C:\Users\ADMIN\AppData\Local\Programs\MiKTeX\tex/latex/framed\framed.sty
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip167
+\fb@frw=\dimen293
+\fb@frh=\dimen294
+\FrameRule=\dimen295
+\FrameSep=\dimen296
 ) (C:\Users\ADMIN\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
 Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
-\LTleft=\skip167
-\LTright=\skip168
-\LTpre=\skip169
-\LTpost=\skip170
-\LTchunksize=\count326
-\LTcapwidth=\dimen293
-\LT@head=\box100
-\LT@firsthead=\box101
-\LT@foot=\box102
-\LT@lastfoot=\box103
-\LT@gbox=\box104
-\LT@cols=\count327
-\LT@rows=\count328
-\c@LT@tables=\count329
-\c@LT@chunks=\count330
+\LTleft=\skip168
+\LTright=\skip169
+\LTpre=\skip170
+\LTpost=\skip171
+\LTchunksize=\count329
+\LTcapwidth=\dimen297
+\LT@head=\box101
+\LT@firsthead=\box102
+\LT@foot=\box103
+\LT@lastfoot=\box104
+\LT@gbox=\box105
+\LT@cols=\count330
+\LT@rows=\count331
+\c@LT@tables=\count332
+\c@LT@chunks=\count333
 \LT@p@ftn=\toks39
 ) (C:\Users\ADMIN\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen294
-\lightrulewidth=\dimen295
-\cmidrulewidth=\dimen296
-\belowrulesep=\dimen297
-\belowbottomsep=\dimen298
-\aboverulesep=\dimen299
-\abovetopsep=\dimen300
-\cmidrulesep=\dimen301
-\cmidrulekern=\dimen302
-\defaultaddspace=\dimen303
-\@cmidla=\count331
-\@cmidlb=\count332
-\@aboverulesep=\dimen304
-\@belowrulesep=\dimen305
-\@thisruleclass=\count333
-\@lastruleclass=\count334
-\@thisrulewidth=\dimen306
+\heavyrulewidth=\dimen298
+\lightrulewidth=\dimen299
+\cmidrulewidth=\dimen300
+\belowrulesep=\dimen301
+\belowbottomsep=\dimen302
+\aboverulesep=\dimen303
+\abovetopsep=\dimen304
+\cmidrulesep=\dimen305
+\cmidrulekern=\dimen306
+\defaultaddspace=\dimen307
+\@cmidla=\count334
+\@cmidlb=\count335
+\@aboverulesep=\dimen308
+\@belowrulesep=\dimen309
+\@thisruleclass=\count336
+\@lastruleclass=\count337
+\@thisrulewidth=\dimen310
 ) (C:\Users\ADMIN\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count335
-\calc@Bcount=\count336
-\calc@Adimen=\dimen307
-\calc@Bdimen=\dimen308
-\calc@Askip=\skip171
-\calc@Bskip=\skip172
+\calc@Acount=\count338
+\calc@Bcount=\count339
+\calc@Adimen=\dimen311
+\calc@Bdimen=\dimen312
+\calc@Askip=\skip172
+\calc@Bskip=\skip173
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count337
-\calc@Cskip=\skip173
+\calc@Ccount=\count340
+\calc@Cskip=\skip174
 )
 (C:\Users\ADMIN\AppData\Local\Programs\MiKTeX\tex/latex/footnotehyper\footnoteh
 yper.sty
 Package: footnotehyper 2021/08/13 v1.1e hyperref aware footnote.sty (JFB)
-\FNH@notes=\box105
-\FNH@width=\dimen309
+\FNH@notes=\box106
+\FNH@width=\dimen313
 \FNH@toks=\toks40
 ) (C:\Users\ADMIN\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
 Package: hyperref 2023-02-07 v7.00v Hypertext links for LaTeX
@@ -1006,17 +1021,17 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 lestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count338
+\c@section@level=\count341
 )
-\@linkdim=\dimen310
-\Hy@linkcounter=\count339
-\Hy@pagecounter=\count340
+\@linkdim=\dimen314
+\Hy@linkcounter=\count342
+\Hy@pagecounter=\count343
 (C:\Users\ADMIN\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
 File: pd1enc.def 2023-02-07 v7.00v Hyperref: PDFDocEncoding definition (HO)
 ) (C:\Users\ADMIN\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count341
+\Hy@SavedSpaceFactor=\count344
 (C:\Users\ADMIN\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
 File: puenc.def 2023-02-07 v7.00v Hyperref: PDF Unicode definition (HO)
 )
@@ -1028,13 +1043,13 @@ Package hyperref Info: Plain pages OFF on input line 4192.
 Package hyperref Info: Backreferencing OFF on input line 4197.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4425.
-\c@Hy@tempcnt=\count342
+\c@Hy@tempcnt=\count345
 (C:\Users\ADMIN\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip18
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4763.
-\XeTeXLinkMargin=\dimen311
+\XeTeXLinkMargin=\dimen315
 (C:\Users\ADMIN\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 
@@ -1043,9 +1058,9 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count343
-\Field@Width=\dimen312
-\Fld@charsize=\dimen313
+\Fld@menulength=\count346
+\Field@Width=\dimen316
+\Fld@charsize=\dimen317
 Package hyperref Info: Hyper figures OFF on input line 6042.
 Package hyperref Info: Link nesting OFF on input line 6047.
 Package hyperref Info: Hyper index ON on input line 6050.
@@ -1053,9 +1068,9 @@ Package hyperref Info: backreferencing OFF on input line 6057.
 Package hyperref Info: Link coloring OFF on input line 6062.
 Package hyperref Info: Link coloring with OCG OFF on input line 6067.
 Package hyperref Info: PDF/A mode OFF on input line 6072.
-\Hy@abspage=\count344
-\c@Item=\count345
-\c@Hfootnote=\count346
+\Hy@abspage=\count347
+\c@Item=\count348
+\c@Hfootnote=\count349
 )
 Package hyperref Info: Driver (autodetected): hxetex.
 (C:\Users\ADMIN\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hxetex.def
@@ -1066,11 +1081,11 @@ ty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
-\pdfm@box=\box106
-\c@Hy@AnnotLevel=\count347
-\HyField@AnnotCount=\count348
-\Fld@listcount=\count349
-\c@bookmark@seq@number=\count350
+\pdfm@box=\box107
+\c@Hy@AnnotLevel=\count350
+\HyField@AnnotCount=\count351
+\Fld@listcount=\count352
+\c@bookmark@seq@number=\count353
 
 (C:\Users\ADMIN\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfil
 echeck.sty
@@ -1087,19 +1102,19 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 85.
 )
-\Hy@SectionHShift=\skip174
+\Hy@SectionHShift=\skip175
 ) (C:\Users\ADMIN\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
 Package: caption 2023/03/12 v3.6j Customizing captions (AR)
 (C:\Users\ADMIN\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
 Package: caption3 2023/03/12 v2.4 caption3 kernel (AR)
-\caption@tempdima=\dimen314
-\captionmargin=\dimen315
-\caption@leftmargin=\dimen316
-\caption@rightmargin=\dimen317
-\caption@width=\dimen318
-\caption@indent=\dimen319
-\caption@parindent=\dimen320
-\caption@hangindent=\dimen321
+\caption@tempdima=\dimen318
+\captionmargin=\dimen319
+\caption@leftmargin=\dimen320
+\caption@rightmargin=\dimen321
+\caption@width=\dimen322
+\caption@indent=\dimen323
+\caption@parindent=\dimen324
+\caption@hangindent=\dimen325
 Package caption Info: Unknown document class (or package),
 (caption)             standard defaults will be used.
 Package caption Info: \@makecaption = \long macro:#1#2->\vskip \abovecaptionski
@@ -1112,14 +1127,35 @@ Package caption Warning: Unknown document class (or package),
 (caption)                standard defaults will be used.
 See the caption package documentation for explanation.
 
-\c@caption@flags=\count351
-\c@continuedfloat=\count352
+\c@caption@flags=\count354
+\c@continuedfloat=\count355
 Package caption Info: hyperref package is loaded.
 Package caption Info: longtable package is loaded.
 (C:\Users\ADMIN\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.sty
 Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
-)) (C:\Users\ADMIN\AppData\Local\Programs\MiKTeX\tex/latex/alegreya\Alegreya.st
+)) (C:\Users\ADMIN\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pdfpages.st
 y
+Package: pdfpages 2022/12/19 v0.5x Insert pages of external PDF documents (AM)
+(C:\Users\ADMIN\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
+Package: eso-pic 2023/03/23 v3.0b eso-pic (RN)
+\ESO@tempdima=\dimen326
+\ESO@tempdimb=\dimen327
+)
+\AM@pagewidth=\dimen328
+\AM@pageheight=\dimen329
+\AM@fboxrule=\dimen330
+(C:\Users\ADMIN\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\ppxetex.def
+File: ppxetex.def 2022/12/19 v0.5x Pdfpages driver for XeTeX (AM)
+)
+\pdfpages@includegraphics@status=\count356
+\AM@pagebox=\box108
+\AM@global@opts=\toks41
+\AM@pagecnt=\count357
+\AM@toc@title=\toks42
+\AM@lof@heading=\toks43
+\c@AM@survey=\count358
+\AM@templatesizebox=\box109
+) (C:\Users\ADMIN\AppData\Local\Programs\MiKTeX\tex/latex/alegreya\Alegreya.sty
 Package: Alegreya 2022/09/14 (Bob Tennent) Supports Alegreya and AlegreyaSC fon
 ts for all LaTeX engines. 
 (C:\Users\ADMIN\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifxetex.sty
@@ -1647,96 +1683,206 @@ anguage=dflt;"
 uage=dflt;"
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
 
-) (C:\Users\ADMIN\AppData\Local\Programs\MiKTeX\tex/latex/framed\framed.sty
-Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
-\OuterFrameSep=\skip175
-\fb@frw=\dimen322
-\fb@frh=\dimen323
-\FrameRule=\dimen324
-\FrameSep=\dimen325
+) (C:\Users\ADMIN\AppData\Local\Programs\MiKTeX\tex/latex/textpos\textpos.sty
+Package: textpos 2022/07/23 v1.10.1
+Package textpos Info: choosing support for LaTeX3 on input line 60.
+\TP@textbox=\box110
+\TP@holdbox=\box111
+\TPHorizModule=\dimen331
+\TPVertModule=\dimen332
+\TP@margin=\dimen333
+\TP@absmargin=\dimen334
+Grid set 16 x 16 = 37.34424pt x 52.81541pt
+\TPboxrulesize=\dimen335
+\TP@ox=\dimen336
+\TP@oy=\dimen337
+\TP@tbargs=\toks44
+TextBlockOrigin set to 0pt x 0pt
 ) (C:\Users\ADMIN\AppData\Local\Programs\MiKTeX\tex/latex/base\makeidx.sty
 Package: makeidx 2021/10/04 v1.0m Standard LaTeX package
 )
-\@indexfile=\write4
-\openout4 = `bookdown-demo.idx'.
+\@indexfile=\write5
+\openout5 = `bookdown-demo.idx'.
 
 Writing index file bookdown-demo.idx
-(C:\Users\ADMIN\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsthm.sty
+
+(C:\Users\ADMIN\AppData\Local\Programs\MiKTeX\tex/latex/tocbibind\tocbibind.sty
+Package: tocbibind 2010/10/13 v1.5k extra ToC listings
+Package tocbibind Info: The document has chapter divisions on input line 50.
+
+Package tocbibind Note: Using chapter style headings, unless overridden.
+
+) (C:\Users\ADMIN\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsthm.sty
 Package: amsthm 2020/05/29 v2.20.6
-\thm@style=\toks41
-\thm@bodyfont=\toks42
-\thm@headfont=\toks43
-\thm@notefont=\toks44
-\thm@headpunct=\toks45
+\thm@style=\toks45
+\thm@bodyfont=\toks46
+\thm@headfont=\toks47
+\thm@notefont=\toks48
+\thm@headpunct=\toks49
 \thm@preskip=\skip176
 \thm@postskip=\skip177
 \thm@headsep=\skip178
-\dth@everypar=\toks46
+\dth@everypar=\toks50
+) (C:\Users\ADMIN\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip179
+\multirow@cntb=\count359
+\multirow@dima=\skip180
+\bigstrutjot=\dimen338
+) (C:\Users\ADMIN\AppData\Local\Programs\MiKTeX\tex/latex/wrapfig\wrapfig.sty
+\wrapoverhang=\dimen339
+\WF@size=\dimen340
+\c@WF@wrappedlines=\count360
+\WF@box=\box112
+\WF@everypar=\toks51
+Package: wrapfig 2003/01/31  v 3.6
+) (C:\Users\ADMIN\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count361
+\float@exts=\toks52
+\float@box=\box113
+\@float@everytoks=\toks53
+\@floatcapt=\box114
+) (C:\Users\ADMIN\AppData\Local\Programs\MiKTeX\tex/latex/colortbl\colortbl.sty
+Package: colortbl 2022/06/20 v1.0f Color table columns (DPC)
+\everycr=\toks54
+\minrowclearance=\skip181
+\rownum=\count362
+)
+(C:\Users\ADMIN\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
+Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
+
+(C:\Users\ADMIN\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape-nom
+etadata.sty
+Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PD
+F (HO)
+(C:\Users\ADMIN\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: dvipdfm (xetex) on input line 98.
+
+)) (C:\Users\ADMIN\AppData\Local\Programs\MiKTeX\tex/latex/tabu\tabu.sty
+Package: tabu 2019/01/11 v2.9 - flexible LaTeX tabulars (FC+tabu-fixed)
+(C:\Users\ADMIN\AppData\Local\Programs\MiKTeX\tex/latex/varwidth\varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box115
+\sift@deathcycles=\count363
+\@vwid@loff=\dimen341
+\@vwid@roff=\dimen342
+)
+\c@taburow=\count364
+\tabu@nbcols=\count365
+\tabu@cnt=\count366
+\tabu@Xcol=\count367
+\tabu@alloc=\count368
+\tabu@nested=\count369
+\tabu@target=\dimen343
+\tabu@spreadtarget=\dimen344
+\tabu@naturalX=\dimen345
+\tabucolX=\dimen346
+\tabu@Xsum=\dimen347
+\extrarowdepth=\dimen348
+\abovetabulinesep=\dimen349
+\belowtabulinesep=\dimen350
+\tabustrutrule=\dimen351
+\tabu@thebody=\toks55
+\tabu@footnotes=\toks56
+\tabu@box=\box116
+\tabu@arstrutbox=\box117
+\tabu@hleads=\box118
+\tabu@vleads=\box119
+\tabu@cellskip=\skip182
+)
+(C:\Users\ADMIN\AppData\Local\Programs\MiKTeX\tex/latex/threeparttable\threepar
+ttable.sty
+Package: threeparttable 2003/06/13  v 3.0
+\@tempboxb=\box120
+)
+(C:\Users\ADMIN\AppData\Local\Programs\MiKTeX\tex/latex/threeparttablex\threepa
+rttablex.sty
+Package: threeparttablex 2013/07/23 v0.3 by daleif
+\TPTL@width=\skip183
+) (C:\Users\ADMIN\AppData\Local\Programs\MiKTeX\tex/latex/ulem\ulem.sty
+\UL@box=\box121
+\UL@hyphenbox=\box122
+\UL@skip=\skip184
+\UL@hook=\toks57
+\UL@height=\dimen352
+\UL@pe=\count370
+\UL@pixel=\dimen353
+\ULC@box=\box123
+Package: ulem 2019/11/18
+\ULdepth=\dimen354
+) (C:\Users\ADMIN\AppData\Local\Programs\MiKTeX\tex/latex/makecell\makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+\rotheadsize=\dimen355
+\c@nlinenum=\count371
+\TeXr@lab=\toks58
 ) (C:\Users\ADMIN\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
 Package: biblatex 2023/03/05 v3.19 programmable bibliographies (PK/MW)
 (C:\Users\ADMIN\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count353
+\lrq@indent=\count372
 (C:\Users\ADMIN\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
-\c@tabx@nest=\count354
-\c@listtotal=\count355
-\c@listcount=\count356
-\c@liststart=\count357
-\c@liststop=\count358
-\c@citecount=\count359
-\c@citetotal=\count360
-\c@multicitecount=\count361
-\c@multicitetotal=\count362
-\c@instcount=\count363
-\c@maxnames=\count364
-\c@minnames=\count365
-\c@maxitems=\count366
-\c@minitems=\count367
-\c@citecounter=\count368
-\c@maxcitecounter=\count369
-\c@savedcitecounter=\count370
-\c@uniquelist=\count371
-\c@uniquename=\count372
-\c@refsection=\count373
-\c@refsegment=\count374
-\c@maxextratitle=\count375
-\c@maxextratitleyear=\count376
-\c@maxextraname=\count377
-\c@maxextradate=\count378
-\c@maxextraalpha=\count379
-\c@abbrvpenalty=\count380
-\c@highnamepenalty=\count381
-\c@lownamepenalty=\count382
-\c@maxparens=\count383
-\c@parenlevel=\count384
-\blx@tempcnta=\count385
-\blx@tempcntb=\count386
-\blx@tempcntc=\count387
-\c@blx@maxsection=\count388
-\blx@maxsegment@0=\count389
-\blx@notetype=\count390
-\blx@parenlevel@text=\count391
-\blx@parenlevel@foot=\count392
-\blx@sectionciteorder@0=\count393
-\blx@sectionciteorderinternal@0=\count394
-\blx@entrysetcounter=\count395
-\blx@biblioinstance=\count396
-\labelnumberwidth=\skip179
-\labelalphawidth=\skip180
-\biblabelsep=\skip181
-\bibitemsep=\skip182
-\bibnamesep=\skip183
-\bibinitsep=\skip184
-\bibparsep=\skip185
-\bibhang=\skip186
-\blx@bcfin=\read3
-\blx@bcfout=\write5
+\c@tabx@nest=\count373
+\c@listtotal=\count374
+\c@listcount=\count375
+\c@liststart=\count376
+\c@liststop=\count377
+\c@citecount=\count378
+\c@citetotal=\count379
+\c@multicitecount=\count380
+\c@multicitetotal=\count381
+\c@instcount=\count382
+\c@maxnames=\count383
+\c@minnames=\count384
+\c@maxitems=\count385
+\c@minitems=\count386
+\c@citecounter=\count387
+\c@maxcitecounter=\count388
+\c@savedcitecounter=\count389
+\c@uniquelist=\count390
+\c@uniquename=\count391
+\c@refsection=\count392
+\c@refsegment=\count393
+\c@maxextratitle=\count394
+\c@maxextratitleyear=\count395
+\c@maxextraname=\count396
+\c@maxextradate=\count397
+\c@maxextraalpha=\count398
+\c@abbrvpenalty=\count399
+\c@highnamepenalty=\count400
+\c@lownamepenalty=\count401
+\c@maxparens=\count402
+\c@parenlevel=\count403
+\blx@tempcnta=\count404
+\blx@tempcntb=\count405
+\blx@tempcntc=\count406
+\c@blx@maxsection=\count407
+\blx@maxsegment@0=\count408
+\blx@notetype=\count409
+\blx@parenlevel@text=\count410
+\blx@parenlevel@foot=\count411
+\blx@sectionciteorder@0=\count412
+\blx@sectionciteorderinternal@0=\count413
+\blx@entrysetcounter=\count414
+\blx@biblioinstance=\count415
+\labelnumberwidth=\skip185
+\labelalphawidth=\skip186
+\biblabelsep=\skip187
+\bibitemsep=\skip188
+\bibnamesep=\skip189
+\bibinitsep=\skip190
+\bibparsep=\skip191
+\bibhang=\skip192
+\blx@bcfin=\read4
+\blx@bcfout=\write6
 \blx@langwohyphens=\language79
-\c@mincomprange=\count397
-\c@maxcomprange=\count398
-\c@mincompwidth=\count399
+\c@mincomprange=\count416
+\c@maxcomprange=\count417
+\c@mincompwidth=\count418
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 (C:\Users\ADMIN\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def
@@ -1746,88 +1892,88 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'authoryear.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count400
-\c@savedafterword=\count401
-\c@annotator=\count402
-\c@savedannotator=\count403
-\c@author=\count404
-\c@savedauthor=\count405
-\c@bookauthor=\count406
-\c@savedbookauthor=\count407
-\c@commentator=\count408
-\c@savedcommentator=\count409
-\c@editor=\count410
-\c@savededitor=\count411
-\c@editora=\count412
-\c@savededitora=\count413
-\c@editorb=\count414
-\c@savededitorb=\count415
-\c@editorc=\count416
-\c@savededitorc=\count417
-\c@foreword=\count418
-\c@savedforeword=\count419
-\c@holder=\count420
-\c@savedholder=\count421
-\c@introduction=\count422
-\c@savedintroduction=\count423
-\c@namea=\count424
-\c@savednamea=\count425
-\c@nameb=\count426
-\c@savednameb=\count427
-\c@namec=\count428
-\c@savednamec=\count429
-\c@translator=\count430
-\c@savedtranslator=\count431
-\c@shortauthor=\count432
-\c@savedshortauthor=\count433
-\c@shorteditor=\count434
-\c@savedshorteditor=\count435
-\c@labelname=\count436
-\c@savedlabelname=\count437
-\c@institution=\count438
-\c@savedinstitution=\count439
-\c@lista=\count440
-\c@savedlista=\count441
-\c@listb=\count442
-\c@savedlistb=\count443
-\c@listc=\count444
-\c@savedlistc=\count445
-\c@listd=\count446
-\c@savedlistd=\count447
-\c@liste=\count448
-\c@savedliste=\count449
-\c@listf=\count450
-\c@savedlistf=\count451
-\c@location=\count452
-\c@savedlocation=\count453
-\c@organization=\count454
-\c@savedorganization=\count455
-\c@origlocation=\count456
-\c@savedoriglocation=\count457
-\c@origpublisher=\count458
-\c@savedorigpublisher=\count459
-\c@publisher=\count460
-\c@savedpublisher=\count461
-\c@language=\count462
-\c@savedlanguage=\count463
-\c@origlanguage=\count464
-\c@savedoriglanguage=\count465
-\c@pageref=\count466
-\c@savedpageref=\count467
-\shorthandwidth=\skip187
-\shortjournalwidth=\skip188
-\shortserieswidth=\skip189
-\shorttitlewidth=\skip190
-\shortauthorwidth=\skip191
-\shorteditorwidth=\skip192
-\locallabelnumberwidth=\skip193
-\locallabelalphawidth=\skip194
-\localshorthandwidth=\skip195
-\localshortjournalwidth=\skip196
-\localshortserieswidth=\skip197
-\localshorttitlewidth=\skip198
-\localshortauthorwidth=\skip199
-\localshorteditorwidth=\skip256
+\c@afterword=\count419
+\c@savedafterword=\count420
+\c@annotator=\count421
+\c@savedannotator=\count422
+\c@author=\count423
+\c@savedauthor=\count424
+\c@bookauthor=\count425
+\c@savedbookauthor=\count426
+\c@commentator=\count427
+\c@savedcommentator=\count428
+\c@editor=\count429
+\c@savededitor=\count430
+\c@editora=\count431
+\c@savededitora=\count432
+\c@editorb=\count433
+\c@savededitorb=\count434
+\c@editorc=\count435
+\c@savededitorc=\count436
+\c@foreword=\count437
+\c@savedforeword=\count438
+\c@holder=\count439
+\c@savedholder=\count440
+\c@introduction=\count441
+\c@savedintroduction=\count442
+\c@namea=\count443
+\c@savednamea=\count444
+\c@nameb=\count445
+\c@savednameb=\count446
+\c@namec=\count447
+\c@savednamec=\count448
+\c@translator=\count449
+\c@savedtranslator=\count450
+\c@shortauthor=\count451
+\c@savedshortauthor=\count452
+\c@shorteditor=\count453
+\c@savedshorteditor=\count454
+\c@labelname=\count455
+\c@savedlabelname=\count456
+\c@institution=\count457
+\c@savedinstitution=\count458
+\c@lista=\count459
+\c@savedlista=\count460
+\c@listb=\count461
+\c@savedlistb=\count462
+\c@listc=\count463
+\c@savedlistc=\count464
+\c@listd=\count465
+\c@savedlistd=\count466
+\c@liste=\count467
+\c@savedliste=\count468
+\c@listf=\count469
+\c@savedlistf=\count470
+\c@location=\count471
+\c@savedlocation=\count472
+\c@organization=\count473
+\c@savedorganization=\count474
+\c@origlocation=\count475
+\c@savedoriglocation=\count476
+\c@origpublisher=\count477
+\c@savedorigpublisher=\count478
+\c@publisher=\count479
+\c@savedpublisher=\count480
+\c@language=\count481
+\c@savedlanguage=\count482
+\c@origlanguage=\count483
+\c@savedoriglanguage=\count484
+\c@pageref=\count485
+\c@savedpageref=\count486
+\shorthandwidth=\skip193
+\shortjournalwidth=\skip194
+\shortserieswidth=\skip195
+\shorttitlewidth=\skip196
+\shortauthorwidth=\skip197
+\shorteditorwidth=\skip198
+\locallabelnumberwidth=\skip199
+\locallabelalphawidth=\skip256
+\localshorthandwidth=\skip257
+\localshortjournalwidth=\skip258
+\localshortserieswidth=\skip259
+\localshorttitlewidth=\skip260
+\localshortauthorwidth=\skip261
+\localshorteditorwidth=\skip262
 Package biblatex Info: Trying to load enhanced support for Unicode engines...
 Package biblatex Info: ... file 'blx-unicode.def' found.
 
@@ -1843,19 +1989,19 @@ Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
 (C:\Users\ADMIN\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
 File: biblatex.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
-\c@textcitecount=\count468
-\c@textcitetotal=\count469
-\c@textcitemaxnames=\count470
-\c@biburlbigbreakpenalty=\count471
-\c@biburlbreakpenalty=\count472
-\c@biburlnumpenalty=\count473
-\c@biburlucpenalty=\count474
-\c@biburllcpenalty=\count475
+\c@textcitecount=\count487
+\c@textcitetotal=\count488
+\c@textcitemaxnames=\count489
+\c@biburlbigbreakpenalty=\count490
+\c@biburlbreakpenalty=\count491
+\c@biburlnumpenalty=\count492
+\c@biburlucpenalty=\count493
+\c@biburllcpenalty=\count494
 \biburlbigskip=\muskip19
 \biburlnumskip=\muskip20
 \biburlucskip=\muskip21
 \biburllcskip=\muskip22
-\c@smartand=\count476
+\c@smartand=\count495
 )
 Package biblatex Info: Trying to load bibliography style 'authoryear'...
 Package biblatex Info: ... file 'authoryear.bbx' found.
@@ -1869,8 +2015,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 (C:\Users\ADMIN\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.b
 bx
 File: standard.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count477
-\c@bbx:relatedtotal=\count478
+\c@bbx:relatedcount=\count496
+\c@bbx:relatedtotal=\count497
 ))
 Package biblatex Info: Trying to load citation style 'authoryear'...
 Package biblatex Info: ... file 'authoryear.cbx' found.
@@ -1909,44 +2055,48 @@ Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
 (C:\Users\ADMIN\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bkm-dvipdfm.de
 f
 File: bkm-dvipdfm.def 2020-11-06 v1.29 bookmark driver for dvipdfm (HO)
-\BKM@id=\count479
+\BKM@id=\count498
 )) (C:\Users\ADMIN\AppData\Local\Programs\MiKTeX\tex/latex/xurl\xurl.sty
 Package: xurl 2022/01/09 v 0.10 modify URL breaks
 xurl: Set penalties for biblatex
 )
-LaTeX Info: Redefining \href on input line 181.
-Package hyperref Info: Option `colorlinks' set `true' on input line 190.
-\@quotelevel=\count480
-\@quotereset=\count481
-(bookdown-demo.aux)
+LaTeX Info: Redefining \href on input line 256.
+Package hyperref Info: Option `colorlinks' set `true' on input line 265.
+\@quotelevel=\count499
+\@quotereset=\count500
+(bookdown-demo.aux
+
+LaTeX Warning: Label `fig:dem-download' multiply defined.
+
+)
 \openout1 = `bookdown-demo.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 203.
-LaTeX Font Info:    ... okay on input line 203.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 203.
-LaTeX Font Info:    ... okay on input line 203.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 203.
-LaTeX Font Info:    ... okay on input line 203.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 203.
-LaTeX Font Info:    ... okay on input line 203.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 203.
-LaTeX Font Info:    ... okay on input line 203.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 203.
-LaTeX Font Info:    ... okay on input line 203.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 203.
-LaTeX Font Info:    ... okay on input line 203.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 203.
-LaTeX Font Info:    ... okay on input line 203.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 203.
-LaTeX Font Info:    ... okay on input line 203.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 203.
-LaTeX Font Info:    ... okay on input line 203.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 278.
+LaTeX Font Info:    ... okay on input line 278.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 278.
+LaTeX Font Info:    ... okay on input line 278.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 278.
+LaTeX Font Info:    ... okay on input line 278.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 278.
+LaTeX Font Info:    ... okay on input line 278.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 278.
+LaTeX Font Info:    ... okay on input line 278.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 278.
+LaTeX Font Info:    ... okay on input line 278.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 278.
+LaTeX Font Info:    ... okay on input line 278.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 278.
+LaTeX Font Info:    ... okay on input line 278.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 278.
+LaTeX Font Info:    ... okay on input line 278.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 278.
+LaTeX Font Info:    ... okay on input line 278.
 LaTeX Font Info:    Font shape `TU/Alegreya(0)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 203.
+(Font)              scaled to size 6.0pt on input line 278.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/lmss/m/n --> TU/lmss/m/n on input line 203.
+(Font)                  OT1/lmss/m/n --> TU/lmss/m/n on input line 278.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/lmss/bx/n --> TU/lmss/b/n on input line 203.
+(Font)                  OT1/lmss/bx/n --> TU/lmss/b/n on input line 278.
 
 Package fontspec Info: Font family 'latinmodern-math.otf(0)' created for font
 (fontspec)             'latinmodern-math.otf' with options
@@ -1987,16 +2137,16 @@ latinmodern-math.otf]/OT:script=math;language=dflt;+ssty=1;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 203.
+(Font)              `operators' in the math version `normal' on input line 278.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/lmr/m/n --> TU/latinmodern-math.otf(1)/m/n on input
- line 203.
+ line 278.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 203.
+(Font)              `operators' in the math version `bold' on input line 278.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/lmr/bx/n --> TU/latinmodern-math.otf(1)/b/n on inpu
-t line 203.
+t line 278.
 
 Package fontspec Info: latinmodern-math scale = 1.0001.
 
@@ -2067,15 +2217,15 @@ uage=dflt;"
 (fontspec)             \fontdimen 21\font =0pt\relax 
 
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `normal' on input line 203.
+(Font)              `symbols' in the math version `normal' on input line 278.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
 (Font)                  OMS/lmsy/m/n --> TU/latinmodern-math.otf(2)/m/n on inpu
-t line 203.
+t line 278.
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `bold' on input line 203.
+(Font)              `symbols' in the math version `bold' on input line 278.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
 (Font)                  OMS/lmsy/b/n --> TU/latinmodern-math.otf(2)/b/n on inpu
-t line 203.
+t line 278.
 
 Package fontspec Info: latinmodern-math scale = 0.9999.
 
@@ -2129,22 +2279,22 @@ uage=dflt;"
 
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
 (Font)              `largesymbols' in the math version `normal' on input line 2
-03.
+78.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
 (Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/m/n on inpu
-t line 203.
+t line 278.
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `bold' on input line 203
+(Font)              `largesymbols' in the math version `bold' on input line 278
 .
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 (Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/b/n on inpu
-t line 203.
-LaTeX Info: Redefining \microtypecontext on input line 203.
-Package microtype Info: Applying patch `item' on input line 203.
-Package microtype Info: Applying patch `toc' on input line 203.
-Package microtype Info: Applying patch `eqnum' on input line 203.
-Package microtype Info: Applying patch `footnote' on input line 203.
-Package microtype Info: Applying patch `verbatim' on input line 203.
+t line 278.
+LaTeX Info: Redefining \microtypecontext on input line 278.
+Package microtype Info: Applying patch `item' on input line 278.
+Package microtype Info: Applying patch `toc' on input line 278.
+Package microtype Info: Applying patch `eqnum' on input line 278.
+Package microtype Info: Applying patch `footnote' on input line 278.
+Package microtype Info: Applying patch `verbatim' on input line 278.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using protrusion set `basicmath'.
 Package microtype Info: No adjustment of tracking.
@@ -2154,8 +2304,11 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `Alegreya' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-Package hyperref Info: Link coloring ON on input line 203.
+Package hyperref Info: Link coloring ON on input line 278.
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: threeparttable package is loaded.
+Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
@@ -2168,11 +2321,18 @@ Package biblatex Info: XeTeX detected.
 (biblatex)             Assuming input encoding 'utf8'.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
-\openout5 = `bookdown-demo.bcf'.
+\openout6 = `bookdown-demo.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'bookdown-demo.bbl' found.
 (bookdown-demo.bbl
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'safeyelliStreetlampsBusinessesSurveyed2022':
+(biblatex)                - online entry 'safeyelliStreetlampsBusinessesSurveye
+d2022' (bridging-the-gap.bib): Invalid format '2022-04-22T06:51Z' of date field
+ 'date' - ignoring.
+
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database:
@@ -2180,59 +2340,72 @@ Package biblatex Warning: The following entry could not be found
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                street-comfort-qualitative
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
 )
-Package biblatex Info: Reference section=0 on input line 203.
-Package biblatex Info: Reference segment=0 on input line 203.
+Package biblatex Info: Reference section=0 on input line 278.
+Package biblatex Info: Reference segment=0 on input line 278.
 LaTeX Font Info:    Font shape `TU/Alegreya(0)/m/it' will be
-(Font)              scaled to size 10.0pt on input line 205.
+(Font)              scaled to size 10.0pt on input line 280.
 LaTeX Font Info:    Font shape `TU/Alegreya(0)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 205.
+(Font)              scaled to size 8.0pt on input line 280.
 LaTeX Font Info:    Font shape `TU/Alegreya(0)/m/sl' in size <24> not available
 
 (Font)              Font shape `TU/Alegreya(0)/m/it' tried instead on input lin
-e 205.
+e 280.
 LaTeX Font Info:    Font shape `TU/Alegreya(0)/m/it' will be
-(Font)              scaled to size 24.0pt on input line 205.
+(Font)              scaled to size 24.0pt on input line 280.
 LaTeX Font Info:    Font shape `TU/Alegreya(0)/b/sl' in size <24> not available
 
 (Font)              Font shape `TU/Alegreya(0)/b/it' tried instead on input lin
-e 205.
+e 280.
 LaTeX Font Info:    Font shape `TU/Alegreya(0)/b/it' will be
-(Font)              scaled to size 24.0pt on input line 205.
+(Font)              scaled to size 24.0pt on input line 280.
 LaTeX Font Info:    Font shape `TU/Alegreya(0)/b/sl' in size <12> not available
 
 (Font)              Font shape `TU/Alegreya(0)/b/it' tried instead on input lin
-e 205.
+e 280.
 LaTeX Font Info:    Font shape `TU/Alegreya(0)/b/it' will be
-(Font)              scaled to size 12.0pt on input line 205.
+(Font)              scaled to size 12.0pt on input line 280.
 [1
 
 
 
-] [2
+]
+File: maps/ejipura.pdf Graphic file (type pdf)
+<use maps/ejipura.pdf>
+LaTeX Font Info:    Font shape `TU/Alegreya(0)/m/n' will be
+(Font)              scaled to size 9.0pt on input line 287.
+[2]
+LaTeX Font Info:    Font shape `TU/Alegreya(0)/b/n' will be
+(Font)              scaled to size 12.0pt on input line 291.
+[3] [4
 
 ]
-Underfull \hbox (badness 10000) detected at line 209
+Underfull \hbox (badness 10000) detected at line 322
 []
  []
 
 LaTeX Font Info:    Font shape `TU/Alegreya(0)/m/sl' in size <18> not available
 
 (Font)              Font shape `TU/Alegreya(0)/m/it' tried instead on input lin
-e 209.
+e 322.
 LaTeX Font Info:    Font shape `TU/Alegreya(0)/m/it' will be
-(Font)              scaled to size 18.0pt on input line 209.
+(Font)              scaled to size 18.0pt on input line 322.
 LaTeX Font Info:    Font shape `TU/Alegreya(0)/b/sl' in size <18> not available
 
 (Font)              Font shape `TU/Alegreya(0)/b/it' tried instead on input lin
-e 209.
+e 322.
 LaTeX Font Info:    Font shape `TU/Alegreya(0)/b/it' will be
-(Font)              scaled to size 18.0pt on input line 209.
+(Font)              scaled to size 18.0pt on input line 322.
 (bookdown-demo.toc
 LaTeX Font Info:    Font shape `TU/Alegreya(0)/b/n' will be
 (Font)              scaled to size 10.0pt on input line 2.
-LaTeX Font Info:    Font shape `TU/Alegreya(0)/b/n' will be
-(Font)              scaled to size 12.0pt on input line 2.
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 3
 .
 (C:\Users\ADMIN\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
@@ -2261,504 +2434,1500 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 3.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (C:\Users\ADMIN\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-) [3])
-\tf@toc=\write6
-\openout6 = `bookdown-demo.toc'.
+) [5])
+\tf@toc=\write7
+\openout7 = `bookdown-demo.toc'.
 
+[6]
 LaTeX Font Info:    Font shape `TU/Alegreya(0)/m/n' will be
-(Font)              scaled to size 7.0pt on input line 215.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 8.00085pt on input line 215.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 6.00064pt on input line 215.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 7.99915pt on input line 215.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 5.99936pt on input line 215.
+(Font)              scaled to size 20.74pt on input line 325.
 LaTeX Font Info:    Font shape `TU/Alegreya(0)/b/n' will be
-(Font)              scaled to size 11.0pt on input line 218.
-[4] [5]
-LaTeX Font Info:    Font shape `TU/Alegreya(0)/m/n' will be
-(Font)              scaled to size 20.74pt on input line 246.
+(Font)              scaled to size 20.74pt on input line 325.
 LaTeX Font Info:    Font shape `TU/Alegreya(0)/b/n' will be
-(Font)              scaled to size 20.74pt on input line 246.
-LaTeX Font Info:    Font shape `TU/Alegreya(0)/b/n' will be
-(Font)              scaled to size 24.88pt on input line 246.
-[6
+(Font)              scaled to size 24.88pt on input line 325.
+[7
 
 ]
-Underfull \hbox (badness 10000) detected at line 279
+File: static/cake-2.jpg Graphic file (type bmp)
+<static/cake-2.jpg>
+[8]
+LaTeX Font Info:    Font shape `TU/Alegreya(0)/b/n' will be
+(Font)              scaled to size 11.0pt on input line 356.
+
+Underfull \hbox (badness 10000) detected at line 364
  [][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 279
+Underfull \hbox (badness 10000) detected at line 364
 [][][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 281
+Underfull \hbox (badness 10000) detected at line 366
  [][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 281
+Underfull \hbox (badness 10000) detected at line 366
 [][][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 283
+Underfull \hbox (badness 10000) detected at line 368
  [][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 283
+Underfull \hbox (badness 10000) detected at line 368
 [][][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 285
+Underfull \hbox (badness 10000) detected at line 370
  [][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 285
-[][][]
- []
-
-[7]
-Underfull \hbox (badness 10000) detected at line 294
- [][]
- []
-
-
-Underfull \hbox (badness 10000) detected at line 294
+Underfull \hbox (badness 10000) detected at line 370
 [][][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 296
+Underfull \hbox (badness 10000) detected at line 379
  [][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 296
+Underfull \hbox (badness 10000) detected at line 379
 [][][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 298
+Underfull \hbox (badness 10000) detected at line 381
  [][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 298
+Underfull \hbox (badness 10000) detected at line 381
 [][][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 300
+Underfull \hbox (badness 10000) detected at line 383
  [][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 300
+Underfull \hbox (badness 10000) detected at line 383
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 385
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 385
 [][][]
  []
 
 File: static/people.png Graphic file (type bmp)
 <static/people.png>
 
-Overfull \hbox (1.84068pt too wide) in paragraph at lines 306--307
-[][][] 
- []
-
-
-Underfull \hbox (badness 10000) detected at line 313
+Underfull \hbox (badness 10000) detected at line 398
  [][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 313
+Underfull \hbox (badness 10000) detected at line 398
 [][][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 315
+Underfull \hbox (badness 10000) detected at line 400
  [][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 315
+Underfull \hbox (badness 10000) detected at line 400
 [][][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 317
+Underfull \hbox (badness 10000) detected at line 402
  [][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 317
-[][][]
- []
-
-File: static/cake-2.jpg Graphic file (type bmp)
-<static/cake-2.jpg>
-
-Overfull \hbox (1.86076pt too wide) in paragraph at lines 328--329
-[][][] 
- []
-
-[8]
-Underfull \hbox (badness 6364) in paragraph at lines 330--331
-[]\TU/Alegreya(0)/m/n/10 I really like the idea of \TU/Alegreya(0)/b/n/10 eat c
-ake first \TU/Alegreya(0)/m/n/10 \parencite{leonIntroductionRstudio4edu, cetink
-aya-
- []
-
-
-Underfull \hbox (badness 10000) detected at line 339
- [][]
- []
-
-
-Underfull \hbox (badness 10000) detected at line 339
-[][][]
- []
-
-
-Underfull \hbox (badness 10000) detected at line 341
- [][]
- []
-
-
-Underfull \hbox (badness 10000) detected at line 341
-[][][]
- []
-
-
-Underfull \hbox (badness 10000) detected at line 343
- [][]
- []
-
-
-Underfull \hbox (badness 10000) detected at line 343
-[][][]
- []
-
-
-Underfull \hbox (badness 10000) detected at line 345
- [][]
- []
-
-
-Underfull \hbox (badness 10000) detected at line 345
-[][][]
- []
-
-
-Underfull \hbox (badness 10000) detected at line 347
- [][]
- []
-
-
-Underfull \hbox (badness 10000) detected at line 347
+Underfull \hbox (badness 10000) detected at line 402
 [][][]
  []
 
 [9]
-Underfull \hbox (badness 10000) detected at line 349
+Underfull \hbox (badness 10000) detected at line 418
  [][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 349
+Underfull \hbox (badness 10000) detected at line 418
+[][][]
+ []
+
+LaTeX Font Info:    Font shape `TU/Alegreya(0)/m/n' will be
+(Font)              scaled to size 7.0pt on input line 418.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 8.00085pt on input line 418.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 6.00064pt on input line 418.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 7.99915pt on input line 418.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 5.99936pt on input line 418.
+
+Underfull \hbox (badness 10000) detected at line 420
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 420
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 422
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 422
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 424
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 424
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 426
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 426
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 428
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 428
 [][][]
  []
 
 [10] [11
 
 ]
-Underfull \hbox (badness 10000) detected at line 390
+File: images/levels.png Graphic file (type bmp)
+<images/levels.png>
+[12] [13]
+Underfull \hbox (badness 10000) detected at line 488
  [][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 390
+Underfull \hbox (badness 10000) detected at line 488
 [][][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 392
+Underfull \hbox (badness 10000) detected at line 490
  [][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 392
+Underfull \hbox (badness 10000) detected at line 490
 [][][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 394
+Underfull \hbox (badness 10000) detected at line 492
  [][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 394
+Underfull \hbox (badness 10000) detected at line 492
 [][][]
  []
 
 
-LaTeX Warning: Reference `interviews-ejipura' on page 12 undefined on input lin
-e 399.
+LaTeX Warning: Reference `interviews-ejipura' on page 14 undefined on input lin
+e 497.
 
-[12]
 File: images/general-framework.png Graphic file (type bmp)
 <images/general-framework.png>
-[13]
-Overfull \hbox (30.0pt too wide) in paragraph at lines 425--425
+[14]
+Overfull \hbox (30.0pt too wide) in paragraph at lines 523--523
 |  
  []
 
 File: images/proposed.png Graphic file (type bmp)
 <images/proposed.png>
-[14] [15] [16
+[15] [16] [17
 
 ]
 
-LaTeX Warning: Citation 'ref' on page 17 undefined on input line 448.
+LaTeX Warning: Citation 'ref' on page 18 undefined on input line 546.
 
 
-LaTeX Warning: Citation 'ref' on page 17 undefined on input line 448.
+LaTeX Warning: Citation 'ref' on page 18 undefined on input line 546.
 
 
-LaTeX Warning: Citation 'ref' on page 17 undefined on input line 453.
+LaTeX Warning: Reference `levels-of-analysis' on page 18 undefined on input lin
+e 551.
 
 
-LaTeX Warning: Citation 'ref' on page 17 undefined on input line 453.
+LaTeX Warning: Citation 'ref' on page 18 undefined on input line 551.
 
-LaTeX Font Info:    Font shape `TU/Alegreya(0)/m/n' will be
-(Font)              scaled to size 24.88pt on input line 472.
-
-(C:\Users\ADMIN\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-TU-empty.c
-fg
-File: mt-TU-empty.cfg 2021/06/22 v1.1 microtype config. file: fonts with nonsta
-ndard glyph set (RS)
-) [17]
-Underfull \hbox (badness 10000) detected at line 491
+[18]
+Underfull \hbox (badness 10000) detected at line 588
  [][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 491
+Underfull \hbox (badness 10000) detected at line 588
 [][][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 493
+Underfull \hbox (badness 10000) detected at line 590
  [][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 493
+Underfull \hbox (badness 10000) detected at line 590
 [][][]
  []
 
 LaTeX Font Info:    Font shape `TU/SourceCodePro(0)/m/n' will be
-(Font)              scaled to size 6.99997pt on input line 501.
+(Font)              scaled to size 6.99997pt on input line 598.
 
-Underfull \hbox (badness 10000) detected at line 508
+Underfull \hbox (badness 10000) detected at line 605
  [][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 508
+Underfull \hbox (badness 10000) detected at line 605
 [][][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 510
+Underfull \hbox (badness 10000) detected at line 607
  [][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 510
+Underfull \hbox (badness 10000) detected at line 607
 [][][]
  []
 
 
-LaTeX Warning: Reference `osm-basics' on page 18 undefined on input line 510.
-
-
-LaTeX Warning: Reference `data' on page 18 undefined on input line 510.
-
-
-Underfull \hbox (badness 10000) detected at line 512
+Underfull \hbox (badness 10000) detected at line 609
  [][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 512
+Underfull \hbox (badness 10000) detected at line 609
 [][][]
  []
 
 LaTeX Font Info:    Font shape `TU/SourceCodePro(0)/m/it' will be
-(Font)              scaled to size 6.99997pt on input line 518.
-[18]
+(Font)              scaled to size 6.99997pt on input line 615.
 File: images/Pasted image 20230428221917.png Graphic file (type bmp)
 <images/Pasted image 20230428221917.png>
+[19]
 File: images/Pasted image 20230428222041.png Graphic file (type bmp)
 <images/Pasted image 20230428222041.png>
 File: images/Pasted image 20230428222344.png Graphic file (type bmp)
 <images/Pasted image 20230428222344.png>
-[19]
 File: images/Pasted image 20230428231820.png Graphic file (type bmp)
 <images/Pasted image 20230428231820.png>
+[20]
 File: images/Pasted image 20230428233739.png Graphic file (type bmp)
 <images/Pasted image 20230428233739.png>
-[20]
-Underfull \hbox (badness 10000) detected at line 550
+
+Underfull \hbox (badness 10000) detected at line 646
  [][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 550
+Underfull \hbox (badness 10000) detected at line 646
 [][][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 552
+Underfull \hbox (badness 10000) detected at line 648
  [][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 552
+Underfull \hbox (badness 10000) detected at line 648
+[][][]
+ []
+
+[21]
+Underfull \hbox (badness 10000) detected at line 652
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 652
 [][][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 556
+Underfull \hbox (badness 10000) detected at line 656
  [][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 556
-[][][]
- []
-
-
-Underfull \hbox (badness 10000) detected at line 560
- [][]
- []
-
-
-Underfull \hbox (badness 10000) detected at line 560
+Underfull \hbox (badness 10000) detected at line 656
 [][][]
  []
 
 File: images/Pasted image 20230428234734.png Graphic file (type bmp)
 <images/Pasted image 20230428234734.png>
-[21]
 
-LaTeX Warning: Citation 'ref' on page 22 undefined on input line 571.
+LaTeX Warning: Citation 'ref' on page 22 undefined on input line 667.
 
 
-Underfull \hbox (badness 10000) detected at line 576
+Underfull \hbox (badness 10000) detected at line 672
  [][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 576
+Underfull \hbox (badness 10000) detected at line 672
 [][][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 578
+Underfull \hbox (badness 10000) detected at line 674
  [][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 578
+Underfull \hbox (badness 10000) detected at line 674
 [][][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 580
+Underfull \hbox (badness 10000) detected at line 676
  [][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 580
+Underfull \hbox (badness 10000) detected at line 676
 [][][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 582
+Underfull \hbox (badness 10000) detected at line 678
  [][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 582
+Underfull \hbox (badness 10000) detected at line 678
 [][][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 584
+Underfull \hbox (badness 10000) detected at line 680
  [][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 584
+Underfull \hbox (badness 10000) detected at line 680
 [][][]
  []
 
 File: images/Pasted image 20230428235446.png Graphic file (type bmp)
 <images/Pasted image 20230428235446.png>
 
-LaTeX Warning: Citation 'ref' on page 22 undefined on input line 597.
+LaTeX Warning: Citation 'ref' on page 22 undefined on input line 693.
 
-[22]
 File: images/Pasted image 20230428235911.png Graphic file (type bmp)
 <images/Pasted image 20230428235911.png>
+[22] [23] [24]
+File: images/buffer-11.png Graphic file (type bmp)
+<images/buffer-11.png>
+File: images/buffer-5.png Graphic file (type bmp)
+<images/buffer-5.png>
+[25]
+LaTeX Font Info:    Font shape `TU/Alegreya(0)/m/n' will be
+(Font)              scaled to size 24.88pt on input line 777.
 
-LaTeX Warning: Citation 'ref' on page 23 undefined on input line 614.
+(C:\Users\ADMIN\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-TU-empty.c
+fg
+File: mt-TU-empty.cfg 2021/06/22 v1.1 microtype config. file: fonts with nonsta
+ndard glyph set (RS)
+)
+Underfull \hbox (badness 10000) detected at line 789
+ [][]
+ []
 
-[23] [24] [25
 
-] [26] [27
+Underfull \hbox (badness 10000) detected at line 789
+[][][]
+ []
 
-] [28] [29
 
-] [30] [31
+Underfull \hbox (badness 10000) detected at line 791
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 791
+[][][]
+ []
+
+[26]
+File: images/buffer-7.png Graphic file (type bmp)
+<images/buffer-7.png>
+File: images/buffer-majestic.png Graphic file (type bmp)
+<images/buffer-majestic.png>
+[27] [28]
+File: images/connectivity-1.png Graphic file (type bmp)
+<images/connectivity-1.png>
+File: images/connectivity-2.png Graphic file (type bmp)
+<images/connectivity-2.png>
+[29
 
 ]
-Underfull \hbox (badness 10000) detected at line 746
+
+LaTeX Warning: Reference `connectivity-two' on page 30 undefined on input line 
+852.
+
+File: images/connectivity-3.png Graphic file (type bmp)
+<images/connectivity-3.png>
+[30]
+LaTeX Font Info:    Font shape `TU/SourceCodePro(0)/b/n' will be
+(Font)              scaled to size 6.99997pt on input line 892.
+File: images/overpass.png Graphic file (type bmp)
+<images/overpass.png>
+[31]
+File: images/Pasted image 20230307002807.png Graphic file (type bmp)
+<images/Pasted image 20230307002807.png>
+File: images/Pasted image 20230307003018.png Graphic file (type bmp)
+<images/Pasted image 20230307003018.png>
+[32] [33]
+File: images/pedshed-1.png Graphic file (type bmp)
+<images/pedshed-1.png>
+[34]
+File: images/combined.png Graphic file (type bmp)
+<images/combined.png>
+[35]
+
+LaTeX Warning: Reference `(' on page 36 undefined on input line 1018.
+
+
+LaTeX Warning: Citation 'street-comfort-qualitative' on page 36 undefined on in
+put line 1018.
+
+[36]
+File: images/gc-1-01.png Graphic file (type bmp)
+<images/gc-1-01.png>
+File: images/gc-2-01.png Graphic file (type bmp)
+<images/gc-2-01.png>
+File: images/Pasted image 20230502170534-01.png Graphic file (type bmp)
+<images/Pasted image 20230502170534-01.png>
+[37]
+File: images/Pasted image 20230502180614.png Graphic file (type bmp)
+<images/Pasted image 20230502180614.png>
+File: images/Pasted image 20230502182240.png Graphic file (type bmp)
+<images/Pasted image 20230502182240.png>
+
+Underfull \hbox (badness 10000) detected at line 1109
  [][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 746
+Underfull \hbox (badness 10000) detected at line 1109
+[][][]
+ []
+
+[38] [39]
+Underfull \hbox (badness 10000) detected at line 1111
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1111
 [][][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 748
+Underfull \hbox (badness 10000) detected at line 1137
  [][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 748
+Underfull \hbox (badness 10000) detected at line 1137
 [][][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 750
+Underfull \hbox (badness 10000) detected at line 1139
  [][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 750
+Underfull \hbox (badness 10000) detected at line 1139
+[][][]
+ []
+
+
+Overfull \hbox (35.7084pt too wide) in paragraph at lines 1144--1146
+[]\TU/Alegreya(0)/m/n/10 Windows: \TU/SourceCodePro(0)/m/n/10 C:\Users\[YOUR US
+ERNAME]\AppData\Roaming\QGIS\QGIS3\profiles\default\processing\models 
+ []
+
+
+Overfull \hbox (59.7682pt too wide) in paragraph at lines 1146--1148
+[]\TU/Alegreya(0)/m/n/10 Mac: \TU/SourceCodePro(0)/m/n/10 /Users/[YOUR USERNAME
+]/Library/Application Support/QGIS/QGIS3/profiles/default/processing/models/ 
+ []
+
+
+Overfull \hbox (0.2285pt too wide) in paragraph at lines 1148--1149
+[]\TU/Alegreya(0)/m/n/10 Linux: \TU/SourceCodePro(0)/m/n/10 /home/[YOUR USERNAM
+E]/.local/share/QGIS/QGIS3/profiles/default/processing/models/ 
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1153
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1153
+[][][]
+ []
+
+File: images/Pasted image 20230502222012.png Graphic file (type bmp)
+<images/Pasted image 20230502222012.png>
+File: images/Pasted image 20230502222434.png Graphic file (type bmp)
+<images/Pasted image 20230502222434.png>
+File: images/Pasted image 20230502222725.png Graphic file (type bmp)
+<images/Pasted image 20230502222725.png>
+
+Underfull \hbox (badness 10000) detected at line 1188
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1188
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1190
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1190
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1192
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1192
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1194
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1194
+[][][]
+ []
+
+[40] [41] [42]
+
+LaTeX Warning: Reference `fig:extent-usgs' on page 43 undefined on input line 1
+209.
+
+
+Underfull \hbox (badness 10000) detected at line 1216
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1216
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1218
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1218
+[][][]
+ []
+
+File: images/Pasted image 20230503111920.png Graphic file (type bmp)
+<images/Pasted image 20230503111920.png>
+File: images/green-2.png Graphic file (type bmp)
+<images/green-2.png>
+File: images/green-3.png Graphic file (type bmp)
+<images/green-3.png>
+File: images/green-4.png Graphic file (type bmp)
+<images/green-4.png>
+File: images/green-6.png Graphic file (type bmp)
+<images/green-6.png>
+[43]
+File: images/Pasted image 20230503121030.png Graphic file (type bmp)
+<images/Pasted image 20230503121030.png>
+
+Underfull \hbox (badness 10000) detected at line 1281
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1281
+[][][]
+ []
+
+[44]
+Underfull \hbox (badness 10000) detected at line 1283
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1283
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1285
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1285
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1287
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1287
+[][][]
+ []
+
+File: images/green-7.png Graphic file (type bmp)
+<images/green-7.png>
+File: images/green-8.png Graphic file (type bmp)
+<images/green-8.png>
+[45]
+File: images/green-9.png Graphic file (type bmp)
+<images/green-9.png>
+
+Underfull \hbox (badness 10000) detected at line 1326
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1326
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1328
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1328
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1330
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1330
+[][][]
+ []
+
+File: images/green-10.png Graphic file (type bmp)
+<images/green-10.png>
+[46]
+File: images/Pasted image 20230503173123.png Graphic file (type bmp)
+<images/Pasted image 20230503173123.png>
+[47]
+File: images/Pasted image 20230503173147.png Graphic file (type bmp)
+<images/Pasted image 20230503173147.png>
+File: images/Pasted image 20230503173210.png Graphic file (type bmp)
+<images/Pasted image 20230503173210.png>
+File: images/Pasted image 20230503173352.png Graphic file (type bmp)
+<images/Pasted image 20230503173352.png>
+
+Underfull \hbox (badness 10000) detected at line 1402
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1402
+[][][]
+ []
+
+[48] [49]
+Underfull \hbox (badness 10000) detected at line 1404
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1404
+[][][]
+ []
+
+File: images/Pasted image 20230503173444.png Graphic file (type bmp)
+<images/Pasted image 20230503173444.png>
+File: images/news.png Graphic file (type bmp)
+<images/news.png>
+[50] [51] [52
+
+]
+Underfull \hbox (badness 10000) detected at line 1447
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1447
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1449
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1449
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1453
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1453
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1455
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1455
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1466
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1466
+[][][]
+ []
+
+File: images/osmand.png Graphic file (type bmp)
+<images/osmand.png>
+[53]
+Underfull \hbox (badness 10000) detected at line 1474
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1474
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1476
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1476
+[][][]
+ []
+
+File: images/basemaps.png Graphic file (type bmp)
+<images/basemaps.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 1478--1482
+
+ []
+
+
+Overfull \hbox (10.56647pt too wide) in paragraph at lines 1478--1482
+[][][] 
+ []
+
+[54]
+Underfull \hbox (badness 10000) detected at line 1482
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1482
+[][][]
+ []
+
+
+LaTeX Warning: Reference `fig:basemaps' on page 55 undefined on input line 1482
+.
+
+
+Underfull \hbox (badness 10000) detected at line 1484
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1484
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1497
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1497
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1499
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1499
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1501
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1501
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1503
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1503
+[][][]
+ []
+
+[55]
+Overfull \hbox (1589.75969pt too wide) in paragraph at lines 1515--1525
+ [][] 
+ []
+
+[56]
+Underfull \hbox (badness 10000) detected at line 1544
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1544
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1546
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1546
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1548
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1548
+[][][]
+ []
+
+[57]
+Underfull \hbox (badness 10000) detected at line 1575
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1575
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1577
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1577
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1579
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1579
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1581
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1581
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1583
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1583
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1585
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1585
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1602
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1602
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1604
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1604
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1606
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1606
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1608
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1608
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1610
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1610
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1612
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1612
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1614
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1614
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1629
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1629
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1631
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1631
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1633
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1633
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1648
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1648
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1650
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1650
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1652
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1652
+[][][]
+ []
+
+[58]
+Underfull \hbox (badness 10000) detected at line 1654
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1654
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1656
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1656
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1658
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1658
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1660
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1660
+[][][]
+ []
+
+
+LaTeX Warning: Reference `google-street-view' on page 59 undefined on input lin
+e 1675.
+
+[59] [60]
+File: images/observations.png Graphic file (type bmp)
+<images/observations.png>
+
+Underfull \hbox (badness 10000) detected at line 1927
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1927
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1929
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1929
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1931
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1931
+[][][]
+ []
+
+[61]
+File: images/observations-2.png Graphic file (type bmp)
+<images/observations-2.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 1949--1950
+\TU/Alegreya(0)/m/n/10 Street audits are a crucial tool for assessing the built
+ environment’s impact on public health.
+ []
+
+
+Underfull \hbox (badness 5756) in paragraph at lines 1949--1950
+\TU/Alegreya(0)/m/n/10 However, conducting physical street audits can take time
+ and effort. Recent advancements have
+ []
+
+
+Underfull \hbox (badness 5403) in paragraph at lines 1949--1950
+\TU/Alegreya(0)/m/n/10 made virtual street audits using Google Street View a co
+st-effective and efficient alternative. In
+ []
+
+
+Underfull \hbox (badness 3989) in paragraph at lines 1949--1950
+\TU/Alegreya(0)/m/n/10 situations where physical visits to the site may be diff
+icult or impossible, such as logistical con-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1949--1950
+\TU/Alegreya(0)/m/n/10 straints, virtual street audits can supplement our analy
+sis and provide a more comprehensive
+ []
+
+
+Underfull \hbox (badness 6575) in paragraph at lines 1949--1950
+\TU/Alegreya(0)/m/n/10 understanding of the environment. In India, most major c
+ities have already been mapped out,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1949--1950
+\TU/Alegreya(0)/m/n/10 providing full coverage that can be accessed [here]([htt
+ps://www.google.com/streetview/how-it-
+ []
+
+[62]
+
+LaTeX Warning: Reference `fig:image-ref-for-in-text' on page 63 undefined on in
+put line 1953.
+
+File: ./maps/street-view.pdf Graphic file (type pdf)
+<use ./maps/street-view.pdf>
+File: images/street-view-2.png Graphic file (type bmp)
+<images/street-view-2.png>
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 1978.
+See the caption package documentation for explanation.
+
+
+Underfull \hbox (badness 1565) in paragraph at lines 1989--1990
+\TU/Alegreya(0)/m/n/10 screenshot from our starting poing. We
+ []
+
+
+Underfull \hbox (badness 1082) in paragraph at lines 1989--1990
+\TU/Alegreya(0)/m/n/10 will search for the \TU/SourceCodePro(0)/m/n/10 Plus Cod
+e \TU/Alegreya(0)/m/n/10 , a propri-
+ []
+
+File: images/audit-4.png Graphic file (type bmp)
+<images/audit-4.png>
+[63] [64]
+File: images/screenshots.png Graphic file (type bmp)
+<images/screenshots.png>
+
+Underfull \hbox (badness 10000) detected at line 2021
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2021
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2023
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2023
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2025
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2025
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2027
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2027
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2029
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2029
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2031
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2031
+[][][]
+ []
+
+[65] [66]
+Overfull \hbox (30.0pt too wide) in paragraph at lines 2052--2052
+|  
+ []
+
+[67]
+Overfull \hbox (30.0pt too wide) in paragraph at lines 2065--2065
+|  
+ []
+
+
+Overfull \hbox (4.09pt too wide) in paragraph at lines 2093--2093
+[]|\TU/Alegreya(0)/b/n/10 Pleasantness 
+ []
+
+
+Overfull \hbox (80.43999pt too wide) in paragraph at lines 2075--2098
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2106
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2106
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2108
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2108
+[][][]
+ []
+
+
+LaTeX Warning: Citation 'ref' on page 68 undefined on input line 2108.
+
+
+Underfull \hbox (badness 10000) detected at line 2110
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2110
+[][][]
+ []
+
+File: images/temp.png Graphic file (type bmp)
+<images/temp.png>
+
+LaTeX Warning: Reference `landsat-tut' on page 68 undefined on input line 2121.
+
+
+
+LaTeX Warning: Citation 'ref' on page 68 undefined on input line 2126.
+
+[68] [69] [70] [71
+
+]
+
+LaTeX Warning: Reference `fig:built-environment-info' on page 72 undefined on i
+nput line 2165.
+
+
+LaTeX Warning: Reference `fig:infrastructure-info' on page 72 undefined on inpu
+t line 2166.
+
+File: images/explore.png Graphic file (type bmp)
+<images/explore.png>
+File: images/built-environment.png Graphic file (type bmp)
+<images/built-environment.png>
+File: images/infrastructure-info.png Graphic file (type bmp)
+<images/infrastructure-info.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 2176--2177
+[][][][]
+ []
+
+File: images/parks.png Graphic file (type bmp)
+<images/parks.png>
+[72] [73]
+Overfull \vbox (549.02222pt too high) has occurred while \output is active []
+
+[74] [75]
+File: images/weather.png Graphic file (type bmp)
+<images/weather.png>
+[76] [77
+
+]
+Underfull \hbox (badness 10000) detected at line 2223
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2223
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2225
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2225
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2227
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2227
 [][][]
  []
 
@@ -2767,87 +3936,198 @@ File: images/sc-st-01.png Graphic file (type bmp)
 File: images/census-01.png Graphic file (type bmp)
 <images/census-01.png>
 
-Underfull \hbox (badness 10000) detected at line 788
+Underfull \hbox (badness 10000) detected at line 2265
  [][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 788
+Underfull \hbox (badness 10000) detected at line 2265
 [][][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 790
+Underfull \hbox (badness 10000) detected at line 2267
  [][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 790
+Underfull \hbox (badness 10000) detected at line 2267
 [][][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 792
+Underfull \hbox (badness 10000) detected at line 2269
  [][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 792
+Underfull \hbox (badness 10000) detected at line 2269
 [][][]
  []
 
-
-Underfull \hbox (badness 10000) detected at line 794
+[78]
+Underfull \hbox (badness 10000) detected at line 2271
  [][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 794
+Underfull \hbox (badness 10000) detected at line 2271
 [][][]
  []
 
-[32]
 File: images/Pasted image 20230424181635-02.png Graphic file (type bmp)
 <images/Pasted image 20230424181635-02.png>
 File: images/Pasted image 20230424182347-01.png Graphic file (type bmp)
 <images/Pasted image 20230424182347-01.png>
 File: images/income-01.png Graphic file (type bmp)
 <images/income-01.png>
-[33]
-Underfull \hbox (badness 10000) detected at line 831
+[79]
+Underfull \hbox (badness 10000) detected at line 2308
  [][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 831
+Underfull \hbox (badness 10000) detected at line 2308
 [][][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 833
+Underfull \hbox (badness 10000) detected at line 2310
  [][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 833
+Underfull \hbox (badness 10000) detected at line 2310
 [][][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 835
+Underfull \hbox (badness 10000) detected at line 2312
  [][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 835
+Underfull \hbox (badness 10000) detected at line 2312
 [][][]
  []
 
-[34] [35] [36]
+[80] [81] [82]
 File: images/AngularStepDistance-02.png Graphic file (type bmp)
 <images/AngularStepDistance-02.png>
-[37] [38]
-Underfull \hbox (badness 10000) detected at line 864
+File: images/street.png Graphic file (type bmp)
+<images/street.png>
+File: images/blocks.png Graphic file (type bmp)
+<images/blocks.png>
+[83] [84]
+File: images/buffer-9.png Graphic file (type bmp)
+<images/buffer-9.png>
+File: images/buffer-10.png Graphic file (type bmp)
+<images/buffer-10.png>
+[85]
+File: images/buffer-1.png Graphic file (type bmp)
+<images/buffer-1.png>
+[86]
+File: images/buffer-2.png Graphic file (type bmp)
+<images/buffer-2.png>
+File: images/buffer-3.png Graphic file (type bmp)
+<images/buffer-3.png>
+[87]
+File: images/Pasted image 20230307002027.png Graphic file (type bmp)
+<images/Pasted image 20230307002027.png>
+
+Underfull \hbox (badness 10000) detected at line 2410
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2410
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2412
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2412
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2414
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2414
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2416
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2416
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2418
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2418
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2420
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2420
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2431
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2431
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2433
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2433
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2435
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2435
+[][][]
+ []
+
+File: images/Pasted image 20230307002537.png Graphic file (type bmp)
+<images/Pasted image 20230307002537.png>
+[88]
+Underfull \hbox (badness 10000) detected at line 2444
 []
  []
 
@@ -2855,32 +4135,28 @@ Underfull \hbox (badness 10000) detected at line 864
 Package hyperref Warning: bookmark level for unknown fm defaults to 0.
 
 LaTeX Font Info:    Font shape `TU/Alegreya(0)/m/sc' will be
-(Font)              scaled to size 10.0pt on input line 863.
-
-Overfull \hbox (39.93326pt too wide) in paragraph at lines 864--864
-[][]\TU/Alegreya(0)/m/n/10 ByIffath, Fathima (2022). \TU/Alegreya(0)/m/it/10 Ra
-ising the Streets\TU/Alegreya(0)/m/n/10 . https://bangaloremirror.indiatimes.co
-m/bangalore/civic/raising-
- []
-
-[39
+(Font)              scaled to size 10.0pt on input line 2444.
+[89
 
 
-] (bookdown-demo.aux)
+] [90] (bookdown-demo.ind) (bookdown-demo.aux)
 
 LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
 
 Package logreq Info: Writing requests to 'bookdown-demo.run.xml'.
 \openout1 = `bookdown-demo.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 43308 strings out of 411463
- 851768 string characters out of 5818007
- 1890271 words of memory out of 5000000
- 62875 multiletter control sequences out of 15000+600000
- 518193 words of font info for 131 fonts, out of 8000000 for 9000
+ 46653 strings out of 411463
+ 913424 string characters out of 5818007
+ 1975225 words of memory out of 5000000
+ 66092 multiletter control sequences out of 15000+600000
+ 518323 words of font info for 135 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 114i,10n,118p,2883b,5671s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 114i,11n,118p,2883b,5728s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on bookdown-demo.pdf (39 pages).
+Output written on bookdown-demo.pdf (90 pages).

@@ -1,5 +1,167 @@
-# Assessment of Infrastructure
+# Assessment of Infrastructure Accessibility
 
-## Sourcing data from OpenStreetMaps
+## Sourcing Data Using OpenStreetMaps {#osm-extract}
 
-## Visualizing pedestrian sheds
+OpenStreetMap is the best readily available data source for most of your analysis needs because, unlike commercial maps like Google Maps and Bing Maps, *all* data on OSM can be downloaded and taken into your favourite GIS tool. You can even add details about your neighbourhood to document your surroundings better, such as adding information on sidewalks, CCTV cameras or streetlights [@safeyelliStreetlampsBusinessesSurveyed2022].
+
+In OSM, the map is divided into three main components: nodes, edges, and relationships. Nodes are **points** on the map, such as buildings or points of interest, while edges are **lines that connect** them, like roads, rivers, and rail networks. Relationships describe how nodes and edges relate to each other, such as **how Bangalore is a city within Karnataka**.
+
+One of the biggest strengths of OSM is its thorough documentation. Users can explore and select features on the map using the select query button, which brings up a list of features in the area. Each item in the list is tagged and annotated, providing detailed information about its type, category, name, and even who added and verified the information.
+
+[Geofabrik](https://download.geofabrik.de/) is one of the most accessible sources of downloadable OSM data, providing pre-processed extracts of OSM data for various regions and countries around the world. The data provided by Geofabrik includes *all* OSM features, including roadways, water features, and buildings, among others.
+
+In addition to Geofabrik, you can create custom queries to download specific OSM data based on their needs. This can be done using tools like Overpass Turbo, which allows you to build and run queries to extract particular features from OSM data.
+
+### Using Overpass Turbo {#extract-osm}
+
+As you delve deeper into the world of OSM, you'll inevitably want to extract data from it. While you can use a large dataset like Geofabrik offers, you might want to get what you need and nothing more. That's where Overpass Turbo comes in handy. [Overpass Turbo](https://overpass-turbo.eu/) is a user-friendly interface for running queries against the OSM database using the Overpass API.
+
+First, identify what you're looking for on OSM's interface to start with Overpass Turbo. Are you trying to locate toilets, metro stations, shops, or something else? Once you've identified the features you're interested in, examine their tags to understand how OSM categorizes them.
+
+For example, let's say you want to find all the toilets in Bangalore. A quick search on Google tells you that OSM categorizes toilets under `amenity`. To build a query in Overpass Turbo, open up the Turbo query wizard and type in your query:
+
+``` sql
+amenity=toilets in Bangalore    
+```
+
+Hit the run button, and you'll get a map of all the toilets in Bangalore! Or, you could find all the completed and proposed metro stations in the city as well (figure \@ref(fig:metro)).
+
+![(#fig:metro) Locations of metro stations in Bangalore on OSM. Each one has detailed tags that help you search for them.](images/overpass.png){width="14cm"}
+
+But why stop there? Overpass Turbo lets you play with all sorts of queries to extract the needed data. Here are a few examples to get you started:
+
+``` sql
+operator:BMRCL and subway=yes in Bangalore    // Metro lines and stations
+amenity=restaurant in Bangalore              // Restaurants
+highway=footway and bridge=yes in Bangalore  // Footbridges
+natural=water in Bangalore                   // Lakes
+```
+
+Table \@ref(tab:osm-queries) shows some more sample queries to get you started.
+
+Once you've settled on the query you want to use, you can export the data as a GeoJSON file by clicking on the "Export" button in the top bar of Overpass Turbo. From there, you can visualize the data in your favourite GIS software or share it with others for further analysis.
+
+```{r osm-queries}
+
+data_queries <- data.frame(
+  Query = c(
+    "highway=* and name=*",
+    "public_transport=platform",
+    "railway=station",
+    "railway=tram",
+    "route=bus",
+    "admin_level=*",
+    "amenity=restaurant",
+    "amenity=cafe",
+    "amenity=pub",
+    "amenity=pharmacy",
+    "amenity=hospital",
+    "amenity=school"
+  ),
+  Description = c(
+    "Extracts all roads with their names",
+    "Extracts all public transport platforms, including bus stops and train stations",
+    "Extracts all railway stations",
+    "Extracts all tram lines",
+    "Extracts all bus routes",
+    "Extracts administrative boundaries at the specified level",
+    "Extracts all restaurants",
+    "Extracts all cafes",
+    "Extracts all pubs",
+    "Extracts all pharmacies",
+    "Extracts all hospitals",
+    "Extracts all schools"
+  ),
+  Example = c(
+    "highway=* and name=* in Bangalore",
+    "public_transport=platform in Bangalore",
+    "railway=station in Bangalore",
+    "railway=tram in Bangalore",
+    "route=bus in Bangalore",
+    "admin_level=4 in Bangalore (district level)",
+    "amenity=restaurant in Bangalore",
+    "amenity=cafe in Bangalore",
+    "amenity=pub in Bangalore",
+    "amenity=pharmacy in Bangalore",
+    "amenity=hospital in Bangalore",
+    "amenity=school in Bangalore"
+  )
+)
+
+
+kable(data_queries, format="latex", booktabs = TRUE, col.names = c(
+  "Query",
+  "Description",
+  "Syntax"
+), caption = "Sample Overpass Turbo Wizard queries"
+) %>%
+  kableExtra::kable_styling(latex_options = "striped") %>% 
+  kableExtra::column_spec(1, width = "12em", bold = T) %>% 
+  kableExtra::column_spec(2, width = "10em") 
+```
+
+<!-- | Query                       | Description                                                                     | Example                                       | -->
+
+<!-- |------------------|----------------------------------|--------------------| -->
+
+<!-- | `highway=* and name=*`      | Extracts all roads with their names                                             | `highway=* and name=* in Bangalore`           | -->
+
+<!-- | `public_transport=platform` | Extracts all public transport platforms, including bus stops and train stations | `public_transport=platform in Bangalore`      | -->
+
+<!-- | `railway=station`           | Extracts all railway stations                                                   | `railway=station in Bangalore`                | -->
+
+<!-- | `railway=tram`              | Extracts all tram lines                                                         | `railway=tram in Bangalore`                   | -->
+
+<!-- | `route=bus`                 | Extracts all bus routes                                                         | `route=bus in Bangalore`                      | -->
+
+<!-- | `admin_level=*`             | Extracts administrative boundaries at the specified level                       | `admin_level=4 in Bangalore` (district level) | -->
+
+<!-- | `amenity=restaurant`        | Extracts all restaurants                                                        | `amenity=restaurant in Bangalore`             | -->
+
+<!-- | `amenity=cafe`              | Extracts all cafes                                                              | `amenity=cafe in Bangalore`                   | -->
+
+<!-- | `amenity=pub`               | Extracts all pubs                                                               | `amenity=pub in Bangalore`                    | -->
+
+<!-- | `amenity=pharmacy`          | Extracts all pharmacies                                                         | `amenity=pharmacy in Bangalore`               | -->
+
+<!-- | `amenity=hospital`          | Extracts all hospitals                                                          | `amenity=hospital in Bangalore`               | -->
+
+<!-- | `amenity=school`            | Extracts all schools                                                            | `amenity=school in Bangalore`                 | -->
+
+<!-- : (#tab:osm-queries) Sample Overpass Turbo Wizard queries. -->
+
+## Visualizing ped sheds {#pedsheds}
+
+Calculating the walking areas, also known as **ped sheds**, around a specific point is a critical step in determining the walkability of a particular location. By defining the areas within exact walking distance, we can better understand the accessibility of the site for pedestrians. To perform this task, we will use the "OpenRouteService" tool.
+
+Before starting, you must set up ORS tools to work with QGIS. The process for this is described in Appendix \@ref(ors-setup).
+
+Open the tool by clicking the 'ORS' button on the toolbar; it should be shaped like the hexagonal ORS logo. Otherwise, you can go to `Web` \> `ORS Tools`.
+
+![(#fig:isoselect)](images/Pasted%20image%2020230307002807.png){width="8cm"}
+
+Select `Isochrones from Point` \@ref(fig:isoselect)
+
+\tipbox{ An isochrone is a map that shows areas of equal travel time from a specific point. In this case, we want to find reachable areas within a certain walking time from a specific point.}
+
+![(#fig:isoinput)](images/Pasted%20image%2020230307003018.png){width="14cm"}
+
+In the dialog box that appears (fig. \@ref(fig:isoinput)), select the "foot-walking" option as the `travel mode`. You can do this in various other methods, such as hiking, cycling, or driving.
+
+Click on the "..." button in the `Input` field to locate the point on the canvas. You can select the point by clicking on the map or entering the coordinates manually.
+
+In the `Dimension` field, select `Time` since this is the value we're interested in. After this, enter the time range you'd like to calculate in the `ranges` field. For example, if you want to find reachable areas within a 15-minute walk, set the time range to 15 minutes. You can also select multiple time ranges, such as 5 and 15 minutes, to see the different walking areas around the point. These will need to be separated by commas. I will visualize a ped shed for the Cubbon Park metro station for 10 and 15 minute values.
+
+Click on "Run" to generate the map showing the reachable areas within the specified walking time.
+
+![(#fig:cubbon-pedshed) Starting from the Cubbon Park metro station, this isochrone visualizes 10 and 15 minutes walking times.](images/pedshed-1.png){width="14cm"}
+
+The resulting map (figure \@ref(fig:cubbon-pedshed)) will show the different areas within walking distance of the specified point. This information is critical for understanding the walkability of a particular location and identifying areas that may need improvement to enhance pedestrian accessibility. You can use these to calculate walking areas around bus stops, commercial spaces, hospitals, public toilets, etc.
+
+### Understanding isochrones
+
+Knowing the walking areas around a point is critical for understanding the accessibility of the site for pedestrians. By knowing which areas are within a specific walking distance, we can identify potential areas of improvement, such as missing sidewalks, pedestrian crossings, or other infrastructure that can improve the pedestrian experience. We can also identify areas where people are less likely to walk because they are too far away from their destinations, which can inform future planning and development.
+
+In addition to identifying areas for improvement, the information generated from calculating the walking regions can also be used to evaluate the effectiveness of past improvements or interventions. For example, suppose a new pedestrian bridge or crossing has been constructed. In that case, the walking areas can be recalculated to see if it has improved accessibility or if areas still need further attention.
+
+You might also notice that the shapes that are output are irregular. The shape of the isochrone depends on the terrain and the road network. If the area has hills or other physical barriers, it may take longer to walk or drive to certain areas, resulting in irregularly shaped isochrones. Similarly, if the road network in the area is not well connected, it may take longer to travel between specific points, resulting in irregularly shaped isochrones.

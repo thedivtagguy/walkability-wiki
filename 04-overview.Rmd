@@ -2,5 +2,7 @@
 
 # Walkability
 
-## Walkability Metrics
+Walkability refers to how friendly an area is for pedestrians. It is a measure of how easy and enjoyable it is to walk in a particular environment. Walkability assessment is a process of evaluating the features of a neighborhood or a city that affect walkability, such as the availability and quality of sidewalks, street connectivity, traffic safety, pedestrian amenities, and land use. Walkability is essential for promoting sustainable transportation, enhancing public health, reducing traffic congestion, and improving the overall quality of life in cities. Assessing walkability involves collecting data about the physical and social characteristics of a place, analyzing the data, and interpreting the results to develop strategies for enhancing walkability.
+
+## Recommended Readings
 
