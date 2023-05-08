@@ -1,28 +1,26 @@
 # (PART) Quantitative Assessment Guides {.unnumbered}
 
-# Site Assessment {#site-assessment}
+# Site assessment {#site-assessment}
 
-## Secondary Research
+## Secondary research
 
-Chances are, you already know where you'll be conducting your walkability assessment. This could be your neighborhood, a section of an area you visit often, or even a place you've never been to. If you have already narrowed down such a region, @ref(space-analysis) shows you how to identify important and busy streets for your audit. @ref(secondary-research) shows you how to get information about your site's population, which can help you understand the region's demographics.
+Chances are, you already know where you'll be conducting your walkability assessment. This could be your neighborhood, a section of an area you visit often, or even a place you've never been to. If you have already narrowed down such a region, \@ref(space-analysis) shows you how to identify important and busy streets for your audit. \@ref(secondary-research) shows you how to get information about your site's population, which can help you understand the region's demographics.
 
 ### Understanding the population
 
-In \@ref(levels-of-analysis), we discussed the importance of adding a socio-economic layer of context to our assessments. TLDR; understanding your demographic, income levels, and social makeup can help you show *who* is being excluded and design your solutions more inclusively. We can use a variety of data sources to view information about the population. I discuss some ways to use this data to identify segregation within areas in Section @ref(identify-segregation)
+In \@ref(types-of-analysis), we discussed the importance of adding a socio-economic layer of context to our assessments. TLDR; understanding your demographic, income levels, and social makeup can help you show *who* is being excluded and design your solutions more inclusively. We can use a variety of data sources to view information about the population. I discuss some ways to use this data to identify segregation within areas in Section \@ref(identify-segregation)
 
+### Census data {#census-data .unnumbered}
 
-### Census Data {#census-data .unnumbered}
-
-The last general census in India was conducted in 2011. While outdated by almost all counts, this data remains the only comprehensive source of information at a country-wide level. The highest resolution (the level of detail) at which this data is available is at a city's ward level. If you live in any of the large metro cities, this might already be available through [OpenCity](https://opencity.in). Some states and government bodies have also opened their GIS servers for access, a full list of which you can find [here](https://opencity.in/explainer/how-to-access-government-gis-data-for-indian-cities-states/). For smaller cities, the compiled population information by [@balkSpatialData20112020] for the entire country from a variety of sources can be [downloaded](https://sedac.ciesin.columbia.edu/data/set/india-spatial-india-census-2011/data-download#) in the form of CSV and GeoTIFF files.
+The last general census in India was conducted in 2011. While outdated by almost all counts, this data remains the only comprehensive source of information at a country-wide level. The highest resolution (the level of detail) at which this data is available is at a city's ward level. If you live in any of the large metro cities, this might already be available through [OpenCity](https://opencity.in). Some states and government bodies have also opened their GIS servers for access, a full list of which you can find [here](https://opencity.in/explainer/how-to-access-government-gis-data-for-indian-cities-states/). For smaller cities, the compiled population information by [@balk2019] for the entire country from a variety of sources can be [downloaded](https://sedac.ciesin.columbia.edu/data/set/india-spatial-india-census-2011/data-download#) in the form of CSV and GeoTIFF files.
 
 ### Global Human Settlement Layer {.unnumbered}
 
 The [Global Human Settlement Layer (GHSL)](https://ghsl.jrc.ec.europa.eu/download.php?ds=pop) by the Joint Research Centre provides high-resolution population estimates for nearly every country. This can be downloaded for various years (in my experience, the 2015 dataset works well) and for your specific region of interest through the website's interactive map.
 
 The GHSL dataset is commonly used for estimating the population, whereas other datasets might be hard to get. The data is provided in raster format, where each pixel represents the number of people at that point. You can easily visualize this in software like QGIS. An excellent project that makes it available to explore only is Tom Forth's [Population around a point](https://www.tomforth.co.uk/circlepopulations/).
-\begin{center}
-![](images/Pasted%20image%2020230428220224.png){width="10cm"}
-\end{center}
+
+![(#fig:pop-point) The global coverage makes GHSL a very useful source of data on population.](images/Pasted%20image%2020230428220224-01.png){width="10cm"}
 
 ### Understanding the space {#space-analysis}
 
@@ -50,8 +48,7 @@ First, get the following things ready before moving ahead:
 
 1.  **Download DepthmapX**: You can find the relevant copy for your operating system [here](https://archtech.gr/varoudis/depthmapX/).
 
-2.  **Download your region's OSM street network**: Trim the network to your region of interest so you can process the data faster. 
-
+2.  **Download your region's OSM street network**: Trim the network to your region of interest so you can process the data faster.
 
 3.  **Fire up QGIS**: We'll use this to convert our street files into an appropriate format for use in `DepthMapX` and then bring it back here for polishing touches after analysis.
 
@@ -67,7 +64,7 @@ You can do this by right clicking on your street layer and going to `Export` \> 
 
 ![](images/Pasted%20image%2020230428222041.png){width="10cm"}
 
-#### Step 2. Prepare it in DepthMapX {.unnumbered}{width="10cm"}
+#### Step 2. Prepare it in DepthMapX {.unnumbered} {width="10cm"}
 
 Open your copy of `DepthMapX` and create a new project by going to `File` \> `New`. We can now import our map by going to `Map` \> `Import`.
 

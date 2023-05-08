@@ -1,4 +1,4 @@
-# Recommended Software & Tools
+# Recommended softwares and tools
 
 I will be using the following to collect data, perform analysis and visualize the results:
 

@@ -1,8 +1,11 @@
 # Assessment of Infrastructure Accessibility
 
-## Sourcing Data Using OpenStreetMaps {#osm-extract}
+Walking is the ideal last-mile solution for transportation, but it's only feasible if the infrastructure is
+accessible. In this section, we will assess the infrastructure accessibility in our study site.
 
-OpenStreetMap is the best readily available data source for most of your analysis needs because, unlike commercial maps like Google Maps and Bing Maps, *all* data on OSM can be downloaded and taken into your favourite GIS tool. You can even add details about your neighbourhood to document your surroundings better, such as adding information on sidewalks, CCTV cameras or streetlights [@safeyelliStreetlampsBusinessesSurveyed2022].
+## Sourcing data using OpenStreetMaps {#osm-extract}
+
+OpenStreetMap is the best readily available data source for most of your analysis needs because, unlike commercial maps like Google Maps and Bing Maps, *all* data on OSM can be downloaded and taken into your favourite GIS tool. You can even add details about your neighbourhood to document your surroundings better, such as adding information on sidewalks, CCTV cameras or streetlights [@safeyelli2022].
 
 In OSM, the map is divided into three main components: nodes, edges, and relationships. Nodes are **points** on the map, such as buildings or points of interest, while edges are **lines that connect** them, like roads, rivers, and rail networks. Relationships describe how nodes and edges relate to each other, such as **how Bangalore is a city within Karnataka**.
 
@@ -138,13 +141,13 @@ Before starting, you must set up ORS tools to work with QGIS. The process for th
 
 Open the tool by clicking the 'ORS' button on the toolbar; it should be shaped like the hexagonal ORS logo. Otherwise, you can go to `Web` \> `ORS Tools`.
 
-![(#fig:isoselect)](images/Pasted%20image%2020230307002807.png){width="8cm"}
+![(#fig:isoselect) We can also choose to visualize an entire point layer](images/Pasted%20image%2020230307002807.png){width="8cm"}
 
 Select `Isochrones from Point` \@ref(fig:isoselect)
 
 \tipbox{ An isochrone is a map that shows areas of equal travel time from a specific point. In this case, we want to find reachable areas within a certain walking time from a specific point.}
 
-![(#fig:isoinput)](images/Pasted%20image%2020230307003018.png){width="14cm"}
+![(#fig:isoinput) Setting up the isochrone](images/Pasted%20image%2020230307003018.png){width="14cm"}
 
 In the dialog box that appears (fig. \@ref(fig:isoinput)), select the "foot-walking" option as the `travel mode`. You can do this in various other methods, such as hiking, cycling, or driving.
 

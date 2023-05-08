@@ -1628,7 +1628,7 @@
 \newdimen\max@tablewidth
 \newcommand\automaticrules{\@tablerulestrue}
 \newcommand\noautomaticrules{\@tablerulesfalse}
-\def\thepart{%
+\def\thetable{%
 \thesection.%
 \@arabic\c@table}
 \def\thesubtable{%

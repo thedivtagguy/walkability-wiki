@@ -37,7 +37,7 @@ But it **won't**:
 ```
 ![](static/people.png){.people .no-border width="14cm" height="4.5cm"}
 
-Little-to-no prior knowledge is required for following the methods discussed in this book. You might be a:
+This book *does assume you have some understanding of walkability audits and assessments*, and what you are looking for is methods to fill gaps in that knowlege. Little-to-no prior knowledge is required for following the methods discussed in this book. You might be a:
 
 1.  Urban planner or designer, for whom this book offers insights on how to assess walkability in Indian cities and neighborhoods.
 
@@ -45,6 +45,14 @@ Little-to-no prior knowledge is required for following the methods discussed in 
 
 3.  A researcher, academic, or student in urban planning, public health, or related fields, for whom this book is a great resource for gaining a comprehensive understanding of walkability and its impact on the people that use them.
 
-This book isn't a dry, technical manual. It's full of real-life case studies and practical techniques that can be used to make cities more walkable. Whether you're a professional or just someone who loves taking a stroll, this book is for you.
+## How to read this book
 
-## How to Read This Book
+Much like The Machete Order, I suggest the following flow to get through this book, which will guide you through the methods and concepts presented in a logical sequence.
+
+1.  **Learn how to understand your site** through the methods described in Section \@ref(secondary-research). This will help you understand important ways to understand the built space.
+2.  **Plan your field visits** or **conduct a preliminary virtual tour** through the methods outlined in Section \@ref(field-visits) and Section \@ref(google-street-view-for-audits).
+3.  **Conduct interviews** and **make comprehensive notes & observations** about the site and its people through the methods in Section \@ref(built-environment-observations), Section \@ref(interview-structure), and Section \@ref(interview-methodology).
+4.  **Delve into quantitative analysis** and learn how to **analyse your qualitative data through visualizations** in Section \@ref(hybrid-assessments), Section \@ref(combining-data), Section \@ref(finding-ways-to-visualize-comfort) and Section \@ref(part-quantitative-assessment-guides).
+5.  **Visualize your results** and presenting findings by looking at examples in Section \@ref(part-visualizing-results).
+
+For any important steps in an analysis process, screenshots and text is presented clearly. References to anything within a software or inside an image is `Formatted like so`. I have done these analyses on a Windows 10 laptop, so if you have any errors specifc to this OS, rest assured they can be searched for on Google. If you are using Mac OS and are unable to troubleshoot an error, I recommend shutting down your laptop and getting a Windows.

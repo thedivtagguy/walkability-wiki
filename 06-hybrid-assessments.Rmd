@@ -2,9 +2,9 @@
 
 Combining qualitative and quantitative data is essential to understand issues as complex as mobility fully. However, analyzing both data types can be challenging, and integrating them into a cohesive analysis is often tricky. Here, hybrid assessments can help bridge the gap between qualitative and quantitative studies.
 
-## Why bother
+## Why do we need them?
 
-In the previous section, we explored various walkability measures, including an area's built and natural environment and other essential aspects. While GIS techniques and macro data sources can provide a baseline understanding of the walkability of a site, they often miss out on the unique issues and experiences that residents face on a day-to-day basis.
+In the next few sections, we will explore various walkability measures, including an area's built and natural environment and other essential aspects. While GIS techniques and macro data sources can provide a baseline understanding of the walkability of a site, they often miss out on the unique issues and experiences that residents face on a day-to-day basis.
 
 In early 2023, [Sensing Local](https://www.sensinglocal.in/), an organization that works on urban and environmental issues in Indian cities, commenced a series of walkability for 24 wards in Bangalore [@byiffathRaisingStreets2022]. As of writing this, more than 139 km of footpaths have been audited in 10 wards has been completed. These audits, using collaborative tools and with the help of community volunteers, mapped various street features, such as footpath conditions, street litter, encroachment, and streetlight presence. Although these are important indicators of the neighbourhoods they visited, there may be other problems that these criteria missed.
 
@@ -16,15 +16,15 @@ To better understand the region, another audit of Bangalore's wards was conducte
 
 This more comprehensive approach not only provides an understanding of the accessibility of various amenities but also includes qualitative data on what the **residents feel is an issue**.
 
-As researchers, we often study areas that we aren't familiar with. Therefore, standardized metrics, such as sidewalk measurements, street lighting, and footpath conditions, are crucial for providing a foundational understanding of the walkability of an area. However, relying solely on these metrics can limit our understanding of residents' unique issues and experiences. Qualitative research can provide valuable insights into the lived experiences of individuals in the community. For example, an on-ground study conducted by community volunteers can reveal micro-scale insights that data analysis using GIS techniques and macro data sources may miss. Section \@ref(interviews-ejipura) shows some unique insights that can be gathered from interviews.
+As researchers, we often study areas that we aren't familiar with. Therefore, standardized metrics, such as sidewalk measurements, street lighting, and footpath conditions, are crucial for providing a foundational understanding of the walkability of an area. However, relying solely on these metrics can limit our understanding of residents' unique issues and experiences. Qualitative research can provide valuable insights into the lived experiences of individuals in the community. For example, an on-ground study conducted by community volunteers can reveal micro-scale insights that data analysis using GIS techniques and macro data sources may miss. Section \@ref(street-comfort-qualitative) shows some unique insights that can be gathered from interviews.
 
-## Grassroots Approach
+## Grassroots approach
 
 We can use a grassroots approach to designing audits to help fill these quantitative research gaps, often created based on standardized metrics.
 
 Grassroots, also known as bottom-top approaches, focus on collecting data from participants locally instead of entirely relying on higher-level data sources. The grassroots process is particularly relevant in fields such as community development, social justice, and public health, where understanding the experiences and needs of the local community is critical to developing effective interventions or policies and can similarly be applied to inform the assessment process, which can ultimately lead to more effective and inclusive solutions [@knapskogExploringWaysMeasuring2019a].
 
-## Differences in Approach
+## Differences in methods
 
 In most of the walkability audits I have encountered, and others have studied, the qualitative features of streets fail to attract the necessary attention and aren't investigated. [@aghaabbasiEvaluatingCapabilityWalkability2018]. Most studies follow the framework shown in Figure \@ref(fig:usual).
 

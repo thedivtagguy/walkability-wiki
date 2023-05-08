@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Chapter 3 Scope | The Walkability Wiki</title>
+<meta name="author" content="Aman Bhargava">
+<meta name="description" content="I really like the idea of eat cake first (Cetinkaya-Rundel 2018), which means at the heart of this book’s approach is the belief that it’s best to dive in and get started with the task at hand,...">
+<meta name="generator" content="bookdown 0.33 with bs4_book()">
+<meta property="og:title" content="Chapter 3 Scope | The Walkability Wiki">
+<meta property="og:type" content="book">
+<meta property="og:url" content="https://www.walkability.wiki/scope.html">
+<meta property="og:image" content="https://www.walkability.wiki/static/cover.png">
+<meta property="og:description" content="I really like the idea of eat cake first (Cetinkaya-Rundel 2018), which means at the heart of this book’s approach is the belief that it’s best to dive in and get started with the task at hand,...">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Chapter 3 Scope | The Walkability Wiki">
+<meta name="twitter:description" content="I really like the idea of eat cake first (Cetinkaya-Rundel 2018), which means at the heart of this book’s approach is the belief that it’s best to dive in and get started with the task at hand,...">
+<meta name="twitter:image" content="https://www.walkability.wiki/static/cover.png">
+<!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/jquery/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="libs/bootstrap/bootstrap.min.css" rel="stylesheet">
+<script src="libs/bootstrap/bootstrap.bundle.min.js"></script><script src="libs/bs3compat/transition.js"></script><script src="libs/bs3compat/tabs.js"></script><script src="libs/bs3compat/bs3compat.js"></script><link href="libs/bs4_book/bs4_book.css" rel="stylesheet">
+<script src="libs/bs4_book/bs4_book.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script><!-- CSS --><style type="text/css">
+    
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  </style>
+<style type="text/css">
+    /* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+        }
+    .hanging div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }
+  </style>
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-spy="scroll" data-target="#toc">
+
+<div class="container-fluid">
+<div class="row">
+  <header class="col-sm-12 col-lg-3 sidebar sidebar-book"><a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
+
+    <div class="d-flex align-items-start justify-content-between">
+      <h1>
+        <a href="index.html" title="A guidebook for assessing walkability in india">The Walkability Wiki</a>:
+        <small class="text-muted">A guidebook for assessing walkability in india</small>
+      </h1>
+      <button class="btn btn-outline-primary d-lg-none ml-2 mt-1" type="button" data-toggle="collapse" data-target="#main-nav" aria-expanded="true" aria-controls="main-nav"><i class="fas fa-bars"></i><span class="sr-only">Show table of contents</span></button>
+    </div>
+
+    <div id="main-nav" class="collapse-lg">
+      <form role="search">
+        <input id="search" class="form-control" type="search" placeholder="Search" aria-label="Search">
+</form>
+
+      <nav aria-label="Table of contents"><h2>Table of contents</h2>
+        <ul class="book-toc list-unstyled">
+<li><a class="" href="index.html">Welcome to The Walkability Wiki</a></li>
+<li class="book-part">Getting Started</li>
+<li><a class="" href="intro.html"><span class="header-section-number">1</span> Introduction</a></li>
+<li><a class="" href="pb.html"><span class="header-section-number">2</span> Project background</a></li>
+<li><a class="active" href="scope.html"><span class="header-section-number">3</span> Scope</a></li>
+<li><a class="" href="recommended-softwares-and-tools.html"><span class="header-section-number">4</span> Recommended softwares and tools</a></li>
+<li class="book-part">Overview of Methods</li>
+<li><a class="" href="walkability.html"><span class="header-section-number">5</span> Walkability</a></li>
+<li><a class="" href="types-of-analysis.html"><span class="header-section-number">6</span> Types of analysis</a></li>
+<li><a class="" href="hybrid-assessments.html"><span class="header-section-number">7</span> Hybrid Assessments</a></li>
+<li class="book-part">Quantitative Assessment Guides</li>
+<li><a class="" href="site-assessment.html"><span class="header-section-number">8</span> Site assessment</a></li>
+<li><a class="" href="physical-environment.html"><span class="header-section-number">9</span> Assessment of Physical Environment</a></li>
+<li><a class="" href="assessment-of-infrastructure-accessibility.html"><span class="header-section-number">10</span> Assessment of Infrastructure Accessibility</a></li>
+<li><a class="" href="assessment-of-comfort.html"><span class="header-section-number">11</span> Assessment of Comfort</a></li>
+<li class="book-part">Qualitative Assessment Guides</li>
+<li><a class="" href="field-visits.html"><span class="header-section-number">12</span> Field visits</a></li>
+<li><a class="" href="interviews.html"><span class="header-section-number">13</span> Semi-structured interviews</a></li>
+<li><a class="" href="street-audits.html"><span class="header-section-number">14</span> Street Audits</a></li>
+<li class="book-part">Visualizing Results</li>
+<li class="book-part">Conclusion</li>
+<li><a class="" href="finishing-up.html"><span class="header-section-number">15</span> Finishing up</a></li>
+<li class="book-part">Appendix</li>
+<li><a class="" href="assessment-of-segregation.html"><span class="header-section-number">16</span> Assessment of Segregation</a></li>
+<li><a class="" href="create-blocks.html"><span class="header-section-number">17</span> Creating a city block map</a></li>
+<li><a class="" href="ors-setup.html"><span class="header-section-number">18</span> Setting up OpenRouteService</a></li>
+</ul>
+
+        <div class="book-extra">
+          <p><a id="book-repo" href="https://github.com/thedivtagguy/walkability-wiki">View book source <i class="fab fa-github"></i></a></p>
+        </div>
+      </nav>
+</div>
+  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><div id="scope" class="section level1" number="3">
+<h1>
+<span class="header-section-number">3</span> Scope<a class="anchor" aria-label="anchor" href="#scope"><i class="fas fa-link"></i></a>
+</h1>
+<div class="inline-figure"><img src="static/cake-2.jpg" class="people no-border" style="margin:0 auto; display:block;;width:8cm"></div>
+<p>I really like the idea of <strong>eat cake first</strong> <span class="citation">(<a href="ors-setup.html#ref-cetinkaya-rundelLetThemEat2018">Cetinkaya-Rundel 2018</a>)</span>, which means at the heart of this book’s approach is the belief that it’s best to dive in and get started with the task at hand, even if that means adopting a “good enough” approach initially.</p>
+<p>There may be more complex or nuanced workflows available, and I’ll be sure to point those out as well. There might even be better ways to derive insights or understand results, but the methods discussed here are enough to get started with. My goal is to provide you with the quickest and most straightforward path to achieving your desired outcome.<br><br>
+This also means <strong>no prior knowledge of GIS or programming</strong> is required to follow along. Wherever needed, I will link to appropriate guide material to reduce redundancy of writing it here again. What I <em>will</em> show is how to use those results in a real-life context. There are some things to keep in mind while using this book, so that you make the most of it.</p>
+<div id="what-to-expect" class="section level2" number="3.1">
+<h2>
+<span class="header-section-number">3.1</span> What to expect<a class="anchor" aria-label="anchor" href="#what-to-expect"><i class="fas fa-link"></i></a>
+</h2>
+<p>This guidebook <strong>will</strong>:</p>
+<ol style="list-style-type: decimal">
+<li>Demonstrate how to combine methods for better understanding walkability.</li>
+<li>Present real-life case studies to illustrate how this information can be practically used.</li>
+<li>Provide resources for urban planning professionals, academics, and anyone interested in the field to conduct their own research.</li>
+<li>Provide a framework for assessing walkability and encourages readers to draw their own conclusions based on their research and analysis</li>
+</ol>
+<p>But it <strong>won’t</strong>:</p>
+<ol style="list-style-type: decimal">
+<li>Aim to provide an exhaustive list of measures or a comprehensive review of research.</li>
+<li>Claim to offer a one-size-fits-all solution for assessing walkability.</li>
+<li>Provide technical guidance on every aspect of GIS and data analysis, only practical techniques and code snippets.</li>
+<li>Aim to be prescriptive or offer definitive answers on what makes a city or street walkable</li>
+</ol>
+</div>
+<div id="who-is-this-for" class="section level2 no-border" number="3.2">
+<h2>
+<span class="header-section-number">3.2</span> Who is this for?<a class="anchor" aria-label="anchor" href="#who-is-this-for"><i class="fas fa-link"></i></a>
+</h2>
+<style>
+.inline-figure {
+    border: none !important;
+
+  overflow-x: visible !important;
+}
+</style>
+<div class="inline-figure"><img src="static/people.png" class="people no-border" style="width:14cm;height:4.5cm"></div>
+<p>This book <em>does assume you have some understanding of walkability audits and assessments</em>, and what you are looking for is methods to fill gaps in that knowlege. Little-to-no prior knowledge is required for following the methods discussed in this book. You might be a:</p>
+<ol style="list-style-type: decimal">
+<li><p>Urban planner or designer, for whom this book offers insights on how to assess walkability in Indian cities and neighborhoods.</p></li>
+<li><p>Community advocate, for whom this book provides a framework for promoting walkable neighborhoods and understanding the factors that make them successful.</p></li>
+<li><p>A researcher, academic, or student in urban planning, public health, or related fields, for whom this book is a great resource for gaining a comprehensive understanding of walkability and its impact on the people that use them.</p></li>
+</ol>
+</div>
+<div id="how-to-read-this-book" class="section level2" number="3.3">
+<h2>
+<span class="header-section-number">3.3</span> How to read this book<a class="anchor" aria-label="anchor" href="#how-to-read-this-book"><i class="fas fa-link"></i></a>
+</h2>
+<p>Much like The Machete Order, I suggest the following flow to get through this book, which will guide you through the methods and concepts presented in a logical sequence.</p>
+<ol style="list-style-type: decimal">
+<li>
+<strong>Learn how to understand your site</strong> through the methods described in Section <a href="site-assessment.html#secondary-research">8.1</a>. This will help you understand important ways to understand the built space.</li>
+<li>
+<strong>Plan your field visits</strong> or <strong>conduct a preliminary virtual tour</strong> through the methods outlined in Section <a href="field-visits.html#field-visits">12</a> and Section <a href="street-audits.html#google-street-view-for-audits">14.2</a>.</li>
+<li>
+<strong>Conduct interviews</strong> and <strong>make comprehensive notes &amp; observations</strong> about the site and its people through the methods in Section <a href="street-audits.html#built-environment-observations">14.1</a>, Section <a href="interviews.html#interview-structure">13.0.3</a>, and Section <a href="interviews.html#interview-methodology">13.0.2</a>.</li>
+<li>
+<strong>Delve into quantitative analysis</strong> and learn how to <strong>analyse your qualitative data through visualizations</strong> in Section <a href="hybrid-assessments.html#hybrid-assessments">7</a>, Section <a href="assessment-of-comfort.html#combining-data">11.1</a>, Section <a href="street-audits.html#finding-ways-to-visualize-comfort">14.3.2</a> and Section <a href="#part-quantitative-assessment-guides"><strong>??</strong></a>.</li>
+<li>
+<strong>Visualize your results</strong> and presenting findings by looking at examples in Section <a href="#part-visualizing-results"><strong>??</strong></a>.</li>
+</ol>
+<p>For any important steps in an analysis process, screenshots and text is presented clearly. References to anything within a software or inside an image is <code>Formatted like so</code>. I have done these analyses on a Windows 10 laptop, so if you have any errors specifc to this OS, rest assured they can be searched for on Google. If you are using Mac OS and are unable to troubleshoot an error, I recommend shutting down your laptop and getting a Windows.</p>
+
+</div>
+</div>
+  <div class="chapter-nav">
+<div class="prev"><a href="pb.html"><span class="header-section-number">2</span> Project background</a></div>
+<div class="next"><a href="recommended-softwares-and-tools.html"><span class="header-section-number">4</span> Recommended softwares and tools</a></div>
+</div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
+    <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
+      <ul class="nav navbar-nav">
+<li><a class="nav-link" href="#scope"><span class="header-section-number">3</span> Scope</a></li>
+<li><a class="nav-link" href="#what-to-expect"><span class="header-section-number">3.1</span> What to expect</a></li>
+<li><a class="nav-link" href="#who-is-this-for"><span class="header-section-number">3.2</span> Who is this for?</a></li>
+<li><a class="nav-link" href="#how-to-read-this-book"><span class="header-section-number">3.3</span> How to read this book</a></li>
+</ul>
+
+      <div class="book-extra">
+        <ul class="list-unstyled">
+<li><a id="book-source" href="https://github.com/thedivtagguy/walkability-wiki/blob/master/02-structure.Rmd">View source <i class="fab fa-github"></i></a></li>
+          <li><a id="book-edit" href="https://github.com/thedivtagguy/walkability-wiki/edit/master/02-structure.Rmd">Edit this page <i class="fab fa-github"></i></a></li>
+        </ul>
+</div>
+    </nav>
+</div>
+
+</div>
+</div> <!-- .container -->
+
+<footer class="bg-primary text-light mt-5"><div class="container"><div class="row">
+
+  <div class="col-12 col-md-6 mt-3">
+    <p>"<strong>The Walkability Wiki</strong>: A guidebook for assessing walkability in india" was written by Aman Bhargava. It was last built on 2023-05-08.</p>
+  </div>
+
+  <div class="col-12 col-md-6 mt-3">
+    <p>This book was built by the <a class="text-light" href="https://bookdown.org">bookdown</a> R package.</p>
+  </div>
+
+</div></div>
+</footer><!-- dynamically load mathjax for compatibility with self-contained --><script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/latest.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script><script type="text/x-mathjax-config">const popovers = document.querySelectorAll('a.footnote-ref[data-toggle="popover"]');
+for (let popover of popovers) {
+  const div = document.createElement('div');
+  div.setAttribute('style', 'position: absolute; top: 0, left:0; width:0, height:0, overflow: hidden; visibility: hidden;');
+  div.innerHTML = popover.getAttribute('data-content');
+
+  var has_math = div.querySelector("span.math");
+  if (has_math) {
+    document.body.appendChild(div);
+    MathJax.Hub.Queue(["Typeset", MathJax.Hub, div]);
+    MathJax.Hub.Queue(function() {
+      popover.setAttribute('data-content', div.innerHTML);
+      document.body.removeChild(div);
+    })
+  }
+}
+</script>
+</body>
+</html>

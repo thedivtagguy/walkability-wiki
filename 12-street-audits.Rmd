@@ -1,8 +1,10 @@
 # Street Audits
 
-## Built Environment Observations {#built-environment-observations}
+Now that you have tackled people, let us understand the site itself.
 
-As part of your street audits, you might already have a sense of the space through Google Street View (section \@ref(google-street-view)) or secondary data analysis through quantitative methods (\@ref(physical-environment)). This section focuses on qualitative observations and insights about the built environment and how they can help you understand your study site more comprehensively.
+## Built environment observations {#built-environment-observations}
+
+As part of your street audits, you might already have a sense of the space through Google Street View (section \@ref(google-street-view)) or secondary data analysis through quantitative methods. This section focuses on qualitative observations and insights about the built environment and how they can help you understand your study site more comprehensively.
 
 ### What we can learn {#learn-observations}
 
@@ -80,7 +82,7 @@ Site observation can be a valuable tool for **developing interview questions** w
 
 : (#tab:observations) Examples of questions and observations.
 
-### Taking Visual Notes {#visual-notes}
+### Taking visual notes {#visual-notes}
 
 In addition to the notes that you inevitably will be taking, it is a good idea to take enough pictures of things that catch your attention which you can use to study later. Using a tool like [OSMAnd](https://osmand.net/) can help you attach such visual notes to a map to help you remember where you took a picture and add more context about it. Observations about the design of streets and, their usage, their materiality can help you recollect details from your site visits. Figure \@ref(fig:visual-notes) shows how these notes can be assembled.
 
@@ -100,11 +102,11 @@ In contrast, in a different region within the study area, we observed that an eq
 
 Infographics created to showcase these different types of land use can be very helpful in communicating these observations to others. Figure \@ref(fig:plots) shows an excerpt from some of my infographics for Ejipura. By providing a clear and visual representation of the different ways in which spaces are used within the study area, it is possible to highlight the existing disparities and inequities and advocate for improvements in public amenities.
 
-## Google Street View for Audits
+## Google Street View for audits
 
-Street audits are a crucial tool for assessing the built environment's impact on public health. However, conducting physical street audits can take time and effort. Recent advancements have made virtual street audits using Google Street View a cost-effective and efficient alternative. In situations where physical visits to the site may be difficult or impossible, such as logistical constraints, virtual street audits can supplement our analysis and provide a more comprehensive understanding of the environment. In India, most major cities have already been mapped out, providing full coverage that can be accessed [here]([[https://www.google.com/streetview/how-it-works/#map](https://www.google.com/streetview/how-it-works/#map).](https://www.google.com/streetview/how-it-works/#map%5D(https://www.google.com/streetview/how-it-works/#map).)
+Street audits are a crucial tool for assessing the built environment's impact on public health. However, conducting physical street audits can take time and effort. Recent advancements have made virtual street audits using Google Street View a cost-effective and efficient alternative. In situations where physical visits to the site may be difficult or impossible, such as logistical constraints, virtual street audits can supplement our analysis and provide a more comprehensive understanding of the environment. In India, most major cities have already been mapped out, providing full coverage that can be accessed [here](https://www.google.com/streetview/how-it-works/#map).
 
-Although there are some limitations to using Street View, such as the inability to assess certain features, basic observational audits can be performed easily. A study by Rundle et al. (2011)[\@rundleUsingGoogleStreet2011] found that virtual street audits produced results comparable to physical audits, indicating that they can be a reliable and efficient tool for assessing neighborhood environments.
+Although there are some limitations to using Street View, such as the inability to assess certain features, basic observational audits can be performed easily. A study by [@rundle2011] found that virtual street audits produced results comparable to physical audits, indicating that they can be a reliable and efficient tool for assessing neighborhood environments.
 
 We can follow the same systematic protocol used in physical audits to perform a virtual street audit using Google Street View. We can use Google Street View to navigate the streets and document the presence of built environment features such as sidewalks, crosswalks, bike lanes, streetlights, and amenities such as parks, playgrounds, and public transportation. This approach can speed up the process, help us acclimatize to the surroundings, and save at least one field visit for exploratory purposes. Figure \@ref(fig:image-ref-for-in-text) is a sample checklist of indicators to consider during a virtual street audit.
 
@@ -113,11 +115,11 @@ knitr::include_graphics("./maps/street-view.pdf")
 
 ```
 
-### Auditing a Road in Ejipura
+### Auditing a road in Ejipura
 
 To demonstrate how we can do a virtual audit with the checklist in \@ref(fig:checklist), we'll choose one of Ejipura's busiest streets, traverse it using Street View and take some notes alongside.
 
-We're starting from `12.9413571, 77.627867`, which is the Sri Rama Temple road in Ejipura. Referring the land use maps tells me that this
+We're starting from `12.9413571, 77.627867`, which is the Sri Rama Temple road in Ejipura. Referring the land use maps tells me that this is a highly commercial area, so I can assume this is an important area for economic activity. As I pan around on Google Maps, I notice the street is bustling with activity - people walking on the sidewalk, cars moving through, street vendors selling their wares, and shops with their shutters half-open. The street itself is narrow, with two-wheelers parked on both sides. The buildings on either side of the street are a mix of residential and commercial, with apartments above the shops.
 
 ::: {.cols data-latex=""}
 ::: {.col data-latex="{0.55\\textwidth}"}
@@ -161,8 +163,9 @@ Exploring the study site more, we can highlight many things that would also be e
 5.  The footpaths appear to be obstructed in certain areas, which may impede pedestrian mobility and safety.
 6.  The lack of a buffer between the street and the footpath (or even buildings) may increase the risk of accidents and reduce the overall safety of the walking environment.
 
-\newpage
-## Auditing Street Comfort {#street-comfort-qualitative}
+\clearpage
+
+## Auditing street comfort {#street-comfort-qualitative}
 
 Various factors influence walkability, including street connectivity, footpath availability, width, land use, and aesthetics. While researchers tend to focus more on street conditions and the function of the environment, we should not overlook the perceptions of the street and pedestrian experiences as they impact walkability [@tongDevelopingMultiscaleWalkability]. However, existing studies assessing comfort primarily use questionnaire surveys, which may only effectively capture some indicators and is hard to scale up in the long run. So how should we do this, and is it even necessary?
 
@@ -210,7 +213,8 @@ kable(feelings, format="latex", booktabs = TRUE, col.names = c(
 ) %>%
   kableExtra::kable_styling(latex_options = "striped") %>% 
   kableExtra::column_spec(1, width = "5em", bold = T) %>% 
-  kableExtra::column_spec(3, width = "7em")
+  kableExtra::column_spec(3, width = "7em") %>% 
+  kableExtra::column_spec(4, width = "12em")
 ```
 
 <!-- +-----------------------------+-------------------+----------------------------------------------+--------------------------------------------------------------------+ -->
@@ -280,18 +284,18 @@ kable(feelings, format="latex", booktabs = TRUE, col.names = c(
 Now that I have a clear understanding of the factors that contribute to the feeling of comfort, I need to find data sources that meet the following criteria:
 
 1.  They are publicly available and reasonably accurate.
-2.  They may not be directly related to the scientific definition of comfort but can serve as proxies for it. Refer to @ref(tab:sample-feelings-measure) for examples.
+2.  They may not be directly related to the scientific definition of comfort but can serve as proxies for it. Refer to \@ref(tab:sample-feelings-measure) for examples.
 3.  The data's resolution should be sufficient for analyzing differences at the street level and other levels of analysis.
 
 Some of the data sources I mapped out for $temperature$ are shown in figure \@ref(fig:temp).
 
-![(#fig:temp)](images/temp.png){width="14cm"}
+![(#fig:temp)](images/temp.png){width="8cm"}
 
-Out of everything I found through my research, I settled on the thermal layer from Landsat 1 describing land surface temperature at $100m$ resolution. I can use it to map out the temperatures in different areas and see which areas form 'heat islands.' Section \@ref(landsat-tut) describes the process.
+Out of everything I found through my research, I settled on the thermal layer from Landsat 1 describing land surface temperature at $100m$ resolution. I can use it to map out the temperatures in different areas and see which areas form 'heat islands.' Section \@ref(heat-islands) describes the process.
 
 ### What is it suitable for?
 
-After exploring the section @ref(landsat-tut) on mapping land surface temperature in different areas, the next step is to use the data to gain insights and make informed decisions. It's essential to remember that, as with most walkability audit indicators, collecting data on a single variable or measure is to **assess whether that aspect of the system is functioning correctly or needs improvement**.
+After exploring the section @ref(heat-islands) on mapping land surface temperature in different areas, the next step is to use the data to gain insights and make informed decisions. It's essential to remember that, as with most walkability audit indicators, collecting data on a single variable or measure is to **assess whether that aspect of the system is functioning correctly or needs improvement**.
 
 In the case of land surface temperature, visualizing existing and emerging heat islands can help identify areas that are more susceptible to higher heat levels. This information can then be used to make recommendations for improving those spaces and mitigating the effects of urban heat islands.
 

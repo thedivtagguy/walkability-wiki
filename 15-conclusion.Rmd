@@ -2,6 +2,14 @@
 
 # Finishing up
 
-## Key takeaways
+Glad you could make it to the end.
 
-## Way forward
+Throughout this book, I have explored the concept of walkability and various ways of seeing it. I have also introduced a toolkit for conducting walkability audits at a micro-scale, which can help us identify problem areas and suggest potential solutions for making our neighborhoods more walkable.
+
+If there's one takeaway I hope you had from this book, it is that walkability is a multifaceted concept that goes beyond the presence of sidewalks or crosswalks; it involves factors which can vary widely depending on the context and the needs of different communities.
+
+Looking ahead, there is much work to be done in designing more such ways to assess walkability, as this is one of the most powerful ways of presenting a case for creating more pedestrian-friendly environments. This requires a collaborative effort between individuals, communities, and policymakers to prioritize pedestrian transportation and invest in research, planning, and design that support walkability. It also requires a recognition of the intersectional nature of walkability, as it impacts different communities in different ways and can exacerbate existing inequalities.
+
+The methods presented in this book offer a starting point for conducting walkability audits and empowering communities to take a more active role in shaping their surroundings. However, they are by no means exhaustive, and there is always room more.
+
+Consider this a first step.

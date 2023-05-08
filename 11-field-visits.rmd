@@ -1,6 +1,6 @@
 # (PART) Qualitative Assessment Guides {.unnumbered}
 
-# Field Visits
+# Field visits
 
 Field visits, ideally, will be the biggest part of your walkability assessment. They provide an opportunity to observe and experience the walking environment firsthand, allowing you to identify strengths and weaknesses that may not be apparent from data alone. In this chapter, I will explore how to plan and conduct effective field visits, as well as how to collect and analyze data during your visits. I will also provide tips for observing & engaging with locals, who can be valuable partners in your walkability assessment.
 
@@ -32,9 +32,7 @@ Once you have arrived at your site, it is time to begin your walkability audit. 
 
 3.  **Audit the streets based on standard metrics and perception**: Walk through the streets and audit them based on standard walkability metrics such as sidewalk width, street lighting, and the presence of street furniture. You can also note the perceived safety of the area, the amount of foot and vehicle traffic, and the overall comfort of the walking experience.
 
-    \
-    \
-    ![(#fig:basemaps) We used plain basemaps of Ejipura to color code roads based on how we felt while walking on them, how easy it was to walk and other landmarks we came across.](images/basemaps.png){width="14cm"}
+    ![(#fig:basemaps) We used plain basemaps of Ejipura to color code roads based on how we felt while walking on them, how easy it was to walk and other landmarks we came across.](images/basemaps-01.png){width="10cm"}
 
 4.  **Draw on your basemaps**: As you walk through the area, use your plain basemaps to make notes and draw any specific features or observations that you want to remember. You can also use colored markers to highlight important areas or features (\@ref(fig:basemaps)).
 
@@ -58,51 +56,14 @@ After your site visit, there are a few things you should do to make sure you mak
 
 In Section \@ref(levels), I outlined how I separate my study in Ejipura into what I believed to be its constitutent parts. Suppose you have only four visits thatr you can do and you need to make the most of them, how would each one look like? Table \@ref(tab:four) offers some insight.
 
-<!-- | Site Visit \# | Activities                                               | Areas of Focus                                                                                                                                                                                                                                                                                                                                                                             | -->
+| Site Visit \# | Activities                                               | Areas of Focus                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+|-------------|-------------|----------------------------------------------|
+| 1             | Walk-through exploration, mapping, and photography       | Level 1 and 2: Analyze the overall characteristics of the neighborhood, including its geographic boundaries, land uses, and demographic patterns. Also examine the pedestrian landscape of the neighborhood, including the design and accessibility of sidewalks, crosswalks, and other public spaces.                                                                                                                                                                                  |
+| 2             | On-ground analysis, participatory exercises              | Level 3 and 4: Investigate the distribution and characteristics of residential units and blocks within the neighborhood, such as their size, age, occupancy rate, and more. Also examine how land in the neighborhood is used, including the types of businesses and institutions present, the prevalence of green spaces and public parks, and the location of major roads and highways. Conduct interviews with local residents to understand their perspectives on the neighborhood. |
+| 3             | Interviews, surveys, and community engagement activities | Level 5: Examine the availability and accessibility of key amenities and services in the neighborhood, including public transit, grocery stores, restaurants, schools, and healthcare facilities. Conduct more interviews in a different region to remove spatial bias.                                                                                                                                                                                                                 |
+| 4             | Data analysis, community engagement or street audit      | Level 6: Look at how people interact with the neighborhood, including their perceptions of safety, community engagement, social capital, and overall quality of life as a whole. You can also choose to do a street audit by auditing important routes that you should know of by now and assess streets based on standardized metrics.                                                                                                                                                 |
 
-<!-- |-----------------------|---------------------|----------------------------| -->
-
-<!-- | 1             | Walk-through exploration, mapping, and photography       | Level 1 and 2: Analyze the overall characteristics of the neighborhood, including its geographic boundaries, land uses, and demographic patterns. Also examine the pedestrian landscape of the neighborhood, including the design and accessibility of sidewalks, crosswalks, and other public spaces.                                                                                     | -->
-
-<!-- | 2             | On-ground analysis, participatory exercises              | Level 3 and 4: Investigate the distribution and characteristics of residential units and blocks within the neighborhood, such as their size, age, occupancy rate, and more. Also examine how land in the neighborhood is used, including the types of businesses and institutions present, the prevalence of green spaces and public parks, and the location of major roads and highways.   -->
-
-<!--                                                                             Conduct interviews with local residents to understand their perspectives on the neighborhood.                                                                                                                                                                                                                                                                                               | -->
-
-<!-- | 3             | Interviews, surveys, and community engagement activities | Level 5: Examine the availability and accessibility of key amenities and services in the neighborhood, including public transit, grocery stores, restaurants, schools, and healthcare facilities. Conduct more interviews in a different region to remove spatial bias.                                                                                                                    | -->
-
-<!-- | 4             | Data analysis, community engagement or street audit      | Level 6: Look at how people interact with the neighborhood, including their perceptions of safety, community engagement, social capital, and overall quality of life as a whole. You can also choose to do a street audit by auditing important routes that you should know of by now and assess streets based on standardized metrics.                                                    | -->
-
-<!-- : (#tab:four) If you had four visits. -->
-
-```{r four}
-library(knitr)
-
-visits <-data.frame(
-  `Site Visit #` = c(1, 2, 3, 4),
-  Activities = c(
-    "Walk-through exploration, mapping, and photography",
-    "On-ground analysis, participatory exercises",
-    "Interviews, surveys, and community engagement activities",
-    "Data analysis, community engagement or street audit"
-  ),
-  `Areas of Focus` = c(
-    "Level 1 and 2: Analyze the overall characteristics of the neighborhood, including its geographic boundaries, land uses, and demographic patterns. Also examine the pedestrian landscape of the neighborhood, including the design and accessibility of sidewalks, crosswalks, and other public spaces.",
-    "Level 3 and 4: Investigate the distribution and characteristics of residential units and blocks within the neighborhood, such as their size, age, occupancy rate, and more. Also examine how land in the neighborhood is used, including the types of businesses and institutions present, the prevalence of green spaces and public parks, and the location of major roads and highways. Conduct interviews with local residents to understand their perspectives on the neighborhood.",
-    "Level 5: Examine the availability and accessibility of key amenities and services in the neighborhood, including public transit, grocery stores, restaurants, schools, and healthcare facilities. Conduct more interviews in a different region to remove spatial bias.",
-    "Level 6: Look at how people interact with the neighborhood, including their perceptions of safety, community engagement, social capital, and overall quality of life as a whole. You can also choose to do a street audit by auditing important routes that you should know of by now and assess streets based on standardized metrics."
-  )
-)
-
-kable(visits, format="latex", booktabs = TRUE, col.names = c(
-  "Site Visit No.",
-  "Activities",
-  "Areas of Focus"
-), caption = "If you had four visits..."
-) %>%
-  kableExtra::kable_styling(latex_options = "striped") %>% 
-  kableExtra::column_spec(1, width = "2em", bold = T) %>% 
-  kableExtra::column_spec(2, width = "7em" ) 
-```
+: (#tab:four) What if you only had four visits?
 
 Of course, you *must* be flexible when it comes to something as subjective and variable as site visits, but the above example is to show how areas of focus can be split across multiple visits. The key is in planning them out.
 
@@ -134,7 +95,7 @@ Finally, approach interviews with a friendly demeanor! As a researcher coming fr
 
 Once the interview concludes, elaborate on those notes more to capture as much detail as possible.
 
-#### Interview Structure {#interview-structure}
+### Interview Structure {#interview-structure}
 
 Begin the interview by introducing yourself, explaining the purpose of the interview, and thanking the interviewee for their time. Ensure that the interviewee is comfortable and understands the process and the kind of work you are doing. Simplify this as much as you can for their understanding. Be clear that this is a research exercise that aims to try to dismiss any apprehensions they might have about any other motives. Take notes about who the participant is and try to build their profile:
 

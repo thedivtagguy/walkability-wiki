@@ -4,37 +4,37 @@ So far, we've only analyzed things in terms of the physical environment or the c
 
 To fully understand walkability, it is crucial to assess walking comfort, which involves evaluating how people feel while walking in a given environment. This includes not only factors such as the quality of the pavement and the width of sidewalks but also considering the impact of weather on walking behavior. People may be less likely to walk in extreme weather conditions such as heavy rain, snow, or excessive heat. Assessing walkability in different weather conditions can help identify areas where improvements could be made to encourage more walking, such as adding shelters or improving drainage to reduce the impact of rain. Section \@ref(street-comfort-qualitative) discusses this in more detail in the context of Ejipura and how to approach this qualitatively, but this section will focus on examining some key factors most likely to affect Indian cities.
 
-## Combining Data
+## Combining data
 
 ![(#fig:combined) (Left to right) Green cover extent, LST variation and mapping shade due to buildings in Ejipura. Overlaying multiple visualizations like this illustrates how these factors are inter-related.](images/combined.png){width="14cm"}
 
 Green cover, heat island, and shade map analyses provide crucial insights for conducting a comprehensive walkability audit. These maps can help identify areas where walking is uncomfortable due to high temperatures and inadequate shade. Furthermore, they can identify areas where additional green spaces and shading devices are required to enhance the walking experience. Heat island maps enable us to mitigate temperature impacts on pedestrians by increasing green coverage in areas where temperatures are higher. The use of shading devices such as trees and canopies can also make walking more comfortable by providing relief from the sun. Combined with data on pedestrian traffic and infrastructure, we can use these maps to help develop effective strategies for enhancing walkability and promoting sustainable transportation.
 
-## Green Cover {#green-cover}
+## Green cover {#green-cover}
 
 Mapping green cover is a critical step in understanding the walkability of urban areas. Urban green spaces such as trees, shrubs, and grass beautify the environment and provide numerous benefits, such as reducing the urban heat island effect, improving air quality, and providing shade to pedestrians. It has been found that the presence of green spaces can also promote physical activity and improve mental health.
 
-In the context of Ejipura, a neighborhood in Bangalore, the lack of green cover has been identified as a significant issue affecting the area's walkability. In Section \ref(@street-comfort-qualitative), I explain how we found that most locals were dissatisfied with the lack of green space in their area. This lack of green space not only negatively impacts the area's walkability but also adversely affects the overall health and well-being of the residents.
+In the context of Ejipura, a neighborhood in Bangalore, the lack of green cover has been identified as a significant issue affecting the area's walkability. In Section \@ref(street-comfort-qualitative), I explain how we found that most locals were dissatisfied with the lack of green space in their area. This lack of green space not only negatively impacts the area's walkability but also adversely affects the overall health and well-being of the residents.
 
 To visualize this issue, we can use satellite data from the Sentinel satellites to map the green cover in the area. Sentinel satellites are a series developed by the European Space Agency (ESA) that provide high-resolution images of the Earth's surface. These images can be used to map vegetation cover and monitor changes over time. We will only visualize the green cover on a specific day.
 
-### Mapping Green Cover with Sentinel Imagery {#sentinel-guide}
+### Mapping green cover with Sentinel imagery {#sentinel-guide}
 
 Head to the [**Sentinel Hub**](https://www.sentinel-hub.com/) and create an account. The Hub allows us to easily access satellite imagery for all available dates from multiple sources, such as Landsat and the sentinel array of satellites.
 
 Once you have your account, go to the [EO Browser](https://apps.sentinel-hub.com/eo-browser/). This is where you will search for your location and browse images.
 
-![](images/gc-1-01.png){width="10cm"}
+![Search for your area of interest on Sentinel\...](images/gc-1-01.png){width="10cm"}
 
 In the upper right-hand corner, locate the search bar and search for your region of interest (for now, Ejipura). The map should re-center.
 
-![(#fig:search)](images/gc-2-01.png){width="10cm"}
+![(#fig:search) \...and then select your data source.](images/gc-2-01.png){width="8cm"}
 
 The left-hand panel (\@ref(fig:search)) will allow you to select the satellite from which you'd like to source the data. We will choose Sentinel 2, toggle Advanced Controls, and set the `Max. cloud coverage` to a low value. This automatically filters out imagery obscured by cloud cover, so we have clear images to analyze.
 
 By default, the search fetches the latest images, so if it brings no results, try adjusting the cloud coverage value to something more reasonable. Generally, anything between **15-30%** is okay. Run the search.
 
-![(#fig:single-result)](images/Pasted%20image%2020230502170534-01.png){width="10cm"}
+![(#fig:single-result) Search for images with least cloud cover so your data analysis can be better.](images/Pasted%20image%2020230502170534-01.png){width="10cm"}
 
 The results that load should look something like figure \@ref(fig:single-result). The essential details are the **date**, **time**, and cloud cover percentage. Please select any one of them by clicking visualize.
 
@@ -48,7 +48,7 @@ The Normalized Difference Vegetation Index (NDVI) is a special formula that uses
 }
 ```
 | Layer Name          | Relevance                                                               |
-|---------------------|-------------------------------------------------------------------------|
+|-------------------|-----------------------------------------------------|
 | True Color          | Provides a natural color representation of the area of interest         |
 | False Color (urban) | Helps identify vegetation and its density                               |
 | NDVI                | Enhances urban features such as roads and buildings                     |
@@ -120,7 +120,7 @@ The NDVI data from Sentinel has now been converted into something you can keep d
 3.  Overlay the green cover map with the population density map to see if any areas have high population density but low green cover.
 4.  Analyze the change in green cover over time to see any trends or patterns.
 
-## Heat Islands
+## Heat islands
 
 Land surface temperature (LST) is a crucial indicator of the thermal conditions of urban areas, providing valuable insights into the comfort of walking in different parts of the city. Unlike weather data that measures the air temperature at specific locations, LST is the temperature of the Earth's surface as measured by satellite sensors, using Landsat imagery to calculate the surface temperature at a high resolution of 100 meters. This high-resolution data allows for measuring heat differences at the intra-street level, making it an essential tool for understanding the local conditions affecting walkability.
 
@@ -206,7 +206,7 @@ This should color your map with the selected palette. I like to overlay this ove
 
 If you've ever been to the Majestic Bus Stand, you will know how hot it can get. Due to the concrete built-up area and no trees, this area is far hotter than compared to Freedom Park (figure \@ref(fig:scp-map)). By analyzing temperature data from different city regions, we can identify places where walking might be uncomfortable due to high temperatures. This helps quantify insights that you might get from qualitative interviews and on-ground observations (as described in \@ref(street-comfort-qualitative)).
 
-## Simple Flood Risk Mapping
+## Simple flood risk mapping
 
 Flooding can have a significant impact on walkability. Flooded streets and sidewalks can make walking dangerous and uncomfortable, and flooding can also damage infrastructure and amenities essential for pedestrians, such as benches, drinking fountains, and streetlights. It also disproportionately impacts low-income neighbourhoods, which often lack the resources to mitigate flood risk.
 
@@ -219,7 +219,7 @@ There are many, many different ways, with equally varying levels of complexity, 
 This kind of analysis is usually done with more information, such as built-up environment data or drainage and waterway systems, using some form of weighted overlay analysis. We're trading that level of detail here for ease, but this gives us a good ballpark of where at-risk areas will be.
 }
 ```
-We'll find the DEM data on [Sentinel EO Browser](https://apps.sentinel-hub.com/eo-browser/). Follow the same steps specified in \@ref(sentinel-guide) to log in, download and locate your area of interest; the only thing that changes is selecting `DEM` \> `Copernicus 30`. 30 refers to the 30-meter resolution of the DEM (\@ref(#fig:dem-download)).
+We'll find the DEM data on [Sentinel EO Browser](https://apps.sentinel-hub.com/eo-browser/). Follow the same steps specified in \@ref(sentinel-guide) to log in, download and locate your area of interest; the only thing that changes is selecting `DEM` \> `Copernicus 30`. 30 refers to the 30-meter resolution of the DEM (\@ref(fig:dem-download)).
 
 ![(#fig:dem-download)](images/Pasted%20image%2020230503173123.png){width="8cm" height="1.8cm"}
 
