@@ -79,6 +79,7 @@ lapply(c('xfun', 'tidyverse'), function(pkg) {
 
 
 # Welcome to The Walkability Wiki {.unnumbered}
+
 <br>
 
 <img src="static/cover.png" alt="Book Cover" class="cover" width="350" height="460"/>
