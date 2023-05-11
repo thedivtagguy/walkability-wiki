@@ -4,18 +4,18 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>Chapter 1 Introduction | The Walkability Wiki</title>
+<title>Chapter 17 Creating a city block map | The Walkability Wiki</title>
 <meta name="author" content="Aman Bhargava">
-<meta name="description" content="Walking in a city is an experience that most people take for granted. The ease of mobility on foot, especially in urban areas, has long been overshadowed by the convenience and speed provided by...">
+<meta name="description" content="For some analyses, you might need data on blocks instead of street networks. This is needed for 9.1 and for other analysis you might explore, such as interface catchment analysis. If you’re lucky,...">
 <meta name="generator" content="bookdown 0.33 with bs4_book()">
-<meta property="og:title" content="Chapter 1 Introduction | The Walkability Wiki">
+<meta property="og:title" content="Chapter 17 Creating a city block map | The Walkability Wiki">
 <meta property="og:type" content="book">
-<meta property="og:url" content="https://www.walkability.wiki/intro.html">
+<meta property="og:url" content="https://www.walkability.wiki/create-blocks.html">
 <meta property="og:image" content="https://www.walkability.wiki/static/cover.png">
-<meta property="og:description" content="Walking in a city is an experience that most people take for granted. The ease of mobility on foot, especially in urban areas, has long been overshadowed by the convenience and speed provided by...">
+<meta property="og:description" content="For some analyses, you might need data on blocks instead of street networks. This is needed for 9.1 and for other analysis you might explore, such as interface catchment analysis. If you’re lucky,...">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Chapter 1 Introduction | The Walkability Wiki">
-<meta name="twitter:description" content="Walking in a city is an experience that most people take for granted. The ease of mobility on foot, especially in urban areas, has long been overshadowed by the convenience and speed provided by...">
+<meta name="twitter:title" content="Chapter 17 Creating a city block map | The Walkability Wiki">
+<meta name="twitter:description" content="For some analyses, you might need data on blocks instead of street networks. This is needed for 9.1 and for other analysis you might explore, such as interface catchment analysis. If you’re lucky,...">
 <meta name="twitter:image" content="https://www.walkability.wiki/static/cover.png">
 <!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/jquery/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link href="libs/bootstrap/bootstrap.min.css" rel="stylesheet">
@@ -71,7 +71,7 @@
         <ul class="book-toc list-unstyled">
 <li><a class="" href="index.html">Welcome to The Walkability Wiki</a></li>
 <li class="book-part">Getting Started</li>
-<li><a class="active" href="intro.html"><span class="header-section-number">1</span> Introduction</a></li>
+<li><a class="" href="intro.html"><span class="header-section-number">1</span> Introduction</a></li>
 <li><a class="" href="pb.html"><span class="header-section-number">2</span> Project background</a></li>
 <li><a class="" href="scope.html"><span class="header-section-number">3</span> Scope</a></li>
 <li><a class="" href="recommended-softwares-and-tools.html"><span class="header-section-number">4</span> Recommended softwares and tools</a></li>
@@ -93,7 +93,7 @@
 <li><a class="" href="finishing-up.html"><span class="header-section-number">15</span> Finishing up</a></li>
 <li class="book-part">Appendix</li>
 <li><a class="" href="assessment-of-segregation.html"><span class="header-section-number">16</span> Assessment of Segregation</a></li>
-<li><a class="" href="create-blocks.html"><span class="header-section-number">17</span> Creating a city block map</a></li>
+<li><a class="active" href="create-blocks.html"><span class="header-section-number">17</span> Creating a city block map</a></li>
 <li><a class="" href="ors-setup.html"><span class="header-section-number">18</span> Setting up OpenRouteService</a></li>
 </ul>
 
@@ -102,29 +102,44 @@
         </div>
       </nav>
 </div>
-  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><div id="intro" class="section level1" number="1">
+  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><div id="create-blocks" class="section level1" number="17">
 <h1>
-<span class="header-section-number">1</span> Introduction<a class="anchor" aria-label="anchor" href="#intro"><i class="fas fa-link"></i></a>
+<span class="header-section-number">17</span> Creating a city block map<a class="anchor" aria-label="anchor" href="#create-blocks"><i class="fas fa-link"></i></a>
 </h1>
-<p>Walking in a city is an experience that most people take for granted. The ease of mobility on foot, especially in urban areas, has long been overshadowed by the convenience and speed provided by personal vehicles or public transportation systems. Until recently, I was also among those who overlooked and underappreciated its importance. Although I have been aware of the issues with poor infrastructure in cities in India, I never fully grasped the severity of the problem, nor did I connect the individual inconveniences I experienced to a larger systemic issue. Admittedly, this lack of awareness could be viewed as naive or shortsighted, but it is what it is.</p>
-<p>However, in 2021, my perspective changed when I stumbled upon an Instagram account called “bengawalk” run by <strong>Pravar Chaudhary</strong>. Through this account, Pravar documented his observations of the streets and people of Bangalore, highlighting a range of issues and interactions that occur on a daily basis. Whether it was a simple post about wayfinding, accompanied by a single hashtag or a video of person crossing a busy street despite being next to a footbridge, to a more complex analysis of traffic congestion and flyovers, the account provided me with a new lens through which to view the city and its challenges.</p>
-<p>As a designer and a person interested in using data to understand problems, this appealed to me as one of the most tangible, omnipresent topic that I had <em>never</em> fully paid attention to. From there, I have read through countless documents on urban mobility, walkability, transport and streets; admittedly one of the best rabbit-holes I’ve fallen into. The data-storytelling enthusiast in me always wants to find ways to mould information into a spreadsheet I can import into R or a shapefile I can visualize in QGIS, which is what I did with this too.</p>
-<p>The more I’ve engaged with walkability and urban mobility, though, I’ve realized that quantitative data is often not enough to describe something as complex as streets and transport, or the people who use them. In my research on street usage and accessibiilty in Ejipura, Bangalore, several new insights came up through qualitative analyses that I would have completely missed if I was focusing on large numbers. I was also lucky enough to work with people more experienced than I was who brought with them different, unique ways to analyze urban environments.</p>
-<p>This book is a distillation of things I learnt along the way.</p>
-<p>Through qualitative analysis, community engagement, and data-driven approaches such as those discussed here, we can try to gain a deeper understanding of our streets and how they impact individuals from all walks of life.</p>
-<p>The methodologies presented in this book are just a starting point - there is still much work to be done!</p>
+<p><img src="images/street.png" style="width:7cm" alt="Street network"><img src="images/blocks.png" style="width:7cm" alt="Areas enclosed by the streets form blocks"></p>
+<p>For some analyses, you might need data on <strong>blocks</strong> instead of street networks. This is needed for <a href="physical-environment.html#block-sizes">9.1</a> and for other analysis you might explore, such as interface catchment analysis. If you’re lucky, you might have access to block data but in the event that you don’t, you can make something that is fairly accurate yourself.</p>
+<p>This is fairly simple<a class="footnote-ref" tabindex="0" data-toggle="popover" data-content='&lt;p&gt;Credit to user `geozelot` for outlining this process in their brief comment on &lt;a href="https://gis.stackexchange.com/questions/445089/osm-get-residentials-blocks-i-e-polygons-enclosed-by-roads"&gt;this&lt;/a&gt; StackExchange question.&lt;/p&gt;'><sup>1</sup></a>. What you’re essentially doing is drawing polygons for the areas enclosed by the streets. Think of it like making cookies, you’re creating shapes by ‘cutting’ a flat layer with a cookie cutter (here, the roads).</p>
+<p>First, open the <code>gis_osm_roads</code> layer in QGIS and then create a new shapefile layer called <code>boundary</code> by going to <code>Layer</code> &gt; <code>Create Layer</code> &gt; <code>New Shapefile Layer</code>. The default settings are good enough for this, save your layer to a new location and it will appear in your list of layers.</p>
+<div class="inline-figure"><img src="images/buffer-9.png" style="width:14cm"></div>
+<p>Go into edit mode and draw a rectangle that marks the extent of the area you want to analyze. Once saved, you should have two layers; the <code>boundary</code> on top of you <code>gis_osm_roads</code> layer like so:</p>
+<div class="inline-figure"><img src="images/buffer-10.png" style="width:14cm"></div>
+<p>Head over the <code>Processing Toolbox</code> and search for <code>Buffer</code> under <code>Vector</code> operations. In the dialog box, select your roads layer and set a <code>Buffer</code> value. All lines in the selected layer will be ‘widened’ by that much. I generally go with <strong>5 meters</strong>, since most streets are likely to be a little less or more than.</p>
+<div class="inline-figure"><img src="images/buffer-1.png" style="width:10cm"></div>
+<p>This should ‘inflate’ the lines in your roads layer. Go to the <code>Processing Toolbox</code> again and search for <code>Difference</code> and open it.</p>
+<p>Now, <strong>the base layer (extent) goes in the <code>Input</code></strong> and the <strong>Buffered layer goes into <code>Overlay</code></strong>.</p>
+<div class="inline-figure"><img src="images/buffer-2.png" style="width:14cm"></div>
+<p>An easy way to remember this is you’re cutting <strong>base</strong> using <strong>the buffered layer</strong>. Run it and you should get a new <code>Difference</code> layer which looks something like the map in Figure <a href="create-blocks.html#fig:difference">17.1</a>.</p>
+<div class="figure">
+<span style="display:block;" id="fig:difference"></span>
+<img src="images/buffer-3.png" style="width:14cm" alt=""><p class="caption">Figure 17.1: </p>
 </div>
+<p>There you have it! You’ve just created your own map of blocks in the study region.</p>
+<p>One thing you’ll notice if you try querying individual features of this layer, the entire layer will be selected, making it impossible to select individual blocks. You can fix this by going to <code>Processing Toolbox</code> and searching for <code>Multipart to Singlepart</code> and running it the current layer. The new layer contains individually selectable blocks. That’s it!</p>
+<p>Remember to save these layers, they’re temporary for now.</p>
+
+</div>
+
   <div class="chapter-nav">
-<div class="prev"><a href="index.html">Welcome to The Walkability Wiki</a></div>
-<div class="next"><a href="pb.html"><span class="header-section-number">2</span> Project background</a></div>
+<div class="prev"><a href="assessment-of-segregation.html"><span class="header-section-number">16</span> Assessment of Segregation</a></div>
+<div class="next"><a href="ors-setup.html"><span class="header-section-number">18</span> Setting up OpenRouteService</a></div>
 </div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
     <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
-      <ul class="nav navbar-nav"><li><a class="nav-link" href="#intro"><span class="header-section-number">1</span> Introduction</a></li></ul>
+      <ul class="nav navbar-nav"><li><a class="nav-link" href="#create-blocks"><span class="header-section-number">17</span> Creating a city block map</a></li></ul>
 
       <div class="book-extra">
         <ul class="list-unstyled">
-<li><a id="book-source" href="https://github.com/thedivtagguy/walkability-wiki/blob/master/01-intro.Rmd">View source <i class="fab fa-github"></i></a></li>
-          <li><a id="book-edit" href="https://github.com/thedivtagguy/walkability-wiki/edit/master/01-intro.Rmd">Edit this page <i class="fab fa-github"></i></a></li>
+<li><a id="book-source" href="https://github.com/thedivtagguy/walkability-wiki/blob/master/20-appendix-creating-blocks.Rmd">View source <i class="fab fa-github"></i></a></li>
+          <li><a id="book-edit" href="https://github.com/thedivtagguy/walkability-wiki/edit/master/20-appendix-creating-blocks.Rmd">Edit this page <i class="fab fa-github"></i></a></li>
         </ul>
 </div>
     </nav>
