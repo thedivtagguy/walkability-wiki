@@ -58,7 +58,7 @@ fig:parks
 fig:comfort-info
 fig:difference
 intro
-pb
+project-background
 scope
 what-to-expect
 who-is-this-for
@@ -116,6 +116,7 @@ street-comfort-qualitative
 drawbacks-of-a-cross-sectional-audit
 finding-ways-to-visualize-comfort
 what-is-it-suitable-for
+creating-infographics
 showcase-site
 finishing-up
 assessment-of-segregation
@@ -123,3 +124,4 @@ why-it-matters
 identify-segregation
 create-blocks
 ors-setup
+bibliography

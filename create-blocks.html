@@ -4,17 +4,17 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>Chapter 17 Creating a city block map | The Walkability Wiki</title>
+<title>Chapter 18 Creating a city block map | The Walkability Wiki</title>
 <meta name="author" content="Aman Bhargava">
 <meta name="description" content="For some analyses, you might need data on blocks instead of street networks. This is needed for 9.1 and for other analysis you might explore, such as interface catchment analysis. If you’re lucky,...">
 <meta name="generator" content="bookdown 0.33 with bs4_book()">
-<meta property="og:title" content="Chapter 17 Creating a city block map | The Walkability Wiki">
+<meta property="og:title" content="Chapter 18 Creating a city block map | The Walkability Wiki">
 <meta property="og:type" content="book">
 <meta property="og:url" content="https://www.walkability.wiki/create-blocks.html">
 <meta property="og:image" content="https://www.walkability.wiki/static/cover.png">
 <meta property="og:description" content="For some analyses, you might need data on blocks instead of street networks. This is needed for 9.1 and for other analysis you might explore, such as interface catchment analysis. If you’re lucky,...">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Chapter 17 Creating a city block map | The Walkability Wiki">
+<meta name="twitter:title" content="Chapter 18 Creating a city block map | The Walkability Wiki">
 <meta name="twitter:description" content="For some analyses, you might need data on blocks instead of street networks. This is needed for 9.1 and for other analysis you might explore, such as interface catchment analysis. If you’re lucky,...">
 <meta name="twitter:image" content="https://www.walkability.wiki/static/cover.png">
 <!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/jquery/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -56,8 +56,8 @@
 
     <div class="d-flex align-items-start justify-content-between">
       <h1>
-        <a href="index.html" title="A guidebook for assessing walkability in india">The Walkability Wiki</a>:
-        <small class="text-muted">A guidebook for assessing walkability in india</small>
+        <a href="index.html" title="Methods for assessing walkability in india">The Walkability Wiki</a>:
+        <small class="text-muted">Methods for assessing walkability in india</small>
       </h1>
       <button class="btn btn-outline-primary d-lg-none ml-2 mt-1" type="button" data-toggle="collapse" data-target="#main-nav" aria-expanded="true" aria-controls="main-nav"><i class="fas fa-bars"></i><span class="sr-only">Show table of contents</span></button>
     </div>
@@ -72,7 +72,7 @@
 <li><a class="" href="index.html">Welcome to The Walkability Wiki</a></li>
 <li class="book-part">Getting Started</li>
 <li><a class="" href="intro.html"><span class="header-section-number">1</span> Introduction</a></li>
-<li><a class="" href="pb.html"><span class="header-section-number">2</span> Project background</a></li>
+<li><a class="" href="project-background.html"><span class="header-section-number">2</span> Project background</a></li>
 <li><a class="" href="scope.html"><span class="header-section-number">3</span> Scope</a></li>
 <li><a class="" href="recommended-softwares-and-tools.html"><span class="header-section-number">4</span> Recommended softwares and tools</a></li>
 <li class="book-part">Overview of Methods</li>
@@ -89,12 +89,14 @@
 <li><a class="" href="interviews.html"><span class="header-section-number">13</span> Semi-structured interviews</a></li>
 <li><a class="" href="street-audits.html"><span class="header-section-number">14</span> Street Audits</a></li>
 <li class="book-part">Visualizing Results</li>
+<li><a class="" href="creating-infographics.html"><span class="header-section-number">15</span> Creating Infographics</a></li>
 <li class="book-part">Conclusion</li>
-<li><a class="" href="finishing-up.html"><span class="header-section-number">15</span> Finishing up</a></li>
+<li><a class="" href="finishing-up.html"><span class="header-section-number">16</span> Finishing up</a></li>
 <li class="book-part">Appendix</li>
-<li><a class="" href="assessment-of-segregation.html"><span class="header-section-number">16</span> Assessment of Segregation</a></li>
-<li><a class="active" href="create-blocks.html"><span class="header-section-number">17</span> Creating a city block map</a></li>
-<li><a class="" href="ors-setup.html"><span class="header-section-number">18</span> Setting up OpenRouteService</a></li>
+<li><a class="" href="assessment-of-segregation.html"><span class="header-section-number">17</span> Assessment of Segregation</a></li>
+<li><a class="active" href="create-blocks.html"><span class="header-section-number">18</span> Creating a city block map</a></li>
+<li><a class="" href="ors-setup.html"><span class="header-section-number">19</span> Setting up OpenRouteService</a></li>
+<li><a class="" href="bibliography.html"><span class="header-section-number">20</span> Bibliography</a></li>
 </ul>
 
         <div class="book-extra">
@@ -102,9 +104,9 @@
         </div>
       </nav>
 </div>
-  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><div id="create-blocks" class="section level1" number="17">
+  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><div id="create-blocks" class="section level1" number="18">
 <h1>
-<span class="header-section-number">17</span> Creating a city block map<a class="anchor" aria-label="anchor" href="#create-blocks"><i class="fas fa-link"></i></a>
+<span class="header-section-number">18</span> Creating a city block map<a class="anchor" aria-label="anchor" href="#create-blocks"><i class="fas fa-link"></i></a>
 </h1>
 <p><img src="images/street.png" style="width:7cm" alt="Street network"><img src="images/blocks.png" style="width:7cm" alt="Areas enclosed by the streets form blocks"></p>
 <p>For some analyses, you might need data on <strong>blocks</strong> instead of street networks. This is needed for <a href="physical-environment.html#block-sizes">9.1</a> and for other analysis you might explore, such as interface catchment analysis. If you’re lucky, you might have access to block data but in the event that you don’t, you can make something that is fairly accurate yourself.</p>
@@ -118,10 +120,10 @@
 <p>This should ‘inflate’ the lines in your roads layer. Go to the <code>Processing Toolbox</code> again and search for <code>Difference</code> and open it.</p>
 <p>Now, <strong>the base layer (extent) goes in the <code>Input</code></strong> and the <strong>Buffered layer goes into <code>Overlay</code></strong>.</p>
 <div class="inline-figure"><img src="images/buffer-2.png" style="width:14cm"></div>
-<p>An easy way to remember this is you’re cutting <strong>base</strong> using <strong>the buffered layer</strong>. Run it and you should get a new <code>Difference</code> layer which looks something like the map in Figure <a href="create-blocks.html#fig:difference">17.1</a>.</p>
+<p>An easy way to remember this is you’re cutting <strong>base</strong> using <strong>the buffered layer</strong>. Run it and you should get a new <code>Difference</code> layer which looks something like the map in Figure <a href="create-blocks.html#fig:difference">18.1</a>.</p>
 <div class="figure">
 <span style="display:block;" id="fig:difference"></span>
-<img src="images/buffer-3.png" style="width:14cm" alt=""><p class="caption">Figure 17.1: </p>
+<img src="images/buffer-3.png" style="width:14cm" alt=""><p class="caption">Figure 18.1: </p>
 </div>
 <p>There you have it! You’ve just created your own map of blocks in the study region.</p>
 <p>One thing you’ll notice if you try querying individual features of this layer, the entire layer will be selected, making it impossible to select individual blocks. You can fix this by going to <code>Processing Toolbox</code> and searching for <code>Multipart to Singlepart</code> and running it the current layer. The new layer contains individually selectable blocks. That’s it!</p>
@@ -130,11 +132,11 @@
 </div>
 
   <div class="chapter-nav">
-<div class="prev"><a href="assessment-of-segregation.html"><span class="header-section-number">16</span> Assessment of Segregation</a></div>
-<div class="next"><a href="ors-setup.html"><span class="header-section-number">18</span> Setting up OpenRouteService</a></div>
+<div class="prev"><a href="assessment-of-segregation.html"><span class="header-section-number">17</span> Assessment of Segregation</a></div>
+<div class="next"><a href="ors-setup.html"><span class="header-section-number">19</span> Setting up OpenRouteService</a></div>
 </div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
     <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
-      <ul class="nav navbar-nav"><li><a class="nav-link" href="#create-blocks"><span class="header-section-number">17</span> Creating a city block map</a></li></ul>
+      <ul class="nav navbar-nav"><li><a class="nav-link" href="#create-blocks"><span class="header-section-number">18</span> Creating a city block map</a></li></ul>
 
       <div class="book-extra">
         <ul class="list-unstyled">
@@ -151,7 +153,7 @@
 <footer class="bg-primary text-light mt-5"><div class="container"><div class="row">
 
   <div class="col-12 col-md-6 mt-3">
-    <p>"<strong>The Walkability Wiki</strong>: A guidebook for assessing walkability in india" was written by Aman Bhargava. It was last built on 2023-05-11.</p>
+    <p>"<strong>The Walkability Wiki</strong>: Methods for assessing walkability in india" was written by Aman Bhargava. It was last built on 2023-05-11.</p>
   </div>
 
   <div class="col-12 col-md-6 mt-3">

@@ -56,8 +56,8 @@
 
     <div class="d-flex align-items-start justify-content-between">
       <h1>
-        <a href="index.html" title="A guidebook for assessing walkability in india">The Walkability Wiki</a>:
-        <small class="text-muted">A guidebook for assessing walkability in india</small>
+        <a href="index.html" title="Methods for assessing walkability in india">The Walkability Wiki</a>:
+        <small class="text-muted">Methods for assessing walkability in india</small>
       </h1>
       <button class="btn btn-outline-primary d-lg-none ml-2 mt-1" type="button" data-toggle="collapse" data-target="#main-nav" aria-expanded="true" aria-controls="main-nav"><i class="fas fa-bars"></i><span class="sr-only">Show table of contents</span></button>
     </div>
@@ -72,7 +72,7 @@
 <li><a class="" href="index.html">Welcome to The Walkability Wiki</a></li>
 <li class="book-part">Getting Started</li>
 <li><a class="" href="intro.html"><span class="header-section-number">1</span> Introduction</a></li>
-<li><a class="" href="pb.html"><span class="header-section-number">2</span> Project background</a></li>
+<li><a class="" href="project-background.html"><span class="header-section-number">2</span> Project background</a></li>
 <li><a class="" href="scope.html"><span class="header-section-number">3</span> Scope</a></li>
 <li><a class="" href="recommended-softwares-and-tools.html"><span class="header-section-number">4</span> Recommended softwares and tools</a></li>
 <li class="book-part">Overview of Methods</li>
@@ -89,12 +89,14 @@
 <li><a class="" href="interviews.html"><span class="header-section-number">13</span> Semi-structured interviews</a></li>
 <li><a class="" href="street-audits.html"><span class="header-section-number">14</span> Street Audits</a></li>
 <li class="book-part">Visualizing Results</li>
+<li><a class="" href="creating-infographics.html"><span class="header-section-number">15</span> Creating Infographics</a></li>
 <li class="book-part">Conclusion</li>
-<li><a class="" href="finishing-up.html"><span class="header-section-number">15</span> Finishing up</a></li>
+<li><a class="" href="finishing-up.html"><span class="header-section-number">16</span> Finishing up</a></li>
 <li class="book-part">Appendix</li>
-<li><a class="" href="assessment-of-segregation.html"><span class="header-section-number">16</span> Assessment of Segregation</a></li>
-<li><a class="" href="create-blocks.html"><span class="header-section-number">17</span> Creating a city block map</a></li>
-<li><a class="" href="ors-setup.html"><span class="header-section-number">18</span> Setting up OpenRouteService</a></li>
+<li><a class="" href="assessment-of-segregation.html"><span class="header-section-number">17</span> Assessment of Segregation</a></li>
+<li><a class="" href="create-blocks.html"><span class="header-section-number">18</span> Creating a city block map</a></li>
+<li><a class="" href="ors-setup.html"><span class="header-section-number">19</span> Setting up OpenRouteService</a></li>
+<li><a class="" href="bibliography.html"><span class="header-section-number">20</span> Bibliography</a></li>
 </ul>
 
         <div class="book-extra">
@@ -106,18 +108,18 @@
 <h1>
 <span class="header-section-number">9</span> Assessment of Physical Environment<a class="anchor" aria-label="anchor" href="#physical-environment"><i class="fas fa-link"></i></a>
 </h1>
-<p>In Section <a href="site-assessment.html#site-assessment">8</a>, we looked at how we can use some secondary data to surface important insights about how these roads are used. Let us now look at how we can use other parts of the physical environment to measure walkability through easily available data. Table <a href="#tab:physical-indicators"><strong>??</strong></a> shows some indicators and how they can help you understand how walkable an area is. There are many more that other studies have collated <span class="citation">(<a href="ors-setup.html#ref-knapskogExploringWaysMeasuring2019a" role="doc-biblioref">Knapskog et al. 2019</a>)</span>, but I will be going over these because the data to analyze these is easily accessibly through OpenStreetMaps and hence should work for most cities.</p>
+<p>In Section <a href="site-assessment.html#site-assessment">8</a>, we looked at how we can use some secondary data to surface important insights about how these roads are used. Let us now look at how we can use other parts of the physical environment to measure walkability through easily available data. Table <a href="#tab:physical-indicators"><strong>??</strong></a> shows some indicators and how they can help you understand how walkable an area is. There are many more that other studies have collated <span class="citation">(<a href="bibliography.html#ref-knapskogExploringWaysMeasuring2019a" role="doc-biblioref">Knapskog et al. 2019</a>)</span>, but I will be going over these because the data to analyze these is easily accessibly through OpenStreetMaps and hence should work for most cities.</p>
 <p>These measures have been divided into two; those that tell you about the walkability of a <strong>bounded region</strong> and those that help describe how much a place allows <strong>movement to other places</strong> within it. As Table <a href="#tab:physical-indicators"><strong>??</strong></a> shows, there is more than one indicator that you can use to answer these questions and for the most comprehensive understanding, it is better to use these <strong>together</strong>.</p>
 <div id="block-sizes" class="section level2" number="9.1">
 <h2>
 <span class="header-section-number">9.1</span> Measuring permeability<a class="anchor" aria-label="anchor" href="#block-sizes"><i class="fas fa-link"></i></a>
 </h2>
 <p><em>Permeability</em> refers to how easy or difficult it is for people to move through a specific location. It is mainly concerned with the physical features of the space, such as the design of the streets, buildings, sidewalks, and public spaces. A high permeability space is easy to navigate, with multiple entrances and exits, clear paths, and few barriers. On the other hand, a low permeability space is harder to navigate, with limited access points, narrow pathways, and obstacles that make it challenging for people to move through.</p>
-<p>A method for calculating permeability was developed by <span class="citation">Pafka and Dovey (<a href="ors-setup.html#ref-pafkaPermeabilityInterfaceCatchment2017" role="doc-biblioref">2017</a>)</span> through two measures - Area-weighted average Perimeter (<span class="math inline">\(AwaP\)</span>) and Interface Catchment (<span class="math inline">\(IC\)</span>). By using their associated QGIS plugins, performing this analysis is a trivial task (the section below is distilled from their <a href="https://vimeo.com/574850313">video</a> on the topic).</p>
+<p>A method for calculating permeability was developed by <span class="citation">Pafka and Dovey (<a href="bibliography.html#ref-pafkaPermeabilityInterfaceCatchment2017" role="doc-biblioref">2017</a>)</span> through two measures - Area-weighted average Perimeter (<span class="math inline">\(AwaP\)</span>) and Interface Catchment (<span class="math inline">\(IC\)</span>). By using their associated QGIS plugins, performing this analysis is a trivial task (the section below is distilled from their <a href="https://vimeo.com/574850313">video</a> on the topic).</p>
 <p>We’ll focus on <span class="math inline">\(AwaP\)</span> in this chapter.</p>
 <p>You’ll need the following before you get started:</p>
 <p>1. The <span class="math inline">\(AwaP\)</span> plugin for QGIS, which can be downloaded from the plugins manager (search for ‘AwaP’) or <a href="https://plugins.qgis.org/plugins/awap/">through the online repository</a>.</p>
-<p>2. A city block map for your area of interest. Appendix <a href="create-blocks.html#create-blocks">17</a> describes how to do this with a road network layer from OpenStreetMaps.</p>
+<p>2. A city block map for your area of interest. Appendix <a href="create-blocks.html#create-blocks">18</a> describes how to do this with a road network layer from OpenStreetMaps.</p>
 <div id="calculating-awap-in-qgis" class="section level3" number="9.1.1">
 <h3>
 <span class="header-section-number">9.1.1</span> Calculating <span class="math inline">\(AwaP\)</span> in QGIS<a class="anchor" aria-label="anchor" href="#calculating-awap-in-qgis"><i class="fas fa-link"></i></a>
@@ -135,8 +137,8 @@
 <img src="images/buffer-5.png" style="width:14cm" alt=""><p class="caption">Creating a grid</p>
 </div>
 <p>I like to choose hexagons are my grid shape. Why? There are <a href="https://www.esri.com/about/newsroom/insider/thematic-mapping-with-hexagons/">some advantages</a> of using hexagons to map things because they tessellate better and more organically than a rectangle, but it is also a stylistic choice; I like how the look.</p>
-<p>For <code>Grid Extent</code>, set your extent as you wish (If you’re coming from just creating your city block map from Section <a href="create-blocks.html#create-blocks">17</a>, you can use your base layer to keep things simple).</p>
-<p>I set the <code>Horizontal Spacing</code> to <span class="math inline">\(400 m\)</span>, which is what the hexagon would measure from one edge to the other one across. This is up to your needs, but <span class="math inline">\(400\)</span> is something I prefer as studies consider this a distance that is comfortably walked <span class="citation">(<a href="ors-setup.html#ref-duncanValidationWalkScores2013" role="doc-biblioref">Duncan et al. 2013</a>)</span>.</p>
+<p>For <code>Grid Extent</code>, set your extent as you wish (If you’re coming from just creating your city block map from Section <a href="create-blocks.html#create-blocks">18</a>, you can use your base layer to keep things simple).</p>
+<p>I set the <code>Horizontal Spacing</code> to <span class="math inline">\(400 m\)</span>, which is what the hexagon would measure from one edge to the other one across. This is up to your needs, but <span class="math inline">\(400\)</span> is something I prefer as studies consider this a distance that is comfortably walked <span class="citation">(<a href="bibliography.html#ref-duncanValidationWalkScores2013" role="doc-biblioref">Duncan et al. 2013</a>)</span>.</p>
 </div>
 <div id="step-2.-configure-settings" class="section level4 unnumbered">
 <h4>Step 2. Configure settings<a class="anchor" aria-label="anchor" href="#step-2.-configure-settings"><i class="fas fa-link"></i></a>
@@ -180,7 +182,7 @@
 <span style="display:block;" id="fig:connectivity-one"></span>
 <img src="images/connectivity-1.png" style="width:10cm" alt=""><p class="caption">Figure 9.4:  There’s a lot going on this map, can we simplify it?</p>
 </div>
-<p>What do these colours mean? We can understand the warmer regions as being more connected to each other, making it very easy to travel within those spaces <span class="citation">(<a href="ors-setup.html#ref-dettlaffSpaceSyntaxAnalysis" role="doc-biblioref">Dettlaff, n.d.</a>)</span>. This results from the number of connections, or intersections, each street has to its directly neighbouring streets. Long roads, such as highways, do not provide ways for people to get off them if necessary.</p>
+<p>What do these colours mean? We can understand the warmer regions as being more connected to each other, making it very easy to travel within those spaces <span class="citation">(<a href="bibliography.html#ref-dettlaffSpaceSyntaxAnalysis" role="doc-biblioref">Dettlaff, n.d.</a>)</span>. This results from the number of connections, or intersections, each street has to its directly neighbouring streets. Long roads, such as highways, do not provide ways for people to get off them if necessary.</p>
 <p>We can make this even easier to see if I tweak the colours. Do this by going to <code>View</code> &gt; <code>Color Range</code> and opening the colours dialogue box. It gives you multiple default gradients to choose from, and by tweaking the sliders a little, you can increase or decrease how prominently each colour appears.</p>
 <div class="figure">
 <img src="images/connectivity-2.png" style="width:8cm" alt=""><p class="caption">Tweak the color ranges to your liking</p>
@@ -224,7 +226,7 @@
 <footer class="bg-primary text-light mt-5"><div class="container"><div class="row">
 
   <div class="col-12 col-md-6 mt-3">
-    <p>"<strong>The Walkability Wiki</strong>: A guidebook for assessing walkability in india" was written by Aman Bhargava. It was last built on 2023-05-11.</p>
+    <p>"<strong>The Walkability Wiki</strong>: Methods for assessing walkability in india" was written by Aman Bhargava. It was last built on 2023-05-11.</p>
   </div>
 
   <div class="col-12 col-md-6 mt-3">

@@ -56,8 +56,8 @@
 
     <div class="d-flex align-items-start justify-content-between">
       <h1>
-        <a href="index.html" title="A guidebook for assessing walkability in india">The Walkability Wiki</a>:
-        <small class="text-muted">A guidebook for assessing walkability in india</small>
+        <a href="index.html" title="Methods for assessing walkability in india">The Walkability Wiki</a>:
+        <small class="text-muted">Methods for assessing walkability in india</small>
       </h1>
       <button class="btn btn-outline-primary d-lg-none ml-2 mt-1" type="button" data-toggle="collapse" data-target="#main-nav" aria-expanded="true" aria-controls="main-nav"><i class="fas fa-bars"></i><span class="sr-only">Show table of contents</span></button>
     </div>
@@ -72,7 +72,7 @@
 <li><a class="" href="index.html">Welcome to The Walkability Wiki</a></li>
 <li class="book-part">Getting Started</li>
 <li><a class="" href="intro.html"><span class="header-section-number">1</span> Introduction</a></li>
-<li><a class="" href="pb.html"><span class="header-section-number">2</span> Project background</a></li>
+<li><a class="" href="project-background.html"><span class="header-section-number">2</span> Project background</a></li>
 <li><a class="" href="scope.html"><span class="header-section-number">3</span> Scope</a></li>
 <li><a class="" href="recommended-softwares-and-tools.html"><span class="header-section-number">4</span> Recommended softwares and tools</a></li>
 <li class="book-part">Overview of Methods</li>
@@ -89,12 +89,14 @@
 <li><a class="" href="interviews.html"><span class="header-section-number">13</span> Semi-structured interviews</a></li>
 <li><a class="" href="street-audits.html"><span class="header-section-number">14</span> Street Audits</a></li>
 <li class="book-part">Visualizing Results</li>
+<li><a class="" href="creating-infographics.html"><span class="header-section-number">15</span> Creating Infographics</a></li>
 <li class="book-part">Conclusion</li>
-<li><a class="" href="finishing-up.html"><span class="header-section-number">15</span> Finishing up</a></li>
+<li><a class="" href="finishing-up.html"><span class="header-section-number">16</span> Finishing up</a></li>
 <li class="book-part">Appendix</li>
-<li><a class="" href="assessment-of-segregation.html"><span class="header-section-number">16</span> Assessment of Segregation</a></li>
-<li><a class="" href="create-blocks.html"><span class="header-section-number">17</span> Creating a city block map</a></li>
-<li><a class="" href="ors-setup.html"><span class="header-section-number">18</span> Setting up OpenRouteService</a></li>
+<li><a class="" href="assessment-of-segregation.html"><span class="header-section-number">17</span> Assessment of Segregation</a></li>
+<li><a class="" href="create-blocks.html"><span class="header-section-number">18</span> Creating a city block map</a></li>
+<li><a class="" href="ors-setup.html"><span class="header-section-number">19</span> Setting up OpenRouteService</a></li>
+<li><a class="" href="bibliography.html"><span class="header-section-number">20</span> Bibliography</a></li>
 </ul>
 
         <div class="book-extra">
@@ -112,8 +114,8 @@
 <span class="header-section-number">7.1</span> Why do we need them?<a class="anchor" aria-label="anchor" href="#why-do-we-need-them"><i class="fas fa-link"></i></a>
 </h2>
 <p>In the next few sections, we will explore various walkability measures, including an area’s built and natural environment and other essential aspects. While GIS techniques and macro data sources can provide a baseline understanding of the walkability of a site, they often miss out on the unique issues and experiences that residents face on a day-to-day basis.</p>
-<p>In early 2023, <a href="https://www.sensinglocal.in/">Sensing Local</a>, an organization that works on urban and environmental issues in Indian cities, commenced a series of walkability for 24 wards in Bangalore <span class="citation">(<a href="ors-setup.html#ref-byiffathRaisingStreets2022" role="doc-biblioref">ByIffath 2022</a>)</span>. As of writing this, more than 139 km of footpaths have been audited in 10 wards has been completed. These audits, using collaborative tools and with the help of community volunteers, mapped various street features, such as footpath conditions, street litter, encroachment, and streetlight presence. Although these are important indicators of the neighbourhoods they visited, there may be other problems that these criteria missed.</p>
-<p>To better understand the region, another audit of Bangalore’s wards was conducted by ichangemycity in 2016 and produced data for all wards, including Ejipura <span class="citation">(<a href="ors-setup.html#ref-ichangemycityEjipuraWard1482016" role="doc-biblioref">ichangemycity 2016</a>)</span>. This audit included a broader set of criteria, such as:</p>
+<p>In early 2023, <a href="https://www.sensinglocal.in/">Sensing Local</a>, an organization that works on urban and environmental issues in Indian cities, commenced a series of walkability for 24 wards in Bangalore <span class="citation">(<a href="bibliography.html#ref-byiffathRaisingStreets2022" role="doc-biblioref">ByIffath 2022</a>)</span>. As of writing this, more than 139 km of footpaths have been audited in 10 wards has been completed. These audits, using collaborative tools and with the help of community volunteers, mapped various street features, such as footpath conditions, street litter, encroachment, and streetlight presence. Although these are important indicators of the neighbourhoods they visited, there may be other problems that these criteria missed.</p>
+<p>To better understand the region, another audit of Bangalore’s wards was conducted by ichangemycity in 2016 and produced data for all wards, including Ejipura <span class="citation">(<a href="bibliography.html#ref-ichangemycityEjipuraWard1482016" role="doc-biblioref">ichangemycity 2016</a>)</span>. This audit included a broader set of criteria, such as:</p>
 <ol style="list-style-type: decimal">
 <li>
 <strong>Civic Facilities</strong>: Presence of parks, public toilets, bus stops, and waste collection centres.</li>
@@ -130,13 +132,13 @@
 <span class="header-section-number">7.2</span> Grassroots approach<a class="anchor" aria-label="anchor" href="#grassroots-approach"><i class="fas fa-link"></i></a>
 </h2>
 <p>We can use a grassroots approach to designing audits to help fill these quantitative research gaps, often created based on standardized metrics.</p>
-<p>Grassroots, also known as bottom-top approaches, focus on collecting data from participants locally instead of entirely relying on higher-level data sources. The grassroots process is particularly relevant in fields such as community development, social justice, and public health, where understanding the experiences and needs of the local community is critical to developing effective interventions or policies and can similarly be applied to inform the assessment process, which can ultimately lead to more effective and inclusive solutions <span class="citation">(<a href="ors-setup.html#ref-knapskogExploringWaysMeasuring2019a" role="doc-biblioref">Knapskog et al. 2019</a>)</span>.</p>
+<p>Grassroots, also known as bottom-top approaches, focus on collecting data from participants locally instead of entirely relying on higher-level data sources. The grassroots process is particularly relevant in fields such as community development, social justice, and public health, where understanding the experiences and needs of the local community is critical to developing effective interventions or policies and can similarly be applied to inform the assessment process, which can ultimately lead to more effective and inclusive solutions <span class="citation">(<a href="bibliography.html#ref-knapskogExploringWaysMeasuring2019a" role="doc-biblioref">Knapskog et al. 2019</a>)</span>.</p>
 </div>
 <div id="differences-in-methods" class="section level2" number="7.3">
 <h2>
 <span class="header-section-number">7.3</span> Differences in methods<a class="anchor" aria-label="anchor" href="#differences-in-methods"><i class="fas fa-link"></i></a>
 </h2>
-<p>In most of the walkability audits I have encountered, and others have studied, the qualitative features of streets fail to attract the necessary attention and aren’t investigated. <span class="citation">(<a href="ors-setup.html#ref-aghaabbasiEvaluatingCapabilityWalkability2018" role="doc-biblioref">Aghaabbasi et al. 2018</a>)</span>. Most studies follow the framework shown in Figure <a href="hybrid-assessments.html#fig:usual">7.1</a>.</p>
+<p>In most of the walkability audits I have encountered, and others have studied, the qualitative features of streets fail to attract the necessary attention and aren’t investigated. <span class="citation">(<a href="bibliography.html#ref-aghaabbasiEvaluatingCapabilityWalkability2018" role="doc-biblioref">Aghaabbasi et al. 2018</a>)</span>. Most studies follow the framework shown in Figure <a href="hybrid-assessments.html#fig:usual">7.1</a>.</p>
 <div class="figure">
 <span style="display:block;" id="fig:usual"></span>
 <img src="images/general-framework.png" style="width:12cm" alt=""><p class="caption">Figure 7.1:  A typical walkability assessment</p>
@@ -186,7 +188,7 @@
 <footer class="bg-primary text-light mt-5"><div class="container"><div class="row">
 
   <div class="col-12 col-md-6 mt-3">
-    <p>"<strong>The Walkability Wiki</strong>: A guidebook for assessing walkability in india" was written by Aman Bhargava. It was last built on 2023-05-11.</p>
+    <p>"<strong>The Walkability Wiki</strong>: Methods for assessing walkability in india" was written by Aman Bhargava. It was last built on 2023-05-11.</p>
   </div>
 
   <div class="col-12 col-md-6 mt-3">
