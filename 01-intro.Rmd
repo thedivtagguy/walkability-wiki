@@ -16,7 +16,7 @@ Through qualitative analysis, community engagement, and data-driven approaches s
 
 The methodologies presented in this book are just a starting point - there is still much work to be done!
 
-# Project background {#pb}
+# Project background {#project-background}
 
 This book is the product of my first-hand experience working in the Ejipura ward in Bangalore. At the start of my thesis, I was excited to experiment with QGIS and OpenStreetMap data to create visualizations of Bangalore's roads, streets and bus stops. However, my guide, Lakshmi, encouraged me to take a step back and consider what I was missing. I realized that while analyzing large-scale data was relatively easy, it was important to also consider smaller neighborhoods and the unique factors that contribute to walkability.
 

@@ -4,17 +4,17 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>Chapter 18 Setting up OpenRouteService | The Walkability Wiki</title>
+<title>Chapter 19 Setting up OpenRouteService | The Walkability Wiki</title>
 <meta name="author" content="Aman Bhargava">
 <meta name="description" content="OpenRouteService (ORS) is a powerful plugin that enables various types of analysis, including isochrones and routing. By following these instructions, you can set up ORS in QGIS. Let’s get to it!...">
 <meta name="generator" content="bookdown 0.33 with bs4_book()">
-<meta property="og:title" content="Chapter 18 Setting up OpenRouteService | The Walkability Wiki">
+<meta property="og:title" content="Chapter 19 Setting up OpenRouteService | The Walkability Wiki">
 <meta property="og:type" content="book">
 <meta property="og:url" content="https://www.walkability.wiki/ors-setup.html">
 <meta property="og:image" content="https://www.walkability.wiki/static/cover.png">
 <meta property="og:description" content="OpenRouteService (ORS) is a powerful plugin that enables various types of analysis, including isochrones and routing. By following these instructions, you can set up ORS in QGIS. Let’s get to it!...">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Chapter 18 Setting up OpenRouteService | The Walkability Wiki">
+<meta name="twitter:title" content="Chapter 19 Setting up OpenRouteService | The Walkability Wiki">
 <meta name="twitter:description" content="OpenRouteService (ORS) is a powerful plugin that enables various types of analysis, including isochrones and routing. By following these instructions, you can set up ORS in QGIS. Let’s get to it!...">
 <meta name="twitter:image" content="https://www.walkability.wiki/static/cover.png">
 <!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/jquery/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -56,8 +56,8 @@
 
     <div class="d-flex align-items-start justify-content-between">
       <h1>
-        <a href="index.html" title="A guidebook for assessing walkability in india">The Walkability Wiki</a>:
-        <small class="text-muted">A guidebook for assessing walkability in india</small>
+        <a href="index.html" title="Methods for assessing walkability in india">The Walkability Wiki</a>:
+        <small class="text-muted">Methods for assessing walkability in india</small>
       </h1>
       <button class="btn btn-outline-primary d-lg-none ml-2 mt-1" type="button" data-toggle="collapse" data-target="#main-nav" aria-expanded="true" aria-controls="main-nav"><i class="fas fa-bars"></i><span class="sr-only">Show table of contents</span></button>
     </div>
@@ -72,7 +72,7 @@
 <li><a class="" href="index.html">Welcome to The Walkability Wiki</a></li>
 <li class="book-part">Getting Started</li>
 <li><a class="" href="intro.html"><span class="header-section-number">1</span> Introduction</a></li>
-<li><a class="" href="pb.html"><span class="header-section-number">2</span> Project background</a></li>
+<li><a class="" href="project-background.html"><span class="header-section-number">2</span> Project background</a></li>
 <li><a class="" href="scope.html"><span class="header-section-number">3</span> Scope</a></li>
 <li><a class="" href="recommended-softwares-and-tools.html"><span class="header-section-number">4</span> Recommended softwares and tools</a></li>
 <li class="book-part">Overview of Methods</li>
@@ -89,12 +89,14 @@
 <li><a class="" href="interviews.html"><span class="header-section-number">13</span> Semi-structured interviews</a></li>
 <li><a class="" href="street-audits.html"><span class="header-section-number">14</span> Street Audits</a></li>
 <li class="book-part">Visualizing Results</li>
+<li><a class="" href="creating-infographics.html"><span class="header-section-number">15</span> Creating Infographics</a></li>
 <li class="book-part">Conclusion</li>
-<li><a class="" href="finishing-up.html"><span class="header-section-number">15</span> Finishing up</a></li>
+<li><a class="" href="finishing-up.html"><span class="header-section-number">16</span> Finishing up</a></li>
 <li class="book-part">Appendix</li>
-<li><a class="" href="assessment-of-segregation.html"><span class="header-section-number">16</span> Assessment of Segregation</a></li>
-<li><a class="" href="create-blocks.html"><span class="header-section-number">17</span> Creating a city block map</a></li>
-<li><a class="active" href="ors-setup.html"><span class="header-section-number">18</span> Setting up OpenRouteService</a></li>
+<li><a class="" href="assessment-of-segregation.html"><span class="header-section-number">17</span> Assessment of Segregation</a></li>
+<li><a class="" href="create-blocks.html"><span class="header-section-number">18</span> Creating a city block map</a></li>
+<li><a class="active" href="ors-setup.html"><span class="header-section-number">19</span> Setting up OpenRouteService</a></li>
+<li><a class="" href="bibliography.html"><span class="header-section-number">20</span> Bibliography</a></li>
 </ul>
 
         <div class="book-extra">
@@ -102,9 +104,9 @@
         </div>
       </nav>
 </div>
-  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><div id="ors-setup" class="section level1" number="18">
+  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><div id="ors-setup" class="section level1" number="19">
 <h1>
-<span class="header-section-number">18</span> Setting up OpenRouteService<a class="anchor" aria-label="anchor" href="#ors-setup"><i class="fas fa-link"></i></a>
+<span class="header-section-number">19</span> Setting up OpenRouteService<a class="anchor" aria-label="anchor" href="#ors-setup"><i class="fas fa-link"></i></a>
 </h1>
 <p>OpenRouteService (ORS) is a powerful plugin that enables various types of analysis, including isochrones and routing. By following these instructions, you can set up ORS in QGIS. Let’s get to it!</p>
 <div id="step-1-login-and-token-generation" class="section level3 unnumbered">
@@ -139,92 +141,15 @@
 <img src="images/Pasted%20image%2020230307002537.png" style="width:8cm" alt="Authenticating the Plugin"><div class="figcaption">Authenticating the Plugin</div>
 </div>
 
-<div id="refs" class="references csl-bib-body hanging-indent">
-<div id="ref-adhvaryuMappingPublicTransport2019" class="csl-entry">
-Adhvaryu, Bhargav, Abhay Chopde, and Lalit Dashora. 2019. <span>“Mapping <span>Public Transport Accessibility Levels</span> (<span>PTAL</span>) in <span>India</span> and <span>Its Applications</span>: <span>A Case Study</span> of <span>Surat</span>.”</span> <em>Case Studies on Transport Policy</em> 7 (2): 293–300. <a href="https://doi.org/10.1016/j.cstp.2019.03.004">https://doi.org/10.1016/j.cstp.2019.03.004</a>.
-</div>
-<div id="ref-aghaabbasiEvaluatingCapabilityWalkability2018" class="csl-entry">
-Aghaabbasi, Mahdi, Mehdi Moeinaddini, Muhammad Zaly Shah, Zohreh Asadi-Shekari, and Mehdi Arjomand Kermani. 2018. <span>“Evaluating the Capability of Walkability Audit Tools for Assessing Sidewalks.”</span> <em>Sustainable Cities and Society</em> 37 (February): 475–84. <a href="https://doi.org/10.1016/j.scs.2017.12.001">https://doi.org/10.1016/j.scs.2017.12.001</a>.
-</div>
-<div id="ref-byiffathRaisingStreets2022" class="csl-entry">
-ByIffath, Fathima. 2022. <span>“Raising the Streets.”</span> <span>Bangalore Mirror</span>. 2022. <a href="https://bangaloremirror.indiatimes.com/bangalore/civic/raising-the-streets/articleshow/95968163.cms">https://bangaloremirror.indiatimes.com/bangalore/civic/raising-the-streets/articleshow/95968163.cms</a>.
-</div>
-<div id="ref-cetinkaya-rundelLetThemEat2018" class="csl-entry">
-Cetinkaya-Rundel, Mine. 2018. <span>“Let <span>Them Eat Cake</span> (<span>First</span>)!”</span> <span>Speaker Deck</span>. November 9, 2018. <a href="https://speakerdeck.com/minecr/let-them-eat-cake-first">https://speakerdeck.com/minecr/let-them-eat-cake-first</a>.
-</div>
-<div id="ref-chiswellLongYouRe2016" class="csl-entry">
-Chiswell, Hannah M, and Rebecca Wheeler. 2016. <span>“<span>‘<span>As</span> Long as You’re Easy on the Eye’</span>: Reflecting on Issues of Positionality and Researcher Safety During Farmer Interviews.”</span> <em>Area</em> 48 (2): 229–35. <a href="https://doi.org/10.1111/area.12257">https://doi.org/10.1111/area.12257</a>.
-</div>
-<div id="ref-ComprehensiveMobilityPlan2020" class="csl-entry">
-<span>“Comprehensive <span>Mobility Plan</span> for <span>Bengaluru</span>.”</span> 2020. <span>DULT</span>. <a href="https://dult.karnataka.gov.in/assets/front/pdf/Comprehensive_Mobility_Plan.pdf">https://dult.karnataka.gov.in/assets/front/pdf/Comprehensive_Mobility_Plan.pdf</a>.
-</div>
-<div id="ref-dettlaffSpaceSyntaxAnalysis" class="csl-entry">
-Dettlaff, W. n.d. <span>“Space Syntax Analysis – Methodology of Understanding the Space.”</span>
-</div>
-<div id="ref-duncanValidationWalkScores2013" class="csl-entry">
-Duncan, Dustin T., Jared Aldstadt, John Whalen, and Steven J. Melly. 2013. <span>“Validation of <span>Walk Scores</span> and <span>Transit Scores</span> for Estimating Neighborhood Walkability and Transit Availability: A Small-Area Analysis.”</span> <em>GeoJournal</em> 78 (2): 407–16. <a href="https://doi.org/10.1007/s10708-011-9444-4">https://doi.org/10.1007/s10708-011-9444-4</a>.
-</div>
-<div id="ref-hillierSocialLogicSpace1984" class="csl-entry">
-Hillier, Bill, and Julienne Hanson. 1984. <em>The <span>Social Logic</span> of <span>Space</span></em>. <span>Cambridge</span>: <span>Cambridge University Press</span>. <a href="https://doi.org/10.1017/CBO9780511597237">https://doi.org/10.1017/CBO9780511597237</a>.
-</div>
-<div id="ref-ichangemycityEjipuraWard1482016" class="csl-entry">
-ichangemycity. 2016. <span>“Ejipura <span>Ward</span> 148 <span>Audit</span>.”</span> <span>ichangemycity</span>. <a href="https://www.ichangemycity.com/theme/wpr_download/Ward_Part148.pdf">https://www.ichangemycity.com/theme/wpr_download/Ward_Part148.pdf</a>.
-</div>
-<div id="ref-Jacobs1961Death2011" class="csl-entry">
-<span>“Jacobs, <span>J</span>. (1961). <span>The Death</span> and <span>Life</span> of <span>Great American Cities</span>. <span>New York</span>: <span>Random House</span>. | Socialcapitalgateway.org.”</span> 2011. June 26, 2011. <a href="https://www.socialcapitalgateway.org/content/book/jacobs-j-1961-death-and-life-great-american-cities-new-york-random-house">https://www.socialcapitalgateway.org/content/book/jacobs-j-1961-death-and-life-great-american-cities-new-york-random-house</a>.
-</div>
-<div id="ref-knapskogExploringWaysMeasuring2019a" class="csl-entry">
-Knapskog, Marianne, Oddrun Helen Hagen, Aud Tennøy, and Maja Karoline Rynning. 2019. <span>“Exploring Ways of Measuring Walkability.”</span> <em>Transportation Research Procedia</em>, Urban <span>Mobility</span> – <span>Shaping</span> the <span>Future Together</span> mobil.<span>TUM</span> 2018 – <span>International Scientific Conference</span> on <span>Mobility</span> and <span>Transport Conference Proceedings</span>, 41 (January): 264–82. <a href="https://doi.org/10.1016/j.trpro.2019.09.047">https://doi.org/10.1016/j.trpro.2019.09.047</a>.
-</div>
-<div id="ref-kulkarniSTBedPalike2017" class="csl-entry">
-Kulkarni, Chiranjeevi. 2017. <span>“In <span>ST Bed</span>, <span>Palike</span> Contributes to Flooding of over 100 Houses.”</span> <span>Deccan Herald</span>. August 16, 2017. <a href="https://www.deccanherald.com/content/628271/in-st-bed-palike-contributes.html">https://www.deccanherald.com/content/628271/in-st-bed-palike-contributes.html</a>.
-</div>
-<div id="ref-vannesIntroductionSpaceSyntax2021" class="csl-entry">
-Nes, Akkelies van, and Claudia Yamu. 2021. <em>Introduction to <span>Space Syntax</span> in <span>Urban Studies</span></em>. <span>Cham</span>: <span>Springer International Publishing</span>. <a href="https://doi.org/10.1007/978-3-030-59140-3">https://doi.org/10.1007/978-3-030-59140-3</a>.
-</div>
-<div id="ref-pafkaPermeabilityInterfaceCatchment2017" class="csl-entry">
-Pafka, Elek, and Kim Dovey. 2017. <span>“Permeability and <span>Interface Catchment</span>: <span>Measuring</span> and <span>Mapping Walkable Access</span>.”</span> <em>Journal of Urbanism: International Research on Placemaking and Urban Sustainability</em> 10 (2): 150–62. <a href="https://doi.org/10.1080/17549175.2016.1220413">https://doi.org/10.1080/17549175.2016.1220413</a>.
-</div>
-<div id="ref-reddyItNotDelugeional" class="csl-entry">
-Reddy, Y Maheswara, 2021, and 06:00 Ist. n.d. <span>“It’s Not Deluge-Ional,it’s for Real.”</span> <span>Bangalore Mirror</span>. Accessed May 3, 2023. <a href="https://bangaloremirror.indiatimes.com/bangalore/cover-story/its-not-deluge-ionalits-for-real/articleshow/84778703.cms">https://bangaloremirror.indiatimes.com/bangalore/cover-story/its-not-deluge-ionalits-for-real/articleshow/84778703.cms</a>.
-</div>
-<div id="ref-riggsInclusivelyWalkableExploring2016" class="csl-entry">
-Riggs, William. 2016. <span>“Inclusively Walkable: Exploring the Equity of Walkable Housing in the <span>San Francisco Bay Area</span>.”</span> <em>Local Environment</em> 21 (5): 527–54. <a href="https://doi.org/10.1080/13549839.2014.982080">https://doi.org/10.1080/13549839.2014.982080</a>.
-</div>
-<div id="ref-spearsReviewPedestrianTransitOriented2017" class="csl-entry">
-Spears, Steven. 2017. <span>“Review: <span>Pedestrian-</span> and <span>Transit-Oriented Design By Reid Ewing</span> and <span>Keith Bartholomew</span>.”</span> <em>Journal of Planning Education and Research</em> 37 (4): 505–6. <a href="https://doi.org/10.1177/0739456X16675469">https://doi.org/10.1177/0739456X16675469</a>.
-</div>
-<div id="ref-suCommunityDeprivationWalkability2017" class="csl-entry">
-Su, Shiliang, Jianhua Pi, Huan Xie, Zhongliang Cai, and Min Weng. 2017. <span>“Community Deprivation, Walkability, and Public Health: <span>Highlighting</span> the Social Inequalities in Land Use Planning for Health Promotion.”</span> <em>Land Use Policy</em> 67 (September): 315–26. <a href="https://doi.org/10.1016/j.landusepol.2017.06.005">https://doi.org/10.1016/j.landusepol.2017.06.005</a>.
-</div>
-<div id="ref-tongDevelopingMultiscaleWalkability" class="csl-entry">
-Tong, Huiyi. n.d. <span>“Developing <span class="nocase">Multi-scale Walkability Index Using Weather</span> and <span>Urban Environmental Data</span>.”</span>
-</div>
-<div id="ref-vithayathilSpacesDiscriminationResidential2012" class="csl-entry">
-Vithayathil, Trina, and Gayatri Singh. 2012. <span>“Spaces of <span>Discrimination</span>: <span>Residential Segregation</span> in <span>Indian Cities</span>.”</span> <em>Economic and Political Weekly</em> 47 (37): 60–66. <a href="https://www.jstor.org/stable/41720139">https://www.jstor.org/stable/41720139</a>.
-</div>
-<div id="ref-vlachouSuccessionalSegregationGerani2015" class="csl-entry">
-Vlachou, Athina, and Laura Vaughan. 2015. <span>“Successional Segregation in <span>Gerani</span>, <span>Athens</span>. <span>Unpacking</span> the Spatial Structure of an Immigrant Quarter.”</span> In.
-</div>
-<div id="ref-winnerArtifactsHavePolitics1980" class="csl-entry">
-Winner, Langdon. 1980. <span>“Do <span>Artifacts Have Politics</span>?”</span> <em>Daedalus</em> 109 (1): 121–36. <a href="https://www.jstor.org/stable/20024652">https://www.jstor.org/stable/20024652</a>.
 </div>
 </div>
-</div>
-</div>
-
-
-
-
-
-
   <div class="chapter-nav">
-<div class="prev"><a href="create-blocks.html"><span class="header-section-number">17</span> Creating a city block map</a></div>
-<div class="empty"></div>
+<div class="prev"><a href="create-blocks.html"><span class="header-section-number">18</span> Creating a city block map</a></div>
+<div class="next"><a href="bibliography.html"><span class="header-section-number">20</span> Bibliography</a></div>
 </div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
     <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
       <ul class="nav navbar-nav"><li>
-<a class="nav-link" href="#ors-setup"><span class="header-section-number">18</span> Setting up OpenRouteService</a><ul class="nav navbar-nav">
+<a class="nav-link" href="#ors-setup"><span class="header-section-number">19</span> Setting up OpenRouteService</a><ul class="nav navbar-nav">
 <li><a class="nav-link" href="#step-1-login-and-token-generation">Step 1: Login and Token Generation</a></li>
 <li><a class="nav-link" href="#step-2-downloading-the-ors-plugin">Step 2: Downloading the ORS Plugin</a></li>
 <li><a class="nav-link" href="#step-3-authenticating-the-plugin">Step 3: Authenticating the Plugin</a></li>
@@ -246,7 +171,7 @@ Winner, Langdon. 1980. <span>“Do <span>Artifacts Have Politics</span>?”</spa
 <footer class="bg-primary text-light mt-5"><div class="container"><div class="row">
 
   <div class="col-12 col-md-6 mt-3">
-    <p>"<strong>The Walkability Wiki</strong>: A guidebook for assessing walkability in india" was written by Aman Bhargava. It was last built on 2023-05-11.</p>
+    <p>"<strong>The Walkability Wiki</strong>: Methods for assessing walkability in india" was written by Aman Bhargava. It was last built on 2023-05-11.</p>
   </div>
 
   <div class="col-12 col-md-6 mt-3">

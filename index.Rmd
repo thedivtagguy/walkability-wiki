@@ -1,6 +1,6 @@
 ---
 title: "The Walkability Wiki"
-subtitle: "A guidebook for assessing walkability in india"
+subtitle: "Methods for assessing walkability in india"
 author: "Aman Bhargava"
 date: "`r Sys.Date()`"
 knit: "bookdown::render_book"
@@ -93,12 +93,16 @@ lapply(c('xfun', 'tidyverse'), function(pkg) {
 </style>
 ```
 This is the [website](http://walkability.wiki/) for *The Walkability Wiki*, a crowd-sourced cookbook of qualitative & quantitative methods for measuring pedestrian experience! Visit the [GitHub repository for this site](https://github.com/thedivtagguy/walkability-wiki).
+
 The content for this guide has been contributed by multiple people, the full list of which can be viewed here. If you are someone who studies urban development, or have engaged with studying walkability in any measure, we'd love to have you here too.
-Contribution guidelines are available here and can be submitted via pull requests to our main repository
+
+Contribution guidelines are available here and can be submitted via pull requests to our main repository.
+
 ## Outline {.unnumbered}
+
 This book has been divided into the following categories to make it easier to get through:
-`r outline_content('intro', 'static/scope.png', 'Getting Started', 'This section provides an overview of the book, outlining its purpose, scope, and an introduction to the concepts of walkability.')`
-`r outline_content('quantitative-assessments', 'static/quant.png', 'Quantitative Methods', 'This section includes guidance on sourcing data for street and urban environment assessments, recipes for processing and analyzing data, creating maps, and running numbers.')`
+`r outline_content('intro', 'static/scope.png', 'Getting Started', 'This section provides an overview of the book, outlining its purpose, scope, and softwares used.')`
+`r outline_content('quantitative-assessments', 'static/quant.png', 'Overview of Methods', 'This section includes guidance on sourcing data for street and urban environment assessments, recipes for processing and analyzing data, creating maps, and running numbers.')`
 `r outline_content('qualitative-assessments', 'static/qual.png', 'Qualitative Methods', 'This section offers tips for conducting interviews, designing street audits, framing questions to elicit valuable information, and creating participatory activities.')`
 `r outline_content('hybrid-assessments', 'static/gap.png', 'Bridging the Gap', 'This section explains how to combine qualitative and quantitative methods to fill in gaps, derive insights, and present results for analysis.')`
 `r outline_content('case-studies', 'static/case.png', 'Case Studies', 'This section features real-life examples of street audits in various contexts and locations, detailing the tools used and the analysis methods employed.')`

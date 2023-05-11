@@ -202,3 +202,16 @@ div.warn {
 h1 > span.header-section-number {
   display: none;
 }
+
+.figcaption {
+  padding: 10px 0px;
+font-style: italic;
+font-size: 14px;
+}
+
+.inline-figure img,
+.float img {
+  max-width: 500px;
+}
+
+

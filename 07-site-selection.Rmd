@@ -116,7 +116,7 @@ Once you've done this, run and wait!
 
 If all goes well, your `Attributes List` pane should be filled with new layers. Play around with them, what do you understand?
 
-The layer we're interested in should be named `T1024 Choice` (or whatever number you set for tulip bins). Once you click on it, most of the colors should disappear and you should have a few streets being highlighted, as shown in Map @ref(fig:choice-map).
+The layer we're interested in should be named `T1024 Choice` (or whatever number you set for tulip bins). Once you click on it, most of the colors should disappear and you should have a few streets being highlighted, as shown in Map \@ref(fig:choice-map).
 
 ![(#fig:choice-map)](images/Pasted%20image%2020230428235911.png)
 
